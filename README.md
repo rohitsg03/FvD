@@ -16,13 +16,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Rohit Gelaudie
 
   #### Je startniveau:
   hier je startniveau (kies uit zwart, rood óf blauw)
+  Rood
 
   #### Je focus:
   hier je focus (kies uit responsive óf surface plane)
+  Surface Plane
  
 </details>
 
@@ -37,14 +39,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je opdracht:
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  https://www.ticketswap.nl, dit is een website voor het kopen en verkopen van tickets.
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Ticketswap - Home
+  <img src="readme-images/ticketswap1.png" width="375px" alt="Homepagina van Ticketswap, hier kan je zoeken naar evenementen">
+  <img src="readme-images/ticketswap2.png" width="375px" alt="Homepagina van Ticketswap, hier zie je aanbevolen evenementen">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Ticketswap - Jouw tickets
+  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
