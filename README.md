@@ -70,7 +70,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/breakdown" width="375px" alt="Breakdown schets van de homepagina van Ticketswap">
+  <img src="readme-images/breakdown.jpg" width="375px" alt="Breakdown schets van de homepagina van Ticketswap">
   ### dynamisch deel (bijv menu): 
   
 
