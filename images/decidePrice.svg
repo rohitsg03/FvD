@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="216px" height="162px" viewBox="0 0 216 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>hdiw-visual-2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="216" height="132" rx="7.2"></rect>
+        <rect id="path-2" x="0" y="24" width="216" height="28.8"></rect>
+        <rect id="path-3" x="0" y="0" width="126" height="32" rx="1.47058824"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Illustrations" transform="translate(-1073.000000, -306.000000)">
+            <g id="2" transform="translate(967.000000, 201.000000)">
+                <g id="hdiw-visual-2" transform="translate(106.000000, 105.600002)">
+                    <g id="Group-7" transform="translate(0.000000, 52.000000)">
+                        <g id="Rectangle-16">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#00B6F0" stroke-width="2" x="1" y="1" width="214" height="130" rx="7.2"></rect>
+                        </g>
+                        <g id="Rectangle-4">
+                            <use fill-opacity="0.2" fill="#00B6F0" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#00B6F0" stroke-width="2" x="1" y="25" width="214" height="26.8"></rect>
+                        </g>
+                        <rect id="Rectangle-2-Copy-3" fill-opacity="0.4" fill="#00B6F0" x="143" y="76" width="19.2" height="12" rx="1.2"></rect>
+                        <rect id="Rectangle-2-Copy-4" fill-opacity="0.4" fill="#00B6F0" x="174" y="75.6" width="28.8" height="12" rx="1.2"></rect>
+                    </g>
+                    <g id="Group-49">
+                        <g id="Rectangle-512">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke-opacity="0.2" stroke="#001319" stroke-width="1" x="0.5" y="0.5" width="125" height="31" rx="1.47058824"></rect>
+                        </g>
+                        <g id="Group-3" transform="translate(108.000000, 13.000000)" fill-opacity="0.4" fill="#001319">
+                            <polygon id="Triangle-5-Copy-2" transform="translate(2.219421, 6.359978) scale(1, -1) translate(-2.219421, -6.359978) " points="2.2194206 5.08798246 4.4388412 7.63197369 0 7.63197369"></polygon>
+                            <polygon id="Triangle-5-Copy-3" points="2.2194206 0 4.4388412 2.54399123 0 2.54399123"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
