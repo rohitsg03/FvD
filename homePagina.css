@@ -1,0 +1,317 @@
+@import url("https://use.typekit.net/tre1kwo.css");
+
+h1{
+  color: var(--h1Color);
+  text-shadow: 0px 1px 4px rgb(0 0 0 / 30%), 0px 2px 13px rgb(0 0 0 / 30%),
+    0px 3px 23px rgb(0 0 0 / 30%);
+}
+
+main > div {
+  padding: 0 1em 0 1em;
+}
+
+main > section:nth-of-type(1) {
+  background-image: url("/images/banner.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20.5em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main > section > section:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 2em 1em 0 1em;
+  border: 0.07em solid grey;
+}
+
+main > section > section:nth-of-type(1) > img {
+  height: 1.2em;
+  width: auto;
+  margin-right: 1em;
+}
+
+main > section > section:nth-of-type(1) > input {
+  height: 1.5em;
+  border: none;
+  font-size: 1.1em;
+}
+
+/* Article 1 */
+article:nth-of-type(1) > section{
+  padding-bottom: 1em;
+  border-bottom: .1em solid grey;
+}
+
+article:nth-of-type(1) > section > section {
+  margin: 1em 0 1em 0;
+  display: grid;
+  grid-template-columns: 2em 1fr;
+  align-items: center;
+}
+
+article:nth-of-type(1) > section img {
+  height: 1em;
+}
+
+article:nth-of-type(1) p {
+  font-size: 1em;
+}
+
+/* Article 2, section 2 */
+article:nth-of-type(2) > section:nth-of-type(1) {
+  margin: 2em 0 1em 0;
+}
+article:nth-of-type(2) > section:nth-of-type(2) {
+  display: grid;
+  margin: 1em 0 1em 0;
+  gap: 0.5em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* Article 2, section 2 - directe child > daar de directe section van*/
+article:nth-of-type(2) > section:nth-of-type(2) > section {
+  display: flex;
+  height: 3.5em;
+  border-radius: 0.75em;
+  background-color: var(--cardAchtergrondkleur);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem 0 1rem;
+}
+
+article:nth-of-type(2) section:nth-of-type(2) img {
+  display: flex;
+  margin-right: 0.5em;
+  height: 1.7em;
+}
+
+/* Article 3 en 4*/
+article:nth-of-type(3) section:nth-of-type(2),
+article:nth-of-type(4) section:nth-of-type(2) {
+  display: grid;
+  grid-template-rows: max-content 3em 1fr 1em;
+  grid-template-columns: 1fr;
+  margin: 1em 0 2em 0;
+  background-color: var(--cardAchtergrondkleur);
+  border-radius: 0.75em;
+}
+
+article:nth-of-type(3) section:nth-of-type(2) :is(h3, p),
+/* article:nth-of-type(3) section:nth-of-type(2) p, */
+article:nth-of-type(4) section:nth-of-type(2) :is(h3, h4)
+/* article:nth-of-type(4) section:nth-of-type(2) h5  */ {
+  padding: 0 1rem 0 1rem;
+}
+
+article:nth-of-type(3) section:nth-of-type(2) img:nth-of-type(1),
+article:nth-of-type(4) section:nth-of-type(2) img:nth-of-type(1) {
+  width: 100%;
+  border-radius: 0.75em 0.75em 0 0;
+  grid-row-start: 1;
+}
+
+article:nth-of-type(3) section:nth-of-type(2) a {
+  border: .1em solid black;
+  padding: 2rem;
+  grid-row-start: 4;
+}
+
+/* Section 1 */
+
+section:nth-of-type(1) section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+section:nth-of-type(1) section a {
+  font-weight: 600;
+  color: var(--accentKleurBlauw);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 10em;
+  background-color: var(--accentKleurBlauwButtonAchtergrond);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+section > article {
+  display: flex;
+  align-items: center;
+  column-gap: 1em;
+  background-color: var(--cardAchtergrondkleur);
+  border-radius: 0.75em;
+  padding: 1rem;
+  margin: 1em 0 1em 0;
+}
+
+article > a {
+  flex-grow: 1;
+
+  display: grid;
+  grid-template-columns: 3em max-content 1fr;
+  grid-template-rows: auto auto auto;
+
+  grid-template-areas:
+    "img title   title"
+    "img locatie locatie"
+    "img datum   tickets";
+
+  align-items: center;
+  background-color: var(--cardAchtergrondkleur);
+  border-radius: 0.75em;
+
+  column-gap: 1em;
+}
+
+section article a > img:nth-of-type(1) {
+  height: 3em;
+  width: 3em;
+  border-radius: 0.5em;
+  /* grid-row: 1 / 4; */
+  /* grid-column-start: 1; */
+  grid-area: img;
+}
+
+section article a :is(h3, p) {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+section article a p {
+  font-weight: 400;
+}
+
+section article a p:has(img) {
+  display: flex;
+  align-items: center;
+  gap: 0.25em;
+  font-weight: 600;
+
+  img {
+    height: 1.2em;
+  }
+}
+
+section article a h3 {
+  /* grid-column: 2/4; */
+  /* grid-row-start:1; */
+  grid-area: title;
+}
+
+section article a p:nth-of-type(1) {
+  /* grid-column: 2/4; */
+  /* grid-row-start: 2; */
+  grid-area: locatie;
+  /* text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; */
+}
+
+section article a p:nth-of-type(2) {
+  /* grid-column-start: 2; */
+  /* grid-row-start: 3; */
+  grid-area: datum;
+  /* text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; */
+}
+
+section article a p:nth-of-type(3) {
+  /* grid-column-start: 2; */
+  /* grid-row-start: 3; */
+
+  grid-area: tickets;
+  /* text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; */
+  color: var(--accent-kleur-blauw);
+  /* justify-content: flex-end; */
+
+  /* display:flex;
+  align-items: center;
+  gap:.25em; */
+
+  /* img {
+    height:1.2em;
+  } */
+}
+
+section article button {
+  border-style: none;
+  img {
+    height: 2em;
+  }
+}
+
+
+/* Article 5 */
+div > article:nth-of-type(5) {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 2rem;
+  gap: 2em;
+
+  border: 0.05em solid #3b424b;
+  border-radius: 0.75em;
+  align-items: center;
+}
+
+div > article:nth-of-type(5) > img {
+  height: 4em;
+  width: 4em;
+}
+
+div > article:nth-of-type(5) > section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1em;
+}
+
+div > article:nth-of-type(5) > section p{
+  font-weight: 400;
+}
+
+div > article:nth-of-type(5) button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+div > article:nth-of-type(5) button img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+div > article:nth-of-type(5) a {
+  padding: 1em 2.5em 1em 2.5em;
+  color: white;
+  background-color: var(--accentKleurBlauw);
+  margin-top: 1em;
+  border-radius: 0.5em;
+  align-self: center;
+}
+
+footer{
+  margin: 0 1em 0 1em;
+}
+
+footer li{
+  list-style-type: none;
+}
