@@ -3,58 +3,62 @@
 * {
   margin: 0;
   padding: 0;
-  --background-color: white;
-  --h1-color: white;
-  --link-kleur: black;
   font-family: "proxima-nova";
 }
 
+:root{
+  --backgroundColor: white;
+  --h1Color: white;
+  --linkKleur: black;
+  --datumKleur: red;
+  --accentKleurBlauw: #00b6f0;
+  --accentKleurBlauwButtonAchtergrond: #e2f4fc;
+  --cardAchtergrondkleur: #f0f0f1;
+  --headerAchtergrondKleur: #009fd8;
+  --buttonHHWKleur: #28a745;
+  --buttonHHWKleurHover: #48af68;
+}
+
 h1 {
+  color: var(--h1Color);
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 
-  padding: 0 1.2m 0 1.2em;
-
-  font-size: 1.75em;
-  font-family: "proxima-nova";
+  font-size: 1.5em;
   font-weight: 700;
   line-height: 1.25em;
-  color: var(--h1-color);
-  text-shadow: 0px 1px 4px rgb(0 0 0 / 30%), 0px 2px 13px rgb(0 0 0 / 30%),
-    0px 3px 23px rgb(0 0 0 / 30%);
-  background-image: url("/images/banner.png");
-  background-position: center;
-  background-size: cover;
-  height: 10.5em;
 }
 
 h2 {
-  display: flex;
-  margin: 1em;
   font-size: 1.5em;
   font-weight: 600;
 }
 
-h4{
+h3 {
   font-weight: 600;
   font-size: 1.1em;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 1em;
 }
 
 p {
   font-weight: 600;
 }
 
-a{
+a {
   text-decoration: none;
-  color: var(--link-kleur);
+  color: var(--linkKleur);
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 1.2em 1em 1em 1em;
+  padding: 1.2em 1em 1em 1em;
   align-items: center;
 }
 
@@ -80,10 +84,19 @@ nav > ul > li > a > img {
 }
 
 nav:nth-of-type(1) li:nth-of-type(2) img {
-  height: 01em;
-  width: 1.23em;
+  height: 1.5em;
+  width: 1.75em;
 }
 
-hr{
-  border: .05em solid rgb(219, 219, 219);
+hr {
+  border: 0.05em solid rgb(219, 219, 219);
+}
+
+input {
+  width: 100%;
+}
+
+time {
+  font-weight: 600;
+  color: var(--datumKleur);
 }
