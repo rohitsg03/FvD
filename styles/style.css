@@ -1,22 +1,61 @@
 @import url("https://use.typekit.net/tre1kwo.css");
 
+/* @font-face {
+  font-family: "proxima-nova";
+  src: url("https://use.typekit.net/af/846224/00000000000000007735e602/31/l?subset_id=2&fvd=n9&v=3")
+      format("woff2"),
+
+    url("https://use.typekit.net/af/846224/00000000000000007735e602/31/d?subset_id=2&fvd=n9&v=3")
+      format("woff"),
+
+    url("https://use.typekit.net/af/846224/00000000000000007735e602/31/a?subset_id=2&fvd=n9&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: normal;
+} */
+
 * {
   margin: 0;
   padding: 0;
   font-family: "proxima-nova";
 }
 
-:root{
-  --backgroundColor: white;
-  --h1Color: white;
-  --linkKleur: black;
-  --datumKleur: red;
+:root {
+  color-scheme: light dark;
+
   --accentKleurBlauw: #00b6f0;
+
+  --logoKleurHHW: white;
+  --logoKleurHome: light-dark(var(--accentKleurBlauw), white);
+
+  --backgroundColor: light-dark(white, #00131a);
+  --headerAchtergrondKleur: light-dark(var(--accentKleurBlauw), #002e3f);
+  --cardAchtergrondkleurHome: light-dark(#f0f0f1, #0d252c);
+  --cardAchtergrondkleurHHW: light-dark(#f0f0f1, #00131a);
+
+  --sectieAchtergrondKleurHHW: light-dark(#f0f0f1, #0d252c);
+
+  --datumEnSVGKleur: light-dark(red, #fe4a49);
+  --grijzeButtons: light-dark(#4e565f, #b5bfca);
+  --linkKleur: light-dark(black, white);
+
+  --h1Color: light-dark(white, white);
+
+  --ticketEnAantalKleur: var(--accentKleurBlauw);
+
   --accentKleurBlauwButtonAchtergrond: #e2f4fc;
-  --cardAchtergrondkleur: #f0f0f1;
-  --headerAchtergrondKleur: #009fd8;
-  --buttonHHWKleur: #28a745;
+  --buttonHHWKleur: #3acf5d;
   --buttonHHWKleurHover: #48af68;
+  --buttonHHWKleurActive: #03832a;
+  --buttonHHWKleurBlauw: #009fd8;
+
+  --buttonBorderRadius: 0.75em;
+}
+
+body {
+  background-color: var(--backgroundColor);
 }
 
 h1 {
@@ -31,14 +70,33 @@ h1 {
   line-height: 1.25em;
 }
 
+@media (width > 40em) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (width > 60em) {
+  h1 {
+    font-size: 3.5em;
+  }
+}
+
 h2 {
   font-size: 1.5em;
   font-weight: 600;
 }
 
+@media (width > 50em) {
+  h2 {
+    font-size: 2.1em;
+  }
+}
+
 h3 {
   font-weight: 600;
   font-size: 1.1em;
+  line-height: 1em;
 }
 
 h5 {
@@ -48,6 +106,7 @@ h5 {
 
 p {
   font-weight: 600;
+  color: var(--pKleur);
 }
 
 a {
@@ -55,41 +114,132 @@ a {
   color: var(--linkKleur);
 }
 
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0;
+  height: 4em;
+  background-color: var(--backgroundColor);
+  padding: 0.2rem 1rem;
+}
+
+header section {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+  button {
+    display: flex;
+    align-items: center;
+    appearance: none;
+    border: none;
+    background: none;
+    height: 3em;
+
+    > svg {
+      height: 3em;
+      color: var(--grijzeButtons);
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+
+    svg {
+      height: 2.5em;
+      color: var(--grijzeButtons);
+    }
+  }
+}
+
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  translate: 100% 0%;
+  transition: translate 0.1s;
+
+  ul li {
+    list-style-type: none;
+  }
+}
+
+nav section a:first-of-type > svg {
+  color: var(--logoKleurHome);
+  height: 2em;
+}
+
+nav.toonMenu {
+  background-color: var(--backgroundColor);
+  translate: 0% 0%;
+  padding: 0 1rem;
+}
+
+nav.toonMenu section button {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+nav.toonMenu section {
   display: flex;
   justify-content: space-between;
-  padding: 1.2em 1em 1em 1em;
   align-items: center;
+  height: 4em;
+
+  button svg {
+    height: 3em;
+    color: var(--grijzeButtons);
+  }
 }
 
-nav > a,
-nav ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 1.7em;
+nav.toonMenu ul {
+  display: grid;
+  gap: 2em;
+  align-items: start;
 }
 
-nav > a > img {
-  height: 1.6em;
-  align-items: center;
-}
-
-nav > ul > li > a > img {
-  height: 1.2em;
-  width: 1.4em;
-  display: flex;
+nav.toonMenu ul li:nth-of-type(1) {
+  display: grid;
   align-items: center;
   justify-content: center;
+  background-color: var(--buttonHHWKleurBlauw);
+  border-radius: var(--buttonBorderRadius);
+  padding: 1rem 2.5rem;
 }
 
-nav:nth-of-type(1) li:nth-of-type(2) img {
-  height: 1.5em;
-  width: 1.75em;
+nav.toonMenu ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+
+  color: var(--linkKleur);
+  font-size: 1.1em;
+
+  cursor: pointer;
 }
 
-hr {
-  border: 0.05em solid rgb(219, 219, 219);
+nav.toonMenu ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--accentKleurBlauw);
+  transform: scale(1.02);
+  transition: 0.2s;
+
+  svg {
+    color: var(--accentKleurBlauw);
+    transform: scale(1.5);
+    transition: 0.2s;
+  }
+}
+
+nav.toonMenu ul li:nth-of-type(1) a:nth-of-type(1) {
+  color: white;
 }
 
 input {
@@ -98,5 +248,32 @@ input {
 
 time {
   font-weight: 600;
-  color: var(--datumKleur);
+  color: var(--datumEnSVGKleur);
+}
+
+
+footer {
+  margin: 0 1em;
+}
+
+footer button{
+  appearance: none;
+  background: none;
+  border: .1em solid grey;
+
+  cursor: pointer;
+}
+
+footer section{
+  overflow: hidden;
+}
+
+footer section section{
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer li {
+  list-style-type: none;
 }
