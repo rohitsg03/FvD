@@ -178,7 +178,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  In deze week heb ik veel dingen in mijn code opgeschoond. Ook heb ik :focus, :active en :hover aan klikbare elementen toegevoegd. Verder heb ik alle cards met content klikbaar gemaakt omdat dat op de echte website ook klikbare elementen zijn. Waarvan ik dacht dat iets een button was, was dat bijvoorbeeld niet, maar gewoon een p element. In deze week heb ik ook eindelijk het hamburger menu gemaakt en opgemaakt. Dit vond ik best wel lastig maar na het maken van de opdracht en die code toepassen op mijn eigen website, is het wel gelukt. Ik heb de darkmode verder uitgebreid en aangepast voor een beter contrast, denk hierbij aan de felle rode kleur van de datum met het kalender icoontje aangepast voor darkmode zodat het minder scherp op je ogen is: VOEG FOTO'S TOE.
+  In deze week heb ik veel dingen in mijn code opgeschoond. Ook heb ik :focus, :active en :hover aan klikbare elementen toegevoegd.
+  <img src="readme-images/hover.png" width="200px" alt="Lightmode van de home pagina">
+  
+  Verder heb ik alle cards met content klikbaar gemaakt omdat dat op de echte website ook klikbare elementen zijn. Waarvan ik dacht dat iets een button was, was dat bijvoorbeeld niet, maar gewoon een p element. In deze week heb ik ook eindelijk het hamburger menu gemaakt en opgemaakt. Dit vond ik best wel lastig maar na het maken van de opdracht en die code toepassen op mijn eigen website, is het wel gelukt. Ik heb de darkmode verder uitgebreid en aangepast voor een beter contrast, denk hierbij aan de felle rode kleur van de datum met het kalender icoontje aangepast voor darkmode zodat het minder scherp op je ogen is:
+  <img src="readme-images/roodContrast1.png" width="200px" alt="Lightmode van de home pagina">
+  <img src="readme-images/roodContrast2.png" width="200px" alt="Lightmode van de home pagina">
+  
 
   
   
