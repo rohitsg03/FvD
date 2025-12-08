@@ -179,9 +179,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   In deze week heb ik veel dingen in mijn code opgeschoond. Ook heb ik :focus, :active en :hover aan klikbare elementen toegevoegd.
+  
   <img src="readme-images/hover.png" width="200px" alt="Lightmode van de home pagina">
   
-  Verder heb ik alle cards met content klikbaar gemaakt omdat dat op de echte website ook klikbare elementen zijn. Waarvan ik dacht dat iets een button was, was dat bijvoorbeeld niet, maar gewoon een p element. In deze week heb ik ook eindelijk het hamburger menu gemaakt en opgemaakt. Dit vond ik best wel lastig maar na het maken van de opdracht en die code toepassen op mijn eigen website, is het wel gelukt. Ik heb de darkmode verder uitgebreid en aangepast voor een beter contrast, denk hierbij aan de felle rode kleur van de datum met het kalender icoontje aangepast voor darkmode zodat het minder scherp op je ogen is:
+  Verder heb ik alle cards met content klikbaar gemaakt omdat dat op de echte website ook klikbare elementen zijn. Waarvan ik dacht dat iets een button was, was dat bijvoorbeeld niet, maar gewoon een p element. Dat was wel weer veel aanpassen van css code, ook omdat sommige cards dan weer niet goed werden uitgelijnd, te groot waren of dat de hoogtes verschilde. Dat vond ik wel moeilijk, het uitlijnen van de verschillende p's en koppen in die cards, dat alles gelijk staat en een gelijke hoogte heeft.
+  
+  In deze week heb ik ook eindelijk het hamburger menu gemaakt en opgemaakt. Dit vond ik best wel lastig maar na het maken van de opdracht en die code toepassen op mijn eigen website, is het wel gelukt. Ik heb de darkmode verder uitgebreid en aangepast voor een beter contrast, denk hierbij aan de felle rode kleur van de datum met het kalender icoontje aangepast voor darkmode zodat het minder scherp op je ogen is:
+  
   <img src="readme-images/roodContrast1.png" width="200px" alt="Lightmode van de home pagina">
   <img src="readme-images/roodContrast2.png" width="200px" alt="Lightmode van de home pagina">
   
@@ -204,7 +208,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  De student-assistenten hebben mij met al mijn vragen kunnen helpen. Aan de vraag over de footer zijn we helaas niet toegekomen omdat een medestudent mij daar mee wilde helpen. Bij de eerste vraag was het probleem dat ik het grid waar die articles op stonden op groot scherm vergeter was een grid-template-columns te geven. 
+  De student-assistenten hebben mij met al mijn vragen kunnen helpen. Aan de vraag over de footer zijn we helaas niet toegekomen omdat een medestudent mij daar mee wilde helpen. Bij de eerste vraag was het probleem dat ik het grid waar die articles op stonden op groot scherm vergeter was een grid-template-columns te geven.
+  De vraag over het wegklikken van de spotify pop-up vereiste Javascript. De student-assistenten hebben me stap voor stap geholpen met het schrijven van die code. Dat ging gelukkig ook erg goed en ik begrijp de code denk ik goed genoeg om redelijk uit te kunnen leggen hoe het werkt.
+
+  <img src="readme-images/spotify.png" width="250px" alt="pop-up dat vraagt of je Spotify wilt verbinden met Ticketswap">
+  
+  Dat het grid niet werkte in de tweede section in de footer was omdat er een verschil zat in de img en svg en omdat in element erboven het niet op een grid stond waardoor dat ook niet goed werkte.
 
 
 
