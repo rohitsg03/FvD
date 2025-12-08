@@ -130,6 +130,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   Ook heb ik mijn hele home-pagina op een grid moeten zetten omdat ik van de docent de div die ik voor styling had gebruikt, niet mocht gebruiken. Ondanks wel die tip te krijgen van de student-assistenten.
   De div heb ik weggehaalt en die hele pagina op een grid gezet na uitleg van de docent. Dat was veel werk om over te zetten en alles recht te trekken. Het lukte me wel, maar mijn website is nu niet meer schaalbaar. Dit was de grid die al wel werkte:
+  De titel met achtergrond heeft de gehele breedte van de pagina en de rest van alle contetn heeft zowel links als rechts 1em padding/witruimte.
 
   <img src="readme-images/gridHomeCode.png" width="250px" alt="Code van de home-pagina-grid">
   <img src="readme-images/gridHome1.png" width="250px" alt="Foto van de home-pagina, uitgewerkt op de grid">
