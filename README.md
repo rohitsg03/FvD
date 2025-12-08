@@ -123,6 +123,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+  In deze week heb ik de carousel gemaakt omdat die wel op de echte website staat, echter had ik deze nog niet gemaakt voor mijn eigen website. Ik had eigenlijk geen idee waar ik zou moeten beginnen, maar tijdens het voortgangsgesprek schreef ik gelijk mee. 
+
+  <img src="readme-images/carousel.png" width="250px" alt="Carousel van verschillende evenementen">
+  
+  Ook heb ik mijn hele home-pagina op een grid moeten zetten omdat ik van de docent de div die ik voor styling had gebruikt, niet mocht gebruiken. Ondanks wel die tip te krijgen van de student-assistenten.
+  De div heb ik weggehaalt en die hele pagina op een grid gezet na uitleg van de docent. Dat was veel werk om over te zetten en alles recht te trekken. Het lukte me wel, maar mijn website is nu niet meer schaalbaar. Dit was de grid die al wel werkte:
+
+  <img src="readme-images/gridHomeCode.png" width="250px" alt="Code van de home-pagina-grid">
+  <img src="readme-images/gridHome1.png" width="250px" alt="Foto van de home-pagina, uitgewerkt op de grid">
   
   Ik heb hier voor het eerst de dark-mode toegevoegd aan mijn website. Dat was echt wel even puzzelen van hoe dat ik dat goed op mijn pagina zou kunnen toepassen en hoe ik die code eigenlijk zou moeten schrijven. Wat ik lastig vond was het werken met de SVG's. Deze verpestte mijn code best wel erg, ook omdat ik somminge SVG's zelf al in Figma had nagemaakt omdat ik niet wist dat je de gebruikte SVG's van je gekozen website kon kopiëren en plakken in je eigen code.
   Na veel proberen, het gebruiken van de 'color-scheme: light dark;', het omzetten van alle img's naar SVG's en alle kleuren in de code omzetten is het mij uiteindelijk toch wel gelukt.
@@ -143,12 +153,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  Ik had nog geen carousel gemaakt terwijl de echte website die ik had gekozen dat wel heeft. Ik was er nog niet aan toe gekomen en wist niet waar ik moest beginnen, totdat tijdens dit gesprek Linsy een soortgelijke vraag had van hoe maak je nou zo een carousel? De docent liet het haar zien, gelijk met code en ik typte gelijk mee. Door zijn uitleg begreep ik ook meteen hoe zo een carousel gemaakt werd en zo heb ik die meteen op mijn eigen website kunnen toepassen.
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  Mijn grootste vraag voor dit gesprek was eigenlijk hoe kan ik mijn pagina op een grid zetten (werd aangeraden door de docent), omdat de div ide ik had gebruikt niet mag, ondanks ik die tip/toestemming wel kreeg van de stundent-assistenten. Die vraag was te groot om in die tijd op te lossen dus hij gaf me een aantal tips. In dat weekend heb ik vanalles geprobeerd, echter niks lukte me om het probleem op te lossen. De volgende maandag heeft de docent mij geholpen het probleem te verhelpen. Ik had code soms wel 4 keer herhaald waardoor de css zich ging overschrijven en het dus niet altijd werkte. Uiteindelijk lag het er aan dat ik die carousel geen width had gegeven dus dit was de boosdoener:
+
+<img src="readme-images/codeCarousel.png" width="300px" alt="Code van de carousel en waarom die heel breed was">
+  
 
 </details>
 
