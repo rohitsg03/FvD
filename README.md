@@ -22,7 +22,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Rood
 
   #### Je focus:
-  Surface Plane
+  Responsive
  
 </details>
 
@@ -123,6 +123,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+  Ik heb hier voor het eerst de dark-mode toegevoegd aan mijn website. Dat was echt wel even puzzelen van hoe dat ik dat goed op mijn pagina zou kunnen toepassen en hoe ik die code eigenlijk zou moeten schrijven. Wat ik lastig vond was het werken met de SVG's. Deze verpestte mijn code best wel erg, ook omdat ik somminge SVG's zelf al in Figma had nagemaakt omdat ik niet wist dat je de gebruikte SVG's van je gekozen website kon kopiëren en plakken in je eigen code.
+  Na veel proberen, het gebruiken van de 'color-scheme: light dark;', het omzetten van alle img's naar SVG's en alle kleuren in de code omzetten is het mij uiteindelijk toch wel gelukt.
+  
 
 
   ### Agenda voor meeting
