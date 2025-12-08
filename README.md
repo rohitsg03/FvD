@@ -191,7 +191,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   In deze week heb ik veel dingen in mijn code opgeschoond. Ook heb ik :focus, :active en :hover aan klikbare elementen toegevoegd.
   
-  <img src="readme-images/hover.png" width="200px" alt="Lightmode van de home pagina">
+  <img src="readme-images/hover.png" width="200px" alt="Afbeelding van een evenement waar met een muis overheen ge-hovered wordt.">
+  <img src="readme-images/focus.png" width="200px" alt="Afbeelding van een evenement waar met de tab-toets focus op gelegd wordt.">
+  
   
   Verder heb ik alle cards met content klikbaar gemaakt omdat dat op de echte website ook klikbare elementen zijn. Waarvan ik dacht dat iets een button was, was dat bijvoorbeeld niet, maar gewoon een p element. Dat was wel weer veel aanpassen van css code, ook omdat sommige cards dan weer niet goed werden uitgelijnd, te groot waren of dat de hoogtes verschilde. Dat vond ik wel moeilijk, het uitlijnen van de verschillende p's en koppen in die cards, dat alles gelijk staat en een gelijke hoogte heeft.
   
