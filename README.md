@@ -178,24 +178,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  In deze week heb ik veel dingen in mijn code opgeschoond. Ook heb ik :focus, :active en :hover aan klikbare elementen toegevoegd. Verder heb ik alle cards met content klikbaar gemaakt omdat dat op de echte website ook klikbare elementen zijn. Waarvan ik dacht dat iets een button was, was dat bijvoorbeeld niet, maar gewoon een <p> element.
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | - Waarom de articles van Maak de club onveilig op groot scherm niet mooi in het midden staan uitgelijnd.  | en dit             | en ik dit    | en dan ik dat    |
+  | - Hoe kan in het onderdeel van Spotify wegklikken dmv dat kruisje? | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | - Hoe maak ik een uitklapbaar menu voor in de footer?
+  - De grid van de tweede section in de footer werkt niet, hoe los ik dit op? Inspecteren zegt iets van door display block van het bovenliggende element heeft grid area geen effect.| ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+
+
+
+
 
 </details>
 
