@@ -201,6 +201,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
   <img src="readme-images/roodContrast1.png" width="200px" alt="Lightmode van de home pagina">
   <img src="readme-images/roodContrast2.png" width="200px" alt="Lightmode van de home pagina">
+
+  
   
 
   
@@ -257,7 +259,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Wat ik wel graag nog had willen doen is een nav-bar hebben dat wanneer deze op groot scherm is het geen hamburger-menu meer heeft maar dat alle links uitgeschreven in de nav-bar zijn. Zoals dit:
+
+  <img src="readme-images/nav1.png" width="375px" alt="navbar zonder uitgeschreven menu">
+  <img src="readme-images/nav2.png" width="375px" alt="navbar met uitgeschreven menu">
+
+
+  Daarnaast is het me helaas niet op groot scherm op de homepagina gelukt om van een grid van 1em 1fr 1em naar bijvoorbeeld 10em 1fr 10em te gaan. Dus dat er op een groot scherm meer witruimte aan de zijkanten is:
+
+<img src="readme-images/grootWitruimte.png" width="375px" alt="codepen van de docent.">
+<img src="readme-images/grootGeenWitruimte.png" width="375px" alt="Mijn website op groot scherm zonder witruimte">
+  
+
+  
 </details>
 
 
