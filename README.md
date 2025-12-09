@@ -380,3 +380,5 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
 
   Bron 14: https://www.w3schools.com/graphics/svg_fill.asp uitleg waarom ik mijn svg's niet van kleur en grootte kon veranderen.
 </details>
+
+Bron 15: https://www.w3schools.com/html/html_favicon.asp voor het toevoegen van een favicon aan mijn website.
