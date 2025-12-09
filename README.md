@@ -273,8 +273,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  Bron 1: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-area
+en de docent voor het gebruiken van grid-area.
+
+  Bron 2: https://css-tricks.com/almanac/rules/k/keyframes/ voor een herinnering hoe ik keryframes gebruikte.
+  
+  Bron 3: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label voor welke elementen een aria-label moeten hebben
 
 </details>
