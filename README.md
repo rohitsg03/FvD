@@ -202,11 +202,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/roodContrast1.png" width="200px" alt="Lightmode van de home pagina">
   <img src="readme-images/roodContrast2.png" width="200px" alt="Lightmode van de home pagina">
 
-In de laaste week, net voor de deadline heb ik alle :focus elementen verbetert. Het was veel gepuzzel met de light-dark kleuren en welke kleuren goed contrast gaven en welke niet. Toch heb ik ook bijvoorbeeld met de :hover het contrast van alle buttons verbetert, soms niet veel, bij andere heel veel:
+Toch heb ik ook in de laaste week, voor de deadline heb ik alle :focus elementen verbetert. Het was veel gepuzzel met de light-dark kleuren en welke kleuren goed contrast gaven en welke niet.  
 
 <img src="readme-images/HHWcontrast1.png" width="150px" alt="Lightmode van de home pagina">
 <img src="readme-images/HHWcontrast2.png" width="150px" alt="Lightmode van de home pagina">
------
+
+
+Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij andere heel veel:
+
 <img src="readme-images/beterFocusMOT.png" width="200px" alt="Lightmode van de home pagina">
 <img src="readme-images/slechteFocusMOT.png" width="200px" alt="Lightmode van de home pagina">
 
