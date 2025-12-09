@@ -207,6 +207,11 @@ Toch heb ik ook in de laaste week, voor de deadline heb ik alle :focus elementen
 <img src="readme-images/HHWcontrast1.png" width="150px" alt="Lightmode van de home pagina">
 <img src="readme-images/HHWcontrast2.png" width="150px" alt="Lightmode van de home pagina">
 
+<img src="readme-images/focusDark.png" width="150px" alt="Lightmode van de home pagina">
+<img src="readme-images/focusLight.png" width="150px" alt="Lightmode van de home pagina">
+
+
+
 
 Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij andere heel veel:
 
