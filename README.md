@@ -206,7 +206,7 @@ In de laaste week, net voor de deadline heb ik alle :focus elementen verbetert. 
 
 <img src="readme-images/HHWcontrast1.png" width="150px" alt="Lightmode van de home pagina">
 <img src="readme-images/HHWcontrast2.png" width="150px" alt="Lightmode van de home pagina">
-
+-----
 <img src="readme-images/beterFocusMOT.png" width="200px" alt="Lightmode van de home pagina">
 <img src="readme-images/slechteFocusMOT.png" width="200px" alt="Lightmode van de home pagina">
 
