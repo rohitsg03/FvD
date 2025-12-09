@@ -1,10 +1,6 @@
-console.log("hallo");
-
 /******************************/
 /* menu openen de MENU button */
 /******************************/
-
-/* JOUW CODE HIER - stap 4 */
 
 // stap 1: zoek de menu-button op en sla die op in een variabele
 var openButton;
@@ -29,8 +25,6 @@ function openMenu(){
 /* menu sluiten met de sluit button */
 /************************************/
 
-/* JOUW CODE HIER - stap 5 */
-
 // stap 1 - zoek sluiten button op
 var sluitButton;
 sluitButton = document.querySelector("nav button");
@@ -44,3 +38,32 @@ function sluitMenu() {
   deNav = document.querySelector("nav");
   deNav.classList.remove("toonMenu");
 }
+
+
+
+// Sluiten van Spotify atricle
+// Bron: de student-assistenten
+let deleteSpotify = document.querySelector("main > article:nth-of-type(5) button");
+
+deleteSpotify.onclick = sluitSpotify;
+
+function sluitSpotify(){
+  let spotifyArticle = document.querySelector("main > article:nth-of-type(5)");
+  spotifyArticle.classList.add("hidden");
+}
+
+
+// // Sterknop oranje maken
+// let sterOranje = document.querySelector("section article button");
+
+// sterOranje.onclick = oranjeMaken;
+
+// function oranjeMaken(){
+//   console.log("hallo")  // let sterOranje = document.querySelector("section article button svg");
+//   // sterOranje.classList.add("")
+// }
+
+
+
+
+
