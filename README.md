@@ -60,6 +60,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  Wat mij opviel aan Ticketswap is dat zij al hun links wel unieke namen geven maar dat het alleen nog niet heel duidelijk is waar die links voor zijn, dat komt voornamelijk door sommige Engelse termen die ze er bij voegen. De formulierregelaars zijn alleen niet uniek en hebben een onduidelijke naam. Hun globale code is wel heel erg goed en mankeert eigenlijk niets. Ik kan inzoomen, ze gebruiken een lang attribute en elke pagina heeft een unieke titel. Echter is de website niet heel toegankelijk. Met de tabtoets kom ik niet verder dan de zoekbalk.
+  Op mobiel is de website wel weer heel goed, er is geen horizontale scoll, de webisite kan zowel horizontaal als verticaal bekeken worden en links en buttons zijn groot. Alle headings op de pagina kloppen ook en elke pagina heeft maar 1 h1. Lijsten zijn gemaakt met een li. De website mist alt teksten bij afbeeldingen waar tekst op staat. Verder zijn alle links een a en buttons buttons.
+
+  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
+
+  
+
 </details>
 
 
@@ -276,7 +289,10 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
 
 
   
-  Het maken van een darkmode was erg uitdagend maar na lang coderen en het omzetten van alle img's naat svg's is het me wel gelukt om een mooie darkmode te maken. Ik heb ook de echte website op contrast verbetert.
+  Het maken van een darkmode was erg uitdagend maar na lang coderen en het omzetten van alle img's naat svg's is het me wel gelukt om een mooie darkmode te maken. Ik heb ook de echte website op contrast verbetert:
+
+  <img src="readme-images/lightEind.png" width="375px" height="50px" alt="lightmode">
+  <img src="readme-images/darkEind.png" width="375px" height="50px" alt="darkmode">
 
 
 
