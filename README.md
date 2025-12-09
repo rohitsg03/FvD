@@ -187,6 +187,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  In vergelijking met Ticketswap.nl heb ik al zeker een aantal goede verbeteringen doorgevoerd, ondanks dat er niet geweldig veel verbetering nodig had. Alle links zijn nu wel uniek, echter moet ik ze wel meer beschrijving geven. De enige error die Ticketswap had, heb ik niet. Nu kan je wel met tab door alle klibare elementen. Ook mijn website is goed te zien op horizonaal en verticaal beeld:
+
+<img src="readme-images/horizontaal.png" width="375px" alt="WCGAG checklist">
+<img src="readme-images/verticaal.png" width="375px" alt="WCGAG checklist">
+  
+  <img src="readme-images/test1.png" width="375px" alt="WCGAG checklist">
+  <img src="readme-images/test2.png" width="375px" alt="WCGAG checklist">
+  <img src="readme-images/test3.png" width="375px" alt="WCGAG checklist">
+  <img src="readme-images/test4.png" width="375px" alt="WCGAG checklist">
+  <img src="readme-images/test5.png" width="375px" alt="WCGAG checklist">
+
 </details>
 
 
