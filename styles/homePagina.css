@@ -55,7 +55,7 @@ main > section:nth-of-type(1) > section:nth-of-type(1) {
   display: flex;
   align-items: center;
   background-color: var(--backgroundColor);
-  border-radius: 0.5em;
+  border-radius: var(--buttonBorderRadius);
   padding: 1rem;
   margin: 2em 1em 0 1em;
 }
@@ -80,15 +80,8 @@ main > section > section:nth-of-type(1) > input {
   background-color: var(--backgroundColor);
 }
 
-main > section > section:nth-of-type(1) > input:active {
-  outline: none;
-  appearance: none;
-  border: none;
-}
-
 /* Article 1 */
 main > article:nth-of-type(1) > section {
-  padding-bottom: 1rem;
   border-bottom: 0.1em solid grey;
 }
 
@@ -131,7 +124,7 @@ article:nth-of-type(2) > section:nth-of-type(2) {
 article:nth-of-type(2) > section:nth-of-type(2) > a section {
   display: flex;
   height: 3.5em;
-  border-radius: 0.75em;
+  border-radius: var(--cardBorderRadius);
   background-color: var(--cardAchtergrondkleurHome);
   align-items: center;
   justify-content: space-between;
@@ -188,7 +181,7 @@ article:nth-of-type(4) ul a:focus {
 
 article:nth-of-type(3) ul li a {
   background-color: var(--cardAchtergrondkleurHome);
-  border-radius: 0.75em;
+  border-radius: var(--cardBorderRadius);
   width: 18em;
   height: 22em;
   flex-shrink: 1;
@@ -199,7 +192,7 @@ article:nth-of-type(4) ul li a {
   display: flex;
   flex-direction: column;
   background-color: var(--cardAchtergrondkleurHome);
-  border-radius: 0.75em;
+  border-radius: var(--cardBorderRadius);
   width: 18em;
   height: 19em;
   flex-shrink: 1;
@@ -334,63 +327,6 @@ article:nth-of-type(4) section:nth-of-type(2) button > img {
   height: 2em;
 } */
 
-/* ------- */
-/* 
-article:nth-of-type(4) ul {
-  display: grid;
-  grid-template-rows: max-content 3em 1fr max-content 1em;
-  grid-template-columns: 1em max-content 1fr 1em;
-
-  grid-template-areas:
-    "image  image  image  image"
-    ".      titel   .     .   "
-    ".      tekst   icoon .   "
-    ".      datum   .     .   "
-    ".      .       .     .   ";
-  margin: 1em 0 2em 0;
-  background-color: var(--cardAchtergrondkleur);
-  border-radius: 0.75em;
-}
-
-article:nth-of-type(4) section:nth-of-type(2) h3 {
-  grid-area: titel;
-  padding-top: 1em;
-}
-
-article:nth-of-type(4) section:nth-of-type(2) h4 {
-  grid-area: tekst;
-}
-
-article:nth-of-type(4) section:nth-of-type(2) > img:nth-of-type(1) {
-  width: 100%;
-  border-radius: 0.75em 0.75em 0 0;
-  grid-area: image;
-}
-
-article:nth-of-type(4) section:nth-of-type(2) > p:nth-of-type(1) {
-  grid-area: datum;
-  display: flex;
-  align-items: center;
-  gap: 0.25em;
-}
-
-article:nth-of-type(4) section:nth-of-type(2) p img {
-  grid-area: datum;
-  height: 1.2em;
-}
-
-article:nth-of-type(4) section:nth-of-type(2) button {
-  appearance: none;
-  border: none;
-  grid-area: icoon;
-  justify-self: end;
-}
-
-article:nth-of-type(4) section:nth-of-type(2) button > img {
-  grid-area: icoon;
-  height: 2em;
-} */
-
 article:nth-of-type(4) ul li a p {
   display: flex;
   flex-direction: row;
@@ -406,57 +342,29 @@ article:nth-of-type(4) ul li a p {
   }
 }
 
-/* article:nth-of-type(4) ul li a button {
+article:nth-of-type(4) ul li {
   display: flex;
   position: relative;
-  appearance: none;
-  border: none;
-  justify-self: start;
+}
 
-  svg {
-    height: 2.5em;
-    position: absolute;
-    right: 1em;
-    bottom: 5em;
-    color: var(--grijzeButtons);
-  }
-} */
+article:nth-of-type(4) ul li a:focus,
+article:nth-of-type(3) ul li a:focus {
+  appearance: none;
+  outline: 0.2em solid var(--accentKleurBlauw);
+  outline-offset: -0.3em;
+}
 
 article:nth-of-type(4) ul li button {
-  display: flex;
-  position: relative;
-
-  svg {
-    height: 2.5em;
-    position: absolute;
-    right: 2em;
-    bottom: 3.5em;
-    color: var(--grijzeButtons);
-  }
+  appearance: none;
+  border: none;
+  background: none;
+  height: 2.5em;
+  width: 2.5em;
+  position: absolute;
+  right: 1em;
+  bottom: 3em;
+  color: var(--grijzeButtons);
 }
-
-/* article:nth-of-type(4) ul li button:hover {
-  animation: rotateHover 0.4s;
-  cursor: pointer;
-  transition: 0.5s;
-}
-@keyframes rotateHover {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  33% {
-    transform: rotate(30deg);
-  }
-
-  66% {
-    transform: rotate(-30deg);
-  }
-
-  100% {
-    transform: rotate(0);
-  }
-} */
 
 /* Section 2 */
 main > section:nth-of-type(2) section {
@@ -491,7 +399,7 @@ section:nth-of-type(2) > article {
   align-items: center;
   column-gap: 0.5em;
   background-color: var(--cardAchtergrondkleurHome);
-  border-radius: 0.75em;
+  border-radius: var(--cardBorderRadius);
   padding: 1rem;
   margin: 1rem 0;
 }
@@ -502,7 +410,7 @@ section:nth-of-type(2) > article:hover {
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-area
 en de docent voor het gebruiken van grid-area */
 @media (width > 50em) {
-  main > section {
+  main > section:nth-of-type(2) {
     display: grid;
     gap: 1em;
     grid-template-columns: 1fr 1fr;
@@ -572,14 +480,14 @@ article > a {
 
   align-items: center;
   background-color: var(--cardAchtergrondkleur);
-  border-radius: 0.75em;
+  border-radius: var(--buttonBorderRadius);
   column-gap: 1em;
 }
 
 section article a > img:nth-of-type(1) {
   height: 3em;
   width: 3em;
-  border-radius: 0.5em;
+  border-radius: var(--buttonBorderRadius);
   grid-area: img;
 }
 
@@ -595,6 +503,7 @@ section article a p {
   color: var(--h4Kleur);
 }
 
+/* :has is code van de docent */
 section article a p:nth-of-type(2):has(svg) {
   display: flex;
   align-items: center;
@@ -609,6 +518,7 @@ section article a p:nth-of-type(2):has(svg) {
   }
 }
 
+/* :has is code van de docent */
 section article a p:nth-of-type(3):has(svg) {
   display: flex;
   align-items: center;
@@ -714,12 +624,12 @@ main > article:nth-of-type(5) {
   display: flex;
   position: relative;
   flex-direction: column;
-  margin: 2rem 0 2rem 0;
+  margin: 2em 0 4em 0;
   padding: 2rem;
   gap: 2em;
 
   border: 0.05em solid #3b424b;
-  border-radius: 0.75em;
+  border-radius: var(--cardBorderRadius);
   align-items: center;
 
   img {
@@ -747,10 +657,10 @@ main > article:nth-of-type(5) > section {
   flex-direction: column;
   text-align: center;
   gap: 1rem;
-}
 
-main > article:nth-of-type(5) > section p {
-  font-weight: 400;
+  p{
+    font-weight: 400;
+  }
 }
 
 main > article:nth-of-type(5) button {
@@ -780,7 +690,7 @@ main > article:nth-of-type(5) a {
   color: white;
   background-color: var(--accentKleurBlauw);
   margin-top: 1em;
-  border-radius: 0.5em;
+  border-radius: var(--buttonBorderRadius);
   align-self: center;
 }
 
@@ -789,7 +699,12 @@ main > article:nth-of-type(5) a:hover {
 }
 
 main > article:nth-of-type(5) a:focus {
-  outline: 0.1em solid white;
+  /* https://www.w3schools.com/
+  cssref/tryit.php?filename=trycss3_outline-offset 
+  outline voor focus binnen elementen. Betere zichtbaarheid*/
+  transform: scale(1.01);
+  outline: 0.2em solid white;
+  outline-offset: -0.3em;
 }
 
 main > article:nth-of-type(5) a:active {

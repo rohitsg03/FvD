@@ -24,6 +24,16 @@
   font-family: "proxima-nova";
 }
 
+/* https://css-tricks.com/almanac/rules/m/media/prefers-reduced-motion/ */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    scroll-snap-type: none !important;
+  }
+}
+
 :root {
   color-scheme: light dark;
 
@@ -38,16 +48,19 @@
   --grijzeButtonsHHW: white;
   --linkKleur: light-dark(black, white);
   --buttonHHWKleur: #28a745;
-  --buttonHHWKleurHover: #48af68;
+  --buttonHHWKleurHover: #51b772;
   --buttonHHWKleurActive: #298446;
   --buttonHHWKleurFocus: white;
   --buttonEnTekstHHWKleurBlauw: #009fd8;
   --hoverButtonLink: light-dark(#e2dfdf, #263c41);
-  --hoverButtonLinkBlauw: #018ebd;
+  --hoverButtonLinkBlauw: #0285b0;
   --sectieAchtergrondKleurHHW: light-dark(#f0f0f1, #0d252c);
 
-  --buttonBorderRadius: 0.75em;
+  --buttonBorderRadius: 0.5em;
+  --cardBorderRadius: 0.75em;
+  --blauweButtonHover: light-dark(#aadaef, #003e53);
   --accentKleurBlauwButtonAchtergrond: light-dark(#e2f4fc, #002e3f);
+  --blauweKnopWitAchtergrondFocus: light-dark(black, white);
 
   /* Koppen en tekst */
   --h1Color: light-dark(white, white);
@@ -60,6 +73,7 @@
 
   /* Overig */
   --accentKleurBlauw: #009fd8;
+
   --accentKleurBlauwFocus: light-dark(#0062d3, var(--accentKleurBlauw));
   --logoKleurHHW: white;
   --logoKleurHome: light-dark(var(--accentKleurBlauw), white);
@@ -135,6 +149,10 @@ h4 {
   color: var(--h4Kleur);
 }
 
+li {
+  list-style-type: none;
+}
+
 p {
   font-weight: 600;
   color: var(--pKleur);
@@ -196,6 +214,7 @@ header nav {
   right: 0;
   bottom: 0;
   translate: 100% 0%;
+  transition: 0.15s;
 
   ul li {
     list-style-type: none;
@@ -290,7 +309,6 @@ nav.toonMenu ul li a {
     transform: scale(1);
   }
 }
-
 @media (width > 50em) {
   nav.toonMenu ul li:nth-of-type(1) a {
     border: none;
@@ -332,6 +350,12 @@ nav.toonMenu ul li:nth-of-type(1) a:nth-of-type(1) {
   color: white;
 }
 
+nav.toonMenu ul li:nth-of-type(1) a:nth-of-type(1):focus {
+  transform: scale(1.01);
+  outline: 0.2em solid white;
+  outline-offset: -0.3em;
+}
+
 input {
   width: 100%;
 }
@@ -342,9 +366,9 @@ time {
 }
 
 footer {
-  margin: 0 1em;
+  padding: 0 1em;
   border-top: 0.1em solid grey;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 footer section h3,
@@ -354,15 +378,30 @@ footer section h3 {
 
 footer details {
   border: 0.1em solid grey;
-  border-radius: 0.5rem;
+  border-radius: var(--buttonBorderRadius);
 }
 
 footer summary {
+  display: flex;
   padding: 1rem;
   cursor: pointer;
   font-weight: bold;
   font-size: 1.1rem;
   position: sticky;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style: none;
+  svg {
+    height: 1em;
+    transform: rotate(90deg);
+  }
+}
+
+footer details[open] summary {
+  svg {
+    transform: rotate(-180deg);
+  }
 }
 
 footer details[open] nav {
@@ -379,6 +418,9 @@ footer section:nth-of-type(1) nav ul {
 
 footer section:nth-of-type(1) li:nth-of-type(1) {
   border-top: 0.1em solid grey;
+
+  /* https://developer.mozilla.org
+  /en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius */
   border-top-left-radius: var(--buttonBorderRadius);
   border-top-right-radius: var(--buttonBorderRadius);
 
@@ -455,6 +497,12 @@ footer > section:nth-of-type(5) button:hover {
   color: white;
 }
 
+footer > section:nth-of-type(5) button:focus {
+  transform: scale(1.01);
+  outline: 0.2em solid var(--accentKleurBlauw);
+  outline-offset: -0.3em;
+}
+
 footer > section:nth-of-type(6) {
   display: grid;
   grid-template-rows: max-content max-content;
@@ -485,19 +533,19 @@ footer > section:nth-of-type(6) a:nth-of-type(2) {
 
 footer section:nth-of-type(6) section:nth-of-type(1) {
   grid-area: appstoreRating;
-  font-size: 0.75em;
+  font-size: 0.9em;
 
   svg {
-    height: 1em;
+    height: 1.3em;
   }
 }
 
 footer > section:nth-of-type(6) section:nth-of-type(2) {
   grid-area: googlePlayRating;
-  font-size: 0.75em;
+  font-size: 0.9em;
 
   svg {
-    height: 1em;
+    height: 1.3em;
   }
 }
 
@@ -523,9 +571,12 @@ footer > section:nth-of-type(6) section:nth-of-type(2) {
     display: none;
   }
 
-  footer section:nth-of-type(2) {
+  footer > section:nth-of-type(2) {
     display: grid;
     grid-area: menu;
+
+    /* https://developer.mozilla.org
+    /en-US/docs/Web/CSS/Reference/Properties/grid-row */
     grid-row: 1 / span 2;
     padding-top: 2rem;
     gap: 2;
@@ -578,7 +629,7 @@ footer > section:nth-of-type(6) section:nth-of-type(2) {
     grid-row-start: 1;
 
     button {
-      padding: 1rem 2rem;
+      padding: 1.5rem 2rem;
       font-size: 1.2em;
     }
   }
@@ -589,7 +640,7 @@ footer > section:nth-of-type(6) section:nth-of-type(2) {
 
     section {
       p {
-        font-size: 1.7em;
+        font-size: 1.1em;
       }
     }
   }
@@ -601,7 +652,7 @@ footer > section:nth-of-type(6) section:nth-of-type(2) {
   }
 
   footer section:nth-of-type(5) button {
-    padding: 2rem 3rem;
+    padding: 3rem 4rem;
     font-size: 1.2em;
   }
 }
