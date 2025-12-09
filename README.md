@@ -107,9 +107,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+  | Rohit   | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
@@ -117,10 +117,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  De student-assistenten hebben mij aangeraden om een schets te maken van die card. Ze vertelde me dat het inderdaad met een grid kan en dat binnen die grid ook nog een flex zit voor de datum en het aantal tickets.
+
+   <img src="readme-images/card.png" width="250px" alt="foto van tekening van die grid card evenement">
+
+   Ik heb toen dat zelf geprobeerd te maken, en ik kwam al aardig op weg echter na het weekend lukte het me niet en heeft de docent mij geholpen om die evenementen cards af te maken, zo zien ze er nu uit:
+
+    <img src="readme-images/evenementCard.png" width="250px" alt="Carousel van verschillende evenementen">
+
+   
 
 </details>
 
