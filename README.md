@@ -191,6 +191,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <img src="readme-images/horizontaal.png" width="375px" alt="WCGAG checklist">
 <img src="readme-images/verticaal.png" width="375px" alt="WCGAG checklist">
+
+Ik heb alle headings heb ik van TicketSwap overgenomen dus dat is was al goed, ook elke list die ik heb is gemaakt met een li. De meeste img's en svg's hebben al een alt, echter moet ik de alt uitschrijven voor afbeeldingen waar teskt op staat. Nog niet alle links en buttons hebben een :focus, maar het is al veel meer dan TicketSwap zelf. Ook heb ik pijltjes al toegevoegd om aan te duiden wanneer een link een nieuwe pagina opent:
+
+ <img src="readme-images/linkOpen2.png" width="375px" alt="verwijs link">
+  <img src="readme-images/linkOpen" width="375px" alt="verwijs link">
+
+  Ik moet de reduce motion ook nog toevoegen aan mijn pagina.
   
   <img src="readme-images/test1.png" width="375px" alt="WCGAG checklist">
   <img src="readme-images/test2.png" width="375px" alt="WCGAG checklist">
