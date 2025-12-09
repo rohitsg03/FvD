@@ -202,6 +202,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/roodContrast1.png" width="200px" alt="Lightmode van de home pagina">
   <img src="readme-images/roodContrast2.png" width="200px" alt="Lightmode van de home pagina">
 
+In de laaste week, net voor de deadline heb ik alle :focus elementen verbetert. Het was veel gepuzzel met de light-dark kleuren en welke kleuren goed contrast gaven en welke niet. Toch heb ik ook bijvoorbeeld met de :hover het contrast van alle buttons verbetert, soms niet veel, bij andere heel veel:
+
+<img src="readme-images/HHWcontrast1.png" width="150px" alt="Lightmode van de home pagina">
+<img src="readme-images/HHWcontrast2.png" width="150px" alt="Lightmode van de home pagina">
+
+<img src="readme-images/beterFocusMOT.png" width="200px" alt="Lightmode van de home pagina">
+<img src="readme-images/slechteFocusMOT.png" width="200px" alt="Lightmode van de home pagina">
+
+
   
   
 
@@ -253,7 +262,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Wat ik heb geleerd en wat ik inmiddels heel vaak gebuik zijn grids, css nesten en ook het gebruiken van grid-areas. Daarnaast heb ik ook veel meer geleerd over display flex en hoe je dingen goed kan uitlijnen. Het gebruiken van grid gaat nu echt heel goed, tevens als het nesten van css. Heel handig en overzichtelijk is dat ook.
+
+
+  
+  Het maken van een darkmode was erg uitdagend maar na lang coderen en het omzetten van alle img's naat svg's is het me wel gelukt om een mooie darkmode te maken. Ik heb ook de echte website op contrast verbetert.
+
+
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -261,9 +276,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Wat ik wel graag nog had willen doen is een nav-bar hebben dat wanneer deze op groot scherm is het geen hamburger-menu meer heeft maar dat alle links uitgeschreven in de nav-bar zijn. Zoals dit:
 
-  <img src="readme-images/nav1.png" width="375px" alt="navbar zonder uitgeschreven menu">
+  <img src="readme-images/nav1.png" width="375px" height="50px" alt="navbar zonder uitgeschreven menu">
   
-  <img src="readme-images/nav2.png" width="375px" alt="navbar met uitgeschreven menu">
+  <img src="readme-images/nav2.png" width="375px" height="50px" alt="navbar met uitgeschreven menu">
 
 
   Daarnaast is het me helaas niet op groot scherm op de homepagina gelukt om van een grid van 1em 1fr 1em naar bijvoorbeeld 10em 1fr 10em te gaan. Dus dat er op een groot scherm meer witruimte aan de zijkanten is:
