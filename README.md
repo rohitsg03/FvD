@@ -61,15 +61,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   Wat mij opviel aan Ticketswap is dat zij al hun links wel unieke namen geven maar dat het alleen nog niet heel duidelijk is waar die links voor zijn, dat komt voornamelijk door sommige Engelse termen die ze er bij voegen. De formulierregelaars zijn alleen niet uniek en hebben een onduidelijke naam. Hun globale code is wel heel erg goed en mankeert eigenlijk niets. Ik kan inzoomen, ze gebruiken een lang attribute en elke pagina heeft een unieke titel. Echter is de website niet heel toegankelijk. Met de tabtoets kom ik niet verder dan de zoekbalk.
-  Op mobiel is de website wel weer heel goed, er is geen horizontale scoll, de webisite kan zowel horizontaal als verticaal bekeken worden en links en buttons zijn groot. Alle headings op de pagina kloppen ook en elke pagina heeft maar 1 h1. Lijsten zijn gemaakt met een li. De website mist alt teksten bij afbeeldingen waar tekst op staat. Verder zijn alle links een a en buttons buttons.
+  Op mobiel is de website wel weer heel goed, er is geen horizontale scoll, de webisite kan zowel horizontaal als verticaal bekeken worden en links en buttons zijn groot. Alle headings op de pagina kloppen ook en elke pagina heeft maar 1 h1. Lijsten zijn gemaakt met een li. De website mist alt teksten bij afbeeldingen waar tekst op staat. Verder zijn alle links een a en buttons buttons. Bij de website ontbreek wel nog de prefers-reduced-motion query.
 
-  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
-  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
-  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
-  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
-  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
-  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
-  <img src="readme-images/jouw_tickets.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/test1.png" width="375px" alt="WCGAG checklist">
+  <img src="readme-images/test2.png" width="375px" alt="WCGAG checklist">
+  <img src="readme-images/test3.png" width="375px" alt="WCGAG checklist">
+  <img src="readme-images/test4.png" width="375px" alt="WCGAG checklist">
+  <img src="readme-images/test5.png" width="375px" alt="WCGAG checklist">
+
 
   
 
