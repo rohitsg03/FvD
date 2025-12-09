@@ -210,7 +210,7 @@ Toch heb ik ook in de laaste week, voor de deadline heb ik alle :focus elementen
 <img src="readme-images/focusDark.png" width="150px" alt="Lightmode van de home pagina">
 <img src="readme-images/focusLight.png" width="150px" alt="Lightmode van de home pagina">
 
-<img src="readme-images/codeFocus" width="150px" alt="Code van hoe ik focus op verschillende buttons heb gegeven">
+<img src="readme-images/codeFocus.png" width="150px" alt="Code van hoe ik focus op verschillende buttons heb gegeven">
 
 
 
