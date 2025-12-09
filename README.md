@@ -262,13 +262,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Wat ik wel graag nog had willen doen is een nav-bar hebben dat wanneer deze op groot scherm is het geen hamburger-menu meer heeft maar dat alle links uitgeschreven in de nav-bar zijn. Zoals dit:
 
   <img src="readme-images/nav1.png" width="375px" alt="navbar zonder uitgeschreven menu">
+  
   <img src="readme-images/nav2.png" width="375px" alt="navbar met uitgeschreven menu">
 
 
   Daarnaast is het me helaas niet op groot scherm op de homepagina gelukt om van een grid van 1em 1fr 1em naar bijvoorbeeld 10em 1fr 10em te gaan. Dus dat er op een groot scherm meer witruimte aan de zijkanten is:
 
 <img src="readme-images/grootWitruimte.png" width="375px" alt="codepen van de docent.">
-<img src="readme-images/grootGeenWitruimte.png" width="375px" alt="Mijn website op groot scherm zonder witruimte">
+<img src="readme-images/grootGeenWitruimte.png" width="150px" alt="Mijn website op groot scherm zonder witruimte">
   
 
   
