@@ -273,11 +273,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  Bron 1: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-area
-en de docent voor het gebruiken van grid-area.
+  Bron 1: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-area en de docent voor het gebruiken van grid-area.
 
   Bron 2: https://css-tricks.com/almanac/rules/k/keyframes/ voor een herinnering hoe ik keryframes gebruikte.
   
-  Bron 3: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label voor welke elementen een aria-label moeten hebben
+  Bron 3: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Attributes/aria-label voor welke elementen een aria-label moeten hebben.
 
+  Bron 4: https://css-tricks.com/almanac/rules/m/media/prefers-reduced-motion/ voor het toevoegen van reduced-motion aan mijn website.
+
+  Bron 5: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-row herinnering voor de grid-span property.
+
+  Bron 6: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-top-left-radius , wilde weten hoe ik de border voor alleen de bovenkant van een element kon veranderen.
+
+  Bron 7: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details en https://www.w3schools.com/tags/tag_summary.asp hoe ik in de footer een uitklapbaar menu/nav kon maken.
+
+  Bron 8: https://www.w3schools.com/js/js_functions.asp hoe ik JS functies moest schrijven.
+
+  Bron 9: https://css-tricks.com/css-counters-custom-list-number-styling/ en de docent voor de vier stappen van het verkopen van een ticket.
+
+  Bron 10: https://dev.to/itstrueintheory/are-negative-css-margins-bad-practice-lh7 of ik negatieve margina mocht gebruiken.
+
+  Bron 11: https://www.w3schools.com/cssref/tryit.php?filename=trycss3_outline-offset voor het maken van een constistente focus die ook past bij de stijl die bij de website past en altijd te zien is.
+
+  Bron 12: https://validator.w3.org/nu/ voor het valideren van mijn code.
+
+  Bron 13: https://www.w3schools.com/css/css3_flexbox_container.asp opfrisser voor css flexbox.
+
+  Bron 14: https://www.w3schools.com/graphics/svg_fill.asp uitleg waarom ik mijn svg's niet van kleur en grootte kon veranderen.
 </details>
