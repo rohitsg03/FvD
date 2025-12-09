@@ -123,7 +123,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
    Ik heb toen dat zelf geprobeerd te maken, en ik kwam al aardig op weg echter na het weekend lukte het me niet en heeft de docent mij geholpen om die evenementen cards af te maken, zo zien ze er nu uit:
 
-    <img src="readme-images/evenementCard.png" width="250px" alt="Carousel van verschillende evenementen">
+   <img src="readme-images/evenementCard.png" width="250px" alt="uitkomst evenementen card">
+
 
    
 
