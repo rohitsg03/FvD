@@ -109,8 +109,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Rohit   | Frank          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?  Ook wil ik graag weten hoe ik er voor zou kunnen zorgen dat alleen de header de volle breedte van de pagina neemt en de rest van de pagina 1em padding links en rechts heeft.| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | en ik dit    | en dan ik dat    |
+  | Ook wil ik graag weten hoe ik er voor zou kunnen zorgen dat alleen de header de volle breedte van de pagina neemt en de rest van de pagina 1em padding links en rechts heeft. | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
@@ -127,7 +127,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
    Voor het fixen van de header en main van de pagina werd mij aangeraden / toestemming gegeven om om alle content in de main een div te zetten en die een padding: 0 1em; te geven. Dat heb ik gedaan, en het werkte.
 
-     <img src="readme-images/div.png" width="150px" alt="uitkomst div op de home-pagina.">
+    <img src="readme-images/div.png" width="150px" alt="uitkomst div header en main">
 
 
    
