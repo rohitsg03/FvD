@@ -18,37 +18,90 @@ header svg {
   color: var(--logoKleurHHW);
 }
 
+header section {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+  button {
+    display: flex;
+    align-items: center;
+    appearance: none;
+    border: none;
+    background: none;
+    height: 3em;
+
+    > svg {
+      height: 3em;
+      color: var(--grijzeButtonsHHW);
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+
+    svg {
+      height: 2.5em;
+      color: var(--grijzeButtonsHHW);
+    }
+  }
+}
+
 main > section:nth-of-type(1) {
   background-color: var(--headerAchtergrondKleur);
   text-align: center;
 }
 
-main > section:nth-of-type(1) > a,
+main > section:nth-of-type(1) > button,
 main > article:nth-of-type(3) a {
-  color: black;
+  display: flex;
+  color: white;
   background-color: var(--buttonHHWKleur);
   padding: 1rem 2rem;
   border-radius: 0.75em;
   font-size: 1.2em;
+  justify-self: center;
 }
 
-main > section:nth-of-type(1) a:hover,
+main > section:nth-of-type(1) > button {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  appearance: none;
+  border: none;
+
+  svg {
+    height: 0.7em;
+  }
+}
+
+main > section:nth-of-type(1) button:hover,
 article:nth-of-type(3) a:hover {
-  text-decoration: underline;
-  transition: 0.25s;
+  background-color: var(--buttonHHWKleurHover);
+  cursor: pointer;
 }
 
-main > section:nth-of-type(1) a:active,
+main > section:nth-of-type(1) button:active,
 article:nth-of-type(3) a:active {
   background-color: var(--buttonHHWKleurActive);
-  transition: 1s;
 }
 
-main > section:nth-of-type(1) a:focus,
+main > section:nth-of-type(1) button:focus {
+  outline: 0.1em solid white;
+  transform: scale(1.05);
+}
+
+article:nth-of-type(3) a:focus {
+  outline: 0.1em solid var(--pijltjeHamburger);
+  transform: scale(1.05);
+}
+
+/* main > section:nth-of-type(1) a:focus,
 article:nth-of-type(3) a:focus {
   outline: 0.15em solid white;
   transition: 0.2s;
-}
+} */
 
 main > section:nth-of-type(1) {
   display: flex;
@@ -62,7 +115,7 @@ main > section:nth-of-type(1) {
     color: white;
     font-weight: 400;
     line-height: 1.5;
-    font-size: 1em;
+    font-size: 1.1em;
   }
 }
 
@@ -77,12 +130,17 @@ article:nth-of-type(1) {
   padding: 0 1rem;
 }
 
-article:nth-of-type(1) a {
-  color: var(--accentKleurBlauw);
-}
-
 article:nth-of-type(1) {
   background-color: var(--sectieAchtergrondKleurHHW);
+
+  a {
+    color: var(--accentKleurBlauw);
+    text-decoration: underline;
+  }
+  svg {
+    height: 0.7em;
+    color: var(--accentKleurBlauw);
+  }
 }
 
 article:nth-of-type(1) h2 {
@@ -106,14 +164,29 @@ article section > img {
 
 article section h3 {
   grid-row-start: 2;
-  font-size: 1.6em;
+  font-family: "proxima-nova-light";
+  font-size: 1.4em;
   font-weight: 400;
   padding-bottom: 1em;
 }
-
 article section p {
   grid-row-start: 3;
   font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+@media (width > 50em) {
+  article section p {
+    font-size: 1.3em;
+  }
+}
+
+@media (width > 50em) {
+  article section h3 {
+    font-family: "proxima-nova-light";
+    font-size: 1.6em;
+  }
 }
 
 @media (width > 50em) {
@@ -122,8 +195,7 @@ article section p {
     grid-template-columns: 10em 1fr;
     grid-template-rows: 1fr;
     /* Waarom wel met 1fr en niet met 1fr 1fr? */
-
-    padding: 2rem 0;
+    padding: 2rem 4rem;
   }
 
   article:nth-of-type(1) section img {
@@ -139,7 +211,7 @@ article section p {
 
   article:nth-of-type(1) section p {
     grid-column-start: 2;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 400;
   }
 }
@@ -147,20 +219,57 @@ article section p {
 /* Article 2, Tickets kopen */
 article:nth-of-type(2) {
   padding: 2rem 1rem;
+  h2 {
+    justify-self: center;
+    padding-bottom: 1rem;
+  }
+
+  a {
+    color: var(--accentKleurBlauw);
+    text-decoration: underline;
+  }
+  svg {
+    height: 0.7em;
+    color: var(--accentKleurBlauw);
+  }
 }
 
 article:nth-of-type(2) section {
   padding: 1rem 0 2rem 0;
 }
 
-article:nth-of-type(2) > a {
+article:nth-of-type(2) > button {
   display: flex;
+  appearance: none;
+  border: none;
+  align-items: center;
   justify-self: center;
+  grid-row-start: 4;
+  grid-column: span 2;
   padding: 1rem 2rem;
-  color: var(--accentKleurBlauw);
-  font-weight: 700;
+  font-size: 1em;
+  font-family: "proxima-nova-sBold";
+  color: var(--buttonEnTekstHHWKleurBlauw);
   background-color: var(--accentKleurBlauwButtonAchtergrond);
-  border-radius: 0.75em;
+
+  gap: 0.5em;
+  border-radius: var(--buttonBorderRadius);
+
+  cursor: pointer;
+
+  svg {
+    order: -1;
+    height: 1em;
+  }
+}
+
+article:nth-of-type(2) > button:hover {
+  background-color: var(--accentKleurBlauw);
+  color: white;
+
+  svg {
+    color: white;
+  }
 }
 
 @media (width > 50em) {
@@ -174,74 +283,69 @@ article:nth-of-type(2) > a {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 5em 1fr 1fr 5em;
     gap: 2rem;
+    padding: 2rem 4rem;
   }
 
   article:nth-of-type(2) h2 {
     text-align: center;
   }
 
-  article:nth-of-type(2) p,
+  /* article:nth-of-type(2) p,
   article:nth-of-type(3) p {
-    font-size: 1.2em;
+    font-size: 1.1em;
+
+    a {
+      color: var(--accentKleurBlauw);
+      text-decoration: underline;
+    }
+  } */
+
+  article:nth-of-type(2) > button {
+    padding: 0.5rem 2rem;
+    font-size: 1.1em;
+
+    gap: 1em;
+    border-radius: var(--buttonBorderRadius);
+
+    svg {
+      order: -1;
+      height: 1.5em;
+      color: var(--buttonEnTekstHHWKleurBlauw);
+    }
   }
-
-  article:nth-of-type(2) > a {
-    align-self: center;
-    justify-self: center;
-    grid-row-start: 4;
-    grid-column: span 2;
-  }
 }
-
-/* article:nth-of-type(3) {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  background-color: var(--cardAchtergrondkleur);
-}
-
-article:nth-of-type(3) section {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 5em 1fr 1fr 1fr;
-  align-items: center;
-}
-
-article:nth-of-type(3) section {
-  grid-row: 2 / 5;
-  background-color: white;
-
-  border-radius: 1em;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 2em;
-}
-
-article:nth-of-type(3) section h3 {
-  grid-row-start: 3;
-}
-article:nth-of-type(3) section p {
-  grid-row-start: 4;
-}
-
-article:nth-of-type(3) section img:nth-of-type(1) {
-  grid-row-start: 2;
-}
-
-article:nth-of-type(3) section img:nth-of-type(2) {
-  height: 4em;
-  width: 4em;
-} */
 
 article:nth-of-type(3) {
   background-color: var(--sectieAchtergrondKleurHHW);
   padding: 2rem 1rem;
-  border-bottom: 0.1em solid grey;
+  border-bottom: 0.1em solid rgb(158, 158, 158);
+
+  h2 {
+    justify-self: center;
+    padding-bottom: 1em;
+  }
+}
+
+@media (width > 50em) {
+  article:nth-of-type(3) {
+    padding: 2rem 5rem;
+    font-size: 1.1em;
+  }
 }
 
 article:nth-of-type(3) > p {
   padding-bottom: 8rem;
   text-align: center;
   font-weight: 400;
+  line-height: 1.5;
+  font-size: 1.1em;
+}
+
+@media (width > 50em) {
+  article:nth-of-type(3) > p {
+    padding: 7rem 5rem;
+    font-size: 1.3em;
+  }
 }
 
 ol {
@@ -303,14 +407,8 @@ article:nth-of-type(3) ol a {
     gap: 3em;
   }
 
-  /* article:nth-of-type(3) > p {
-    text-align: center;
-    padding: 0 5em 8em 5em;
-  } */
-
   article:nth-of-type(3) > h2 {
     text-align: center;
-    height: 3em;
   }
 
   article:nth-of-type(3) ol a {
@@ -320,6 +418,12 @@ article:nth-of-type(3) ol a {
     font-size: 1.6em;
   }
 
+  ol li p {
+    font-size: 1em;
+  }
+}
+
+@media (width > 60em) {
   ol li p {
     font-size: 1.1em;
   }
@@ -332,32 +436,65 @@ article:nth-of-type(4) {
   align-items: center;
   justify-content: center;
   padding: 4rem 1rem;
+
+  h2 {
+    grid-row-start: 2;
+    justify-self: center;
+  }
+
+  p {
+    grid-row-start: 3;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+
+  svg {
+    grid-row-start: 1;
+    justify-self: center;
+    height: 5em;
+  }
 }
 
-article:nth-of-type(4) p {
-  grid-row-start: 3;
-  font-weight: 400;
-  text-align: center;
-}
+@media (width > 50em) {
+  article:nth-of-type(4) {
+    padding: 4rem 10rem;
 
-article:nth-of-type(4) img {
-  grid-row-start: 1;
-  justify-self: center;
-  height: 4.5em;
-}
+    p {
+      grid-row-start: 3;
+      font-weight: 400;
+      text-align: center;
+      font-size: 1.2em;
+      line-height: 1.5;
+    }
 
-article:nth-of-type(4) h2 {
-  grid-row-start: 2;
-  justify-self: center;
+    svg {
+      height: 6em;
+    }
+  }
 }
 
 article:nth-of-type(4) button {
   appearance: none;
+
   color: white;
   font-size: 1.1em;
   font-weight: 600;
   border: none;
   border-radius: 0.75em;
+  width: max-content;
   padding: 1rem 2rem;
-  background-color: var(--buttonHHWKleurBlauw);
+  justify-self: center;
+  background-color: var(--buttonEnTekstHHWKleurBlauw);
+}
+
+article:nth-of-type(4) button:hover {
+  cursor: pointer;
+  background-color: var(--hoverButtonLinkBlauw);
+}
+
+article:nth-of-type(4) button:focus {
+  transform: scale(1.01);
+  outline: 0.1em solid black;
 }
