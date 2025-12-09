@@ -382,3 +382,5 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
 </details>
 
 Bron 15: https://www.w3schools.com/html/html_favicon.asp voor het toevoegen van een favicon aan mijn website.
+
+Bron 16: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label voor het toevoegen van een label aan de input.
