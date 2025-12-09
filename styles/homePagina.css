@@ -639,6 +639,7 @@ main > article:nth-of-type(5) {
     align-self: center;
   }
 
+  /* & van een studen-assistent */
   &.hidden {
     display: none;
   }
@@ -658,7 +659,7 @@ main > article:nth-of-type(5) > section {
   text-align: center;
   gap: 1rem;
 
-  p{
+  p {
     font-weight: 400;
   }
 }
