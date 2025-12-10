@@ -109,9 +109,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Rohit   | Frank          | Linsy    | Bryan       |
+  | Rohit   | Frank | Linsy    | Bryan       |
   | ---            | ---                | ---          | ---              |
-  | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | en ik dit    | en dan ik dat    |
+  | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | Ik wil graag weten hoe ik artikelen naast elkaar zet.    | en dan ik dat    |
   | Ook wil ik graag weten hoe ik er voor zou kunnen zorgen dat alleen de header de volle breedte van de pagina neemt en de rest van de pagina 1em padding links en rechts heeft. | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
@@ -285,7 +285,7 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  De student-assistenten hebben mij met al mijn vragen kunnen helpen. Aan de vraag over de footer zijn we helaas niet toegekomen omdat een medestudent mij daar mee wilde helpen. Bij de eerste vraag was het probleem dat ik het grid waar die articles op stonden op groot scherm vergeter was een grid-template-columns te geven.
+  De student-assistenten hebben mij met al mijn vragen kunnen helpen. Aan de vraag over de footer zijn we helaas niet toegekomen omdat een medestudent mij daar mee wilde helpen. Bij de eerste vraag was het probleem dat ik het grid waar die articles op stonden op groot scherm vergeten was een grid-template-columns te geven.
   De vraag over het wegklikken van de spotify pop-up vereiste Javascript. De student-assistenten hebben me stap voor stap geholpen met het schrijven van die code. Dat ging gelukkig ook erg goed en ik begrijp de code denk ik goed genoeg om redelijk uit te kunnen leggen hoe het werkt.
 
   <img src="readme-images/spotify.png" width="250px" alt="pop-up dat vraagt of je Spotify wilt verbinden met Ticketswap">
@@ -316,7 +316,8 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
 
   Wat ik heb geleerd en wat ik inmiddels heel vaak gebuik zijn grids, css nesten en ook het gebruiken van grid-areas. Daarnaast heb ik ook veel meer geleerd over display flex en hoe je dingen goed kan uitlijnen. Het gebruiken van grid gaat nu echt heel goed, tevens als het nesten van css. Heel handig en overzichtelijk is dat ook.
 
-<img src="readme-images/grid.png" width="375px" alt="lightmode">
+<img src="readme-images/grid.png" width="375px" alt="css grid">
+<img src="readme-images/nesten.png" width="375px" alt="geneste css code">
   
   Het maken van een darkmode was erg uitdagend maar na lang coderen en het omzetten van alle img's naat svg's is het me wel gelukt om een mooie darkmode te maken. Ik heb ook de echte website op contrast verbetert:
 
@@ -338,7 +339,7 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
 
   Daarnaast is het me helaas niet op groot scherm op de homepagina gelukt om van een grid van 1em 1fr 1em naar bijvoorbeeld 10em 1fr 10em te gaan. Dus dat er op een groot scherm meer witruimte aan de zijkanten is:
 
- <img src="readme-images/watNietLukte.jpg" width="375px" alt="navbar met uitgeschreven menu">
+ <img src="readme-images/watNietLukte.jpg" width="500px" alt="navbar met uitgeschreven menu">
 
 
   
