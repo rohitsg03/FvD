@@ -34,6 +34,17 @@
   }
 }
 
+body > a[href="#main"] {
+  background-color: var(--grijzeButtonsHHW);
+  position: absolute;
+  left: -9999999em;
+  z-index: 999;
+}
+
+body > a[href="#main"]:focus {
+  left: -0em;
+}
+
 :root {
   color-scheme: light dark;
 
@@ -175,7 +186,7 @@ header {
   top: 0;
   height: 4em;
   background-color: var(--backgroundColor);
-  padding: 0.2rem 1rem;
+  padding: 0.7rem 1rem;
 }
 
 header section {
@@ -249,6 +260,7 @@ nav.toonMenu section {
   justify-content: space-between;
   align-items: center;
   height: 4em;
+  padding-top: 0.7em;
 
   button svg {
     height: 3em;
@@ -657,7 +669,7 @@ footer > section:nth-of-type(6) section:nth-of-type(2) {
   }
 
   footer section:nth-of-type(5) button {
-    padding: 3rem 4rem;
+    padding: 1.5rem 2rem;
     font-size: 1.2em;
   }
 }
