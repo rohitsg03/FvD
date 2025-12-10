@@ -126,8 +126,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
 
   | Rohit   | Frank | Linsy    | Bryan       |
-  | ---            | ---                | ---          | ---              |
-  | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | Ik wil graag weten hoe ik artikelen naast elkaar zet.    |     |
+  | ---            | ---                | ---          | ---              | --- | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | Ik wil graag weten hoe ik artikelen naast elkaar zet.    |     |
   | Ook wil ik graag weten hoe ik er voor zou kunnen zorgen dat alleen de header de volle breedte van de pagina neemt en de rest van de pagina 1em padding links en rechts heeft. | ---  | ---  | --- |
   |             |                |        | Bryan was niet aanwezig             |
 
