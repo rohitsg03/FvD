@@ -127,7 +127,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
    Voor het fixen van de header en main van de pagina werd mij aangeraden / toestemming gegeven om om alle content in de main een div te zetten en die een padding: 0 1em; te geven. Dat heb ik gedaan, en het werkte.
 
-    <img src="readme-images/div.png" width="150px" alt="uitkomst div header en main">
+    <img src="readme-images/div.png" width="375px" alt="omschrijving van de pagina">
 
 
    
