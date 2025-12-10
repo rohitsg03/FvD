@@ -83,7 +83,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina: 
   <img src="readme-images/breakdown.jpg" width="375px" alt="Breakdown schets van de homepagina van Ticketswap">
-  ### dynamisch deel (bijv menu): 
+  <img src="readme-images/breakdown2" width="375px" alt="Breakdown schets van hamburgermenu van Ticketswap">
   
 
   ### wellicht nog een dynamisch deel (bijv filter): 
