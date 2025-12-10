@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/hoeHetWerkt.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://ticketswap-image-cdn.b-cdn.net/static/website-icons/favicon-32x32.png"
+    />
+
+    <title>Hoe werkt TicketSwap?</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><svg
+          viewBox="0 0 220 36"
+          fill="currentcolor"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          stroke-linejoin="round"
+          stroke-miterlimit="1.414"
+          xmlns="http://www.w3.org/2000/svg"
+          role="presentation"
+          focusable="false"
+        >
+          <g>
+            <path
+              d="M30.388 21.2a4.86 4.86 0 0 0 1.309-2.266l9.296 9.255a15.297 15.297 0 0 1-1.665 1.91c-6.898 6.889-18.113 6.89-25.035 0L0 15.85l6.259-6.226a3.774 3.774 0 0 1 5.358 0L23.246 21.2a5.05 5.05 0 0 0 7.142 0zm8.94-16.036l14.304 14.25-6.254 6.245a3.812 3.812 0 0 1-5.365 0L30.388 14.066a5.078 5.078 0 0 0-7.142 0 5.065 5.065 0 0 0-1.31 2.263l-9.294-9.255a18.603 18.603 0 0 1 1.651-1.91c6.922-6.885 18.137-6.885 25.035 0z"
+            ></path>
+            <path
+              transform="translate(66.672 4.012)"
+              d="M136.892 32.053V8.55h3.988v1.14c1.243-1.011 2.695-1.428 4.284-1.428 4.542 0 8.164 3.562 8.164 8.004 0 4.43-3.622 8.04-8.164 8.04-1.589 0-3.04-.418-4.284-1.41v9.158h-3.988zm-6.653-8.166v-.993c-1.224.993-2.687 1.41-4.267 1.41-4.541 0-8.169-3.609-8.169-8.039 0-4.442 3.628-8.004 8.17-8.004 1.56 0 3.017.417 4.266 1.428v-1.14h3.994v15.338h-3.994zm-21.893 0l-3.458-9.787-3.33 9.787h-4.144L91.93 8.55h4.474l3.109 10.077 3.63-10.077h3.5l3.558 10.077 3.151-10.077h4.495l-5.534 15.338h-3.968zm-26.834-4.779c1.421 1.232 3.137 1.587 4.238 1.587 1.427 0 1.878-.58 1.878-1.123 0-2.294-7.811-.88-7.811-6.401 0-2.808 2.017-4.91 5.44-4.91 1.372 0 3.859.32 5.614 1.941l-2.11 2.839c-1.361-.93-2.625-1.154-3.47-1.154-1.328 0-1.587.576-1.587.964 0 2.165 7.713 1.121 7.713 6.593 0 2.805-2.045 4.86-5.924 4.86-2.862 0-4.7-1.09-6.094-2.15l2.113-3.046zm-4.574 4.811s-1.164.385-3.073.385c-3.008 0-4.574-1.958-4.574-4.973v-6.964H66.86V8.55h2.431V3.354h3.996v5.195h4.08v3.818h-4.08v6.128c0 1.077.289 2.069 1.716 2.069 1.004 0 1.935-.16 1.935-.16v3.515zm-22.545-6.384c.452 1.877 1.972 3.19 4.275 3.19 1.405 0 2.89-.513 3.79-1.713l2.723 2.164c-1.394 1.974-3.86 3.128-6.483 3.128-4.637 0-8.204-3.447-8.204-7.943 0-4.346 3.087-8.1 7.982-8.1 4.527 0 7.741 3.69 7.741 8.004 0 .437-.03.884-.096 1.27H54.393zm-7.946 6.352l-6.082-6.833v6.833h-3.987V0h3.987v14.502l5.568-5.953h5.118l-6.732 7.012 7.389 8.326h-5.261zm-11.684-3.353c-1.438 2.265-4.027 3.77-6.973 3.77-4.544 0-8.174-3.609-8.174-8.039 0-4.442 3.63-8.004 8.174-8.004 2.912 0 5.451 1.46 6.907 3.658l-3.408 1.957a4.276 4.276 0 0 0-3.5-1.797c-2.324 0-4.24 1.925-4.24 4.186 0 2.296 1.916 4.236 4.24 4.236 1.52 0 2.848-.77 3.6-1.972l3.374 2.005zm-20.99 3.353V8.55h3.998v15.338h-3.997zM13.26 3.481C13.26 2.07 14.35.994 15.79.994c1.421 0 2.494 1.075 2.494 2.487C18.285 4.907 17.212 6 15.791 6c-1.44 0-2.531-1.093-2.531-2.519zM10.079 23.92s-1.157.385-3.073.385c-3.01 0-4.576-1.958-4.576-4.973v-6.964H0V8.55h2.43V3.354h3.998v5.195h4.08v3.818h-4.08v6.128c0 1.077.286 2.069 1.714 2.069.995 0 1.937-.16 1.937-.16v3.515zm130.801-7.46c.101 2.2 1.98 4.042 4.284 4.042 2.333 0 4.236-1.94 4.236-4.236 0-2.26-1.903-4.186-4.236-4.186-2.303 0-4.183 1.861-4.284 4.026v.355zm-14.908-4.38c-2.33 0-4.242 1.925-4.242 4.186 0 2.296 1.911 4.236 4.242 4.236 2.37 0 4.267-1.94 4.267-4.236 0-2.26-1.898-4.186-4.267-4.186zm-63.771 2.552c-.225-1.557-1.852-2.744-3.76-2.744-1.852 0-3.34 1.09-3.918 2.744H62.2z"
+            ></path>
+          </g>
+        </svg>
+      </a>
+
+      <section>
+        <a href="#"
+          ><svg
+            aria-label="Cart"
+            fill="currentcolor"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="1.414"
+            xmlns="http://www.w3.org/2000/svg"
+            role="presentation"
+            focusable="false"
+            viewBox="0 0 32 32"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <path
+              d="M7.5 8H28a1.001 1.001 0 0 1 .965 1.263l-3 11A1 1 0 0 1 25 21H9a1 1 0 0 1-.978-.79L5.19 7H2a1 1 0 1 1 0-2h4a1 1 0 0 1 .978.79L7.5 8zM9 25a2 2 0 1 1 3.999-.001 2 2 0 0 1-4 .001zm12 0a2 2 0 1 1 3.999-.001 2 2 0 0 1-4 .001z"
+            ></path>
+          </svg>
+        </a>
+        <a href="#"
+          ><svg
+            aria-label="Zoeken icoon"
+            fill="currentcolor"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="1.414"
+            xmlns="http://www.w3.org/2000/svg"
+            role="presentation"
+            focusable="false"
+            viewBox="0 0 32 32"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <path
+              d="M22.032 20.618l3.675 3.675a1 1 0 0 1-1.414 1.414l-3.675-3.675a9 9 0 1 1 1.414-1.414zM15 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"
+            ></path>
+          </svg>
+        </a>
+
+        <button aria-label="Menu-knop">
+          <svg
+            fill="currentcolor"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="1.414"
+            xmlns="http://www.w3.org/2000/svg"
+            role="presentation"
+            focusable="false"
+            viewBox="0 0 32 32"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <path
+              d="M25 15a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2h18zM7 10a1 1 0 1 1 0-2h18a1 1 0 1 1 0 2H7zm18 12a1 1 0 1 1 0 2H7a1 1 0 1 1 0-2h18z"
+            ></path>
+          </svg>
+        </button>
+      </section>
+
+      <nav>
+        <section>
+          <a href="#"
+            ><svg
+              viewBox="0 0 220 36"
+              fill="currentcolor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="1.414"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+              focusable="false"
+            >
+              <g>
+                <path
+                  d="M30.388 21.2a4.86 4.86 0 0 0 1.309-2.266l9.296 9.255a15.297 15.297 0 0 1-1.665 1.91c-6.898 6.889-18.113 6.89-25.035 0L0 15.85l6.259-6.226a3.774 3.774 0 0 1 5.358 0L23.246 21.2a5.05 5.05 0 0 0 7.142 0zm8.94-16.036l14.304 14.25-6.254 6.245a3.812 3.812 0 0 1-5.365 0L30.388 14.066a5.078 5.078 0 0 0-7.142 0 5.065 5.065 0 0 0-1.31 2.263l-9.294-9.255a18.603 18.603 0 0 1 1.651-1.91c6.922-6.885 18.137-6.885 25.035 0z"
+                ></path>
+                <path
+                  id="type"
+                  transform="translate(66.672 4.012)"
+                  d="M136.892 32.053V8.55h3.988v1.14c1.243-1.011 2.695-1.428 4.284-1.428 4.542 0 8.164 3.562 8.164 8.004 0 4.43-3.622 8.04-8.164 8.04-1.589 0-3.04-.418-4.284-1.41v9.158h-3.988zm-6.653-8.166v-.993c-1.224.993-2.687 1.41-4.267 1.41-4.541 0-8.169-3.609-8.169-8.039 0-4.442 3.628-8.004 8.17-8.004 1.56 0 3.017.417 4.266 1.428v-1.14h3.994v15.338h-3.994zm-21.893 0l-3.458-9.787-3.33 9.787h-4.144L91.93 8.55h4.474l3.109 10.077 3.63-10.077h3.5l3.558 10.077 3.151-10.077h4.495l-5.534 15.338h-3.968zm-26.834-4.779c1.421 1.232 3.137 1.587 4.238 1.587 1.427 0 1.878-.58 1.878-1.123 0-2.294-7.811-.88-7.811-6.401 0-2.808 2.017-4.91 5.44-4.91 1.372 0 3.859.32 5.614 1.941l-2.11 2.839c-1.361-.93-2.625-1.154-3.47-1.154-1.328 0-1.587.576-1.587.964 0 2.165 7.713 1.121 7.713 6.593 0 2.805-2.045 4.86-5.924 4.86-2.862 0-4.7-1.09-6.094-2.15l2.113-3.046zm-4.574 4.811s-1.164.385-3.073.385c-3.008 0-4.574-1.958-4.574-4.973v-6.964H66.86V8.55h2.431V3.354h3.996v5.195h4.08v3.818h-4.08v6.128c0 1.077.289 2.069 1.716 2.069 1.004 0 1.935-.16 1.935-.16v3.515zm-22.545-6.384c.452 1.877 1.972 3.19 4.275 3.19 1.405 0 2.89-.513 3.79-1.713l2.723 2.164c-1.394 1.974-3.86 3.128-6.483 3.128-4.637 0-8.204-3.447-8.204-7.943 0-4.346 3.087-8.1 7.982-8.1 4.527 0 7.741 3.69 7.741 8.004 0 .437-.03.884-.096 1.27H54.393zm-7.946 6.352l-6.082-6.833v6.833h-3.987V0h3.987v14.502l5.568-5.953h5.118l-6.732 7.012 7.389 8.326h-5.261zm-11.684-3.353c-1.438 2.265-4.027 3.77-6.973 3.77-4.544 0-8.174-3.609-8.174-8.039 0-4.442 3.63-8.004 8.174-8.004 2.912 0 5.451 1.46 6.907 3.658l-3.408 1.957a4.276 4.276 0 0 0-3.5-1.797c-2.324 0-4.24 1.925-4.24 4.186 0 2.296 1.916 4.236 4.24 4.236 1.52 0 2.848-.77 3.6-1.972l3.374 2.005zm-20.99 3.353V8.55h3.998v15.338h-3.997zM13.26 3.481C13.26 2.07 14.35.994 15.79.994c1.421 0 2.494 1.075 2.494 2.487C18.285 4.907 17.212 6 15.791 6c-1.44 0-2.531-1.093-2.531-2.519zM10.079 23.92s-1.157.385-3.073.385c-3.01 0-4.576-1.958-4.576-4.973v-6.964H0V8.55h2.43V3.354h3.998v5.195h4.08v3.818h-4.08v6.128c0 1.077.286 2.069 1.714 2.069.995 0 1.937-.16 1.937-.16v3.515zm130.801-7.46c.101 2.2 1.98 4.042 4.284 4.042 2.333 0 4.236-1.94 4.236-4.236 0-2.26-1.903-4.186-4.236-4.186-2.303 0-4.183 1.861-4.284 4.026v.355zm-14.908-4.38c-2.33 0-4.242 1.925-4.242 4.186 0 2.296 1.911 4.236 4.242 4.236 2.37 0 4.267-1.94 4.267-4.236 0-2.26-1.898-4.186-4.267-4.186zm-63.771 2.552c-.225-1.557-1.852-2.744-3.76-2.744-1.852 0-3.34 1.09-3.918 2.744H62.2z"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <button aria-label="Sluit-knop">
+            <svg
+              fill="currentcolor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="1.414"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+              focusable="false"
+              viewBox="0 0 32 32"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M17.414 16l7.293-7.293a.999.999 0 1 0-1.414-1.414L16 14.586 8.707 7.293a.999.999 0 1 0-1.414 1.414L14.586 16l-7.293 7.293a.999.999 0 1 0 1.414 1.414L16 17.414l7.293 7.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L17.414 16z"
+              ></path>
+            </svg>
+          </button>
+        </section>
+
+        <ul>
+          <li>
+            <a href="#">Verkoop tickets</a>
+          </li>
+
+          <li>
+            <a href="#"
+              >Inloggen
+              <svg
+                aria-label="pijltje naar rechts - open link"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.00025,25.00025 C11.74425,25.00025 11.48825,24.90225 11.29325,24.70725 C10.90225,24.31625 10.90225,23.68425 11.29325,23.29325 L18.58625,16.00025 L11.29325,8.70725 C10.90225,8.31625 10.90225,7.68425 11.29325,7.29325 C11.68425,6.90225 12.31625,6.90225 12.70725,7.29325 L21.41425,16.00025 L12.70725,24.70725 C12.51225,24.90225 12.25625,25.00025 12.00025,25.00025 Z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="hoeHetWerkt.html"
+              >Hoe het werkt
+              <svg
+                aria-label="pijltje naar rechts - open link"
+                width="20"
+                height="20"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.00025,25.00025 C11.74425,25.00025 11.48825,24.90225 11.29325,24.70725 C10.90225,24.31625 10.90225,23.68425 11.29325,23.29325 L18.58625,16.00025 L11.29325,8.70725 C10.90225,8.31625 10.90225,7.68425 11.29325,7.29325 C11.68425,6.90225 12.31625,6.90225 12.70725,7.29325 L21.41425,16.00025 L12.70725,24.70725 C12.51225,24.90225 12.25625,25.00025 12.00025,25.00025 Z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#"
+              >Tickets verkopen
+              <svg
+                aria-label="pijltje naar rechts - open link"
+                width="20"
+                height="20"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.00025,25.00025 C11.74425,25.00025 11.48825,24.90225 11.29325,24.70725 C10.90225,24.31625 10.90225,23.68425 11.29325,23.29325 L18.58625,16.00025 L11.29325,8.70725 C10.90225,8.31625 10.90225,7.68425 11.29325,7.29325 C11.68425,6.90225 12.31625,6.90225 12.70725,7.29325 L21.41425,16.00025 L12.70725,24.70725 C12.51225,24.90225 12.25625,25.00025 12.00025,25.00025 Z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#"
+              >Word een partner
+              <svg
+                aria-label="pijltje naar rechts - open link"
+                width="20"
+                height="20"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.00025,25.00025 C11.74425,25.00025 11.48825,24.90225 11.29325,24.70725 C10.90225,24.31625 10.90225,23.68425 11.29325,23.29325 L18.58625,16.00025 L11.29325,8.70725 C10.90225,8.31625 10.90225,7.68425 11.29325,7.29325 C11.68425,6.90225 12.31625,6.90225 12.70725,7.29325 L21.41425,16.00025 L12.70725,24.70725 C12.51225,24.90225 12.25625,25.00025 12.00025,25.00025 Z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+
+          <li>
+            <a href="#"
+              >Hulp
+              <svg
+                aria-label="pijltje naar rechts - open link"
+                width="20"
+                height="20"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.00025,25.00025 C11.74425,25.00025 11.48825,24.90225 11.29325,24.70725 C10.90225,24.31625 10.90225,23.68425 11.29325,23.29325 L18.58625,16.00025 L11.29325,8.70725 C10.90225,8.31625 10.90225,7.68425 11.29325,7.29325 C11.68425,6.90225 12.31625,6.90225 12.70725,7.29325 L21.41425,16.00025 L12.70725,24.70725 C12.51225,24.90225 12.25625,25.00025 12.00025,25.00025 Z"
+                ></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- <section>
+        <h1>Ticketswap: Veilig tweedehands tickets kopen en verkopen</h1>
+        <p>
+          Op TicketSwap koop en verkoop je veilig, makkelijk en eerlijk tickets
+          voor concerten, festivals, sportwedstrijden, theater en dagjes weg.
+          Door strenge controles en samenwerkingen met organisaties wordt fraude
+          voorkomen.
+        </p>
+        <a href="#">Verkoop tickets</a>
+      </section> -->
+    </header>
+
+    <main>
+      <section>
+        <h1>TicketSwap: Veilig tweedehands tickets kopen en verkopen</h1>
+        <p>
+          Op TicketSwap koop en verkoop je veilig, makkelijk en eerlijk tickets
+          voor concerten, festivals, sportwedstrijden, theater en dagjes weg.
+          Door strenge controles en samenwerkingen met organisaties wordt fraude
+          voorkomen.
+        </p>
+
+        <button>
+          Verkoop tickets
+          <svg
+            viewBox="0 0 600 601"
+            fill="currentcolor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M351 150.725H87.35C66.725 150.725 49.9875 167.463 49.9875 188.088V512.638C49.9875 533.263 66.725 550 87.35 550H412.65C433.275 550 450.012 533.263 450.012 512.638V250.725H500V525.075C500 566.425 466.425 600 425.063 600.012H74.9375C33.575 600.012 0 566.425 0 525.075V175.65C0 134.288 33.575 100.712 74.9375 100.712H351V150.725Z"
+              fill="currentcolor"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M599.737 216.5H549.675V85.4875L201 434.15L165.6 398.75L514.287 50.0625H383.237V0H599.712L599.737 0.0125051V216.5Z"
+              fill="currentcolor"
+            />
+          </svg>
+        </button>
+      </section>
+
+      <!-- Article 1 Waarom Ticketswap -->
+      <article>
+        <h2>Waarom TicketSwap?</h2>
+        <section>
+          <h3>Veilig</h3>
+          <p>
+            TicketSwap is veilig. De tickets en verkopers op ons platform worden
+            op basis van verschillende criteria gecontroleerd. Door partnerships
+            met organisaties en ticket providers bieden we SecureSwap tickets
+            aan, die 100% geldig zijn. Lees
+            <a href="" aria-label="Pagina uitleg SecureSwap."
+              >hier
+              <svg
+                viewBox="0 0 600 601"
+                fill="currentcolor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M351 150.725H87.35C66.725 150.725 49.9875 167.463 49.9875 188.088V512.638C49.9875 533.263 66.725 550 87.35 550H412.65C433.275 550 450.012 533.263 450.012 512.638V250.725H500V525.075C500 566.425 466.425 600 425.063 600.012H74.9375C33.575 600.012 0 566.425 0 525.075V175.65C0 134.288 33.575 100.712 74.9375 100.712H351V150.725Z"
+                  fill="currentcolor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M599.737 216.5H549.675V85.4875L201 434.15L165.6 398.75L514.287 50.0625H383.237V0H599.712L599.737 0.0125051V216.5Z"
+                  fill="currentcolor"
+                /></svg></a>
+            meer over SecureSwap.
+          </p>
+          <img
+            src="images/waaromTicketswap.svg"
+            alt="Afbeelding van een slot met cybersecurity."
+          />
+        </section>
+
+        <section>
+          <h3>Makkelijk</h3>
+          <p>
+            Het aanmaken van een advertentie is met een paar klikken gebeurd.
+            Upload je ticket en vul de benodigde informatie in. Hierna heb je er
+            geen omkijken meer naar - we laten het je weten zodra je ticket is
+            verkocht en we maken het geld binnen 5 werkdagen over naar jouw
+            bankrekening. Een ticket kopen is ook heel eenvoudig. Je rekent
+            direct af via onze app, waarna het kaartje onmiddellijk beschikbaar
+            is in jouw account op TicketSwap en ook per e-mail naar jou wordt
+            verstuurd.
+          </p>
+          <img
+            src="images/waaromTicketswap2.svg"
+            alt="Afbeelding van een papieren vliegtuig."
+          />
+        </section>
+
+        <section>
+          <h3>Eerlijk</h3>
+          <p>
+            Als TicketSwap-fan weet je dat je altijd een eerlijke prijs betaalt
+            voor jouw tickets. We beschermen kopers tegen woekerprijzen doordat
+            we een maximale verkoopprijs hanteren van 20% boven de originele
+            ticketprijs.
+          </p>
+          <img
+            src="images/waaromTicketswap3.svg"
+            alt="Afbeelding van twee handen die elkaar schudden"
+          />
+        </section>
+      </article>
+
+      <!-- Article 2 Tickets kopen -->
+      <article>
+        <h2>Tickets kopen</h2>
+
+        <section>
+          <h3>⚡️ Ontvang je ticket gelijk</h3>
+          <p>
+            Vind het ticket waarnaar je op zoek bent, betaal online en je
+            ontvangt het ticket direct. Tickets die je te koop ziet staan zijn
+            al door de verkoper geüpload, dus ze worden meteen na het afrekenen
+            naar jou verstuurd.
+          </p>
+        </section>
+
+        <section>
+          <h3>👮‍♂️ Strenge controles</h3>
+          <p>
+            Fraude wordt voorkomen door het controleren van gebruikers en door
+            samenwerking met evenementenorganisaties. Klik
+            <a href="#" aria-label="Pagina uitleg SecureSwap"
+              >hier
+              <svg
+                viewBox="0 0 600 601"
+                fill="currentcolor"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M351 150.725H87.35C66.725 150.725 49.9875 167.463 49.9875 188.088V512.638C49.9875 533.263 66.725 550 87.35 550H412.65C433.275 550 450.012 533.263 450.012 512.638V250.725H500V525.075C500 566.425 466.425 600 425.063 600.012H74.9375C33.575 600.012 0 566.425 0 525.075V175.65C0 134.288 33.575 100.712 74.9375 100.712H351V150.725Z"
+                  fill="currentcolor"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M599.737 216.5H549.675V85.4875L201 434.15L165.6 398.75L514.287 50.0625H383.237V0H599.712L599.737 0.0125051V216.5Z"
+                  fill="currentcolor"
+                /></svg></a>
+            voor meer informatie over gebruikerscontrole.
+          </p>
+        </section>
+
+        <section>
+          <h3>👁 Transparantie</h3>
+          <p>
+            Je kan de naam en de foto zien van de persoon van wie je een kaartje
+            koopt. Daarnaast kan je ook zien of er een social media account is
+            gekoppeld en of ze in het verleden tickets hebben verkocht op ons
+            platform. Hierdoor is duidelijk van wie je een kaartje koopt.
+          </p>
+        </section>
+
+        <section>
+          <h3>🤑 Eerlijke prijzen</h3>
+          <p>
+            Wij beschermen kopers tegen woekerprijzen doordat we maximaal 20%
+            toename hanteren van de originele verkoopprijs. Als koper weet je
+            altijd dat je een eerlijke prijs betaalt voor je tickets.
+          </p>
+        </section>
+
+        <button aria-label="Speel video af - hoe werkt ticketswap">
+          Hoe het werkt
+          <svg
+            fill="currentcolor"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="1.414"
+            xmlns="http://www.w3.org/2000/svg"
+            role="presentation"
+            focusable="false"
+            viewBox="0 0 32 32"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <path
+              d="M8.00190181,28 C7.6675842,28 7.33426755,27.9169622 7.03198038,27.7498863 C6.39537561,27.3977261 6,26.7274213 6,25.9990901 L6,6.00199694 C6,5.27366575 6.39537561,4.60336095 7.03198038,4.25120081 C7.66858516,3.89804022 8.44732496,3.91804932 9.06290976,4.30622583 L25.0591062,14.3047724 C25.6476653,14.6719394 26,15.3062278 26,16.0005435 C26,16.6948593 25.6466643,17.3291477 25.0581052,17.6963146 L9.06290976,27.6948612 C8.73960262,27.8989541 8.37025174,28 8.00190181,28 Z"
+            ></path>
+          </svg>
+        </button>
+      </article>
+
+      <!-- Article 3 -->
+      <article>
+        <h2>Tickets verkopen</h2>
+        <p>
+          Zodra je je advertentie online hebt gezet, heb je er geen omkijken
+          meer naar. We sturen je een melding zodra je ticket is verkocht en je
+          ontvangt het geld binnen één werkdag. Zo makkelijk is het!
+        </p>
+
+        <ol>
+          <li>
+            <section>
+              <h3>
+                Upload je bestand en selecteer de tickets die je wilt verkopen
+              </h3>
+              <p>
+                Als je meerdere tickets in een ticketpakket verkoopt, kun je
+                gewoon het originele bestand uploaden. Wij splitsen het bestand
+                dan automatisch op en vragen je vervolgens te kiezen welke
+                tickets je wilt verkopen en welke je zelf wilt houden. Nadat de
+                advertentie is gemaakt, sturen we je de tickets die je zelf
+                wilde houden.
+              </p>
+              <img
+                src="images/howDoesItWord.svg"
+                alt="Afbeelding van een digitaal en geprint ticket."
+              />
+            </section>
+          </li>
+
+          <li>
+            <section>
+              <h3>Bepaal de verkoopprijs en geef je bankrekeningnummer op</h3>
+              <p>
+                We beschermen kopers tegen woekerprijzen doordat we een maximale
+                verkoopprijs van 20% boven de originele ticketprijs hanteren.
+              </p>
+              <img
+                src="images/decidePrice.svg"
+                alt="Afbeelding van een webpagina en menu om een prijs te bepalen."
+              />
+            </section>
+          </li>
+
+          <li>
+            <section>
+              <h3>Promoot je advertentie op Facebook en X</h3>
+              <p>
+                Je wilt je kaartje zo snel mogelijk verkopen - dat snappen wij!
+                TicketSwap heeft het daarom heel makkelijk gemaakt om je
+                advertentie te promoten. Uiteraard kan je zelf bepalen wat wel
+                en niet gedeeld wordt. Daarnaast kan je er ook voor kiezen om je
+                ticket te verkopen aan een koper die je zelf al gevonden hebt.
+              </p>
+              <img
+                src="images/ticketAanbieden.svg"
+                alt="Afbeeldig van een webpagina met een microfoon."
+              />
+            </section>
+          </li>
+
+          <li>
+            <section>
+              <h3>Krijg een melding & betaald als je ticket is verkocht</h3>
+              <p>
+                Als je je ticket te koop hebt gezet op ons platform, hoef je
+                verder niets meer te doen. We sturen je een melding als je
+                ticket verkocht is en maken het geld binnen 5 werkdagen naar je
+                over. Zo makkelijk is het gebruik van TicketSwap!
+              </p>
+              <img
+                src="images/betaaldKrijgen.svg"
+                alt="Afbeelding van geld en een geprint ticket, in circulatie."
+              />
+            </section>
+          </li>
+        </ol>
+        <a href="#">Verkoop je ticket nu</a>
+      </article>
+
+      <article>
+        <h2>SecureSwap</h2>
+        <p>
+          We hebben partnerships met organisatoren, locaties en ticketbedrijven.
+          Tickets die voor deze evenementen worden verkocht maken we ongeldig,
+          en de koper ontvangt een geheel nieuw ticket. Je kan deze evenementen
+          herkennen aan het SecureSwap logo bij de advertentie.
+        </p>
+        <button aria-label="Lees hier meer over over SecureSwap">
+          Meer over SecureSwap
+        </button>
+        <svg
+          fill="currentcolor"
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          stroke-linejoin="round"
+          stroke-miterlimit="1.414"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-labelledby="title"
+          viewBox="0 0 24 24"
+          preserveAspectRatio="xMidYMid meet"
+          id="secure-swap-badge"
+          class="css-661naj eitekr51"
+        >
+          <title>SecureSwap</title>
+          <g>
+            <path
+              d="M1 1v11.5c0 4.83 4.44 9.2 11 11.5 6.56-2.3 11-6.67 11-11.5V1H1z"
+              fill="#001319"
+              fill-opacity=".2"
+            ></path>
+            <path
+              d="M1 0v11.5c0 4.83 4.44 9.2 11 11.5 6.56-2.3 11-6.67 11-11.5V0H1z"
+              fill="#FAFAFB"
+            ></path>
+            <path
+              d="M4 11c0 3.825 3.229 7.2 8 9 4.771-1.8 8-5.175 8-9V2H4v9z"
+              fill="#28a745"
+            ></path>
+            <path
+              d="M16.936 7.434a.212.212 0 01.001.302l-6.204 6.196a.22.22 0 01-.303 0l-1.39-1.39c-.085-.083-.22-.22-.304-.301l-1.674-1.674a.215.215 0 010-.303l1.392-1.389a.214.214 0 01.303 0l1.674 1.672c.084.084.22.084.303 0l4.498-4.492a.217.217 0 01.305 0l1.399 1.379z"
+              fill="#fff"
+            ></path>
+          </g>
+        </svg>
+      </article>
+    </main>
+    <footer>
+      <!-- Footer section 1 -->
+      <section>
+        <h3>Menu</h3>
+        <details>
+          <summary>
+            Home
+
+            <svg
+              aria-label="play-knop"
+              fill="currentcolor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="1.414"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+              focusable="false"
+              viewBox="0 0 32 32"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M8.00190181,28 C7.6675842,28 7.33426755,27.9169622 7.03198038,27.7498863 C6.39537561,27.3977261 6,26.7274213 6,25.9990901 L6,6.00199694 C6,5.27366575 6.39537561,4.60336095 7.03198038,4.25120081 C7.66858516,3.89804022 8.44732496,3.91804932 9.06290976,4.30622583 L25.0591062,14.3047724 C25.6476653,14.6719394 26,15.3062278 26,16.0005435 C26,16.6948593 25.6466643,17.3291477 25.0581052,17.6963146 L9.06290976,27.6948612 C8.73960262,27.8989541 8.37025174,28 8.00190181,28 Z"
+              ></path>
+            </svg>
+          </summary>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+
+              <li>
+                <a
+                  href="hoeHetWerkt.html"
+                  aria-label="Link naar 'Hoe het werkt' pagina"
+                  >Hoe het werkt</a
+                >
+              </li>
+
+              <li>
+                <a href="#">Tickets verkopen</a>
+              </li>
+
+              <li>
+                <a href="#">Over ons</a>
+              </li>
+
+              <li>
+                <a href="#">Magazine</a>
+              </li>
+
+              <li>
+                <a href="#">Vacatures</a>
+              </li>
+
+              <li>
+                <a href="#">Word een partner</a>
+              </li>
+
+              <li>
+                <a href="#">Word een affiliate</a>
+              </li>
+
+              <li><a href="#">Pers</a></li>
+
+              <li>
+                <a href="#"> Voorwaarden </a>
+              </li>
+
+              <li>
+                <a href="#">Responsible disclosure</a>
+              </li>
+            </ul>
+          </nav>
+        </details>
+      </section>
+
+      <!-- Footer section 2 -->
+      <section>
+        <h3>Menu</h3>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <li>
+              <a
+                href="hoeHetWerkt.html"
+                aria-label="Link naar 'Hoe het werkt' pagina"
+                >Hoe het werkt</a
+              >
+            </li>
+
+            <li>
+              <a href="#">Tickets verkopen</a>
+            </li>
+
+            <li>
+              <a href="#">Over ons</a>
+            </li>
+
+            <li>
+              <a href="#">Magazine</a>
+            </li>
+
+            <li>
+              <a href="#">Vacatures</a>
+            </li>
+
+            <li>
+              <a href="#">Word een partner</a>
+            </li>
+
+            <li>
+              <a href="#">Word een affiliate</a>
+            </li>
+
+            <li><a href="#">Pers</a></li>
+
+            <li>
+              <a href="#"> Voorwaarden </a>
+            </li>
+
+            <li>
+              <a href="#">Responsible disclosure</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <!-- Footer section 3 -->
+      <section>
+        <h3>Volg ons</h3>
+        <ul>
+          <li><a href="https://www.facebook.com">Facebook</a></li>
+          <li><a href="https://x.com">X</a></li>
+          <li><a href="https://www.instagram.com">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/nl-NL">TikTok</a></li>
+        </ul>
+      </section>
+
+      <!-- Footer section 4 -->
+      <section>
+        <h3>Klantenservice</h3>
+        <ul>
+          <li><a href="#">Hulp en veelgestelde vragen</a></li>
+        </ul>
+      </section>
+
+      <!-- Footer section 5 -->
+      <section>
+        <button aria-label="Speel video af - hoe werkt ticketswap">
+          Hoe het werkt
+          <svg
+            aria-label="play-knop"
+            fill="currentcolor"
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="1.414"
+            xmlns="http://www.w3.org/2000/svg"
+            role="presentation"
+            focusable="false"
+            viewBox="0 0 32 32"
+            preserveAspectRatio="xMidYMid meet"
+          >
+            <path
+              d="M8.00190181,28 C7.6675842,28 7.33426755,27.9169622 7.03198038,27.7498863 C6.39537561,27.3977261 6,26.7274213 6,25.9990901 L6,6.00199694 C6,5.27366575 6.39537561,4.60336095 7.03198038,4.25120081 C7.66858516,3.89804022 8.44732496,3.91804932 9.06290976,4.30622583 L25.0591062,14.3047724 C25.6476653,14.6719394 26,15.3062278 26,16.0005435 C26,16.6948593 25.6466643,17.3291477 25.0581052,17.6963146 L9.06290976,27.6948612 C8.73960262,27.8989541 8.37025174,28 8.00190181,28 Z"
+            ></path>
+          </svg>
+        </button>
+      </section>
+
+      <!-- Footer section 6 -->
+      <section>
+        <a
+          href="https://apps.apple.com/nl/app/ticketswap-buy-sell-tickets/id932337449"
+        >
+          <svg
+            viewBox="0 0 120 40"
+            fill="currentcolor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M110.135 0H9.53499C9.16799 0 8.80499 0 8.43999 0.002C8.13399 0.004 7.82999 0.01 7.52099 0.015C6.84999 0.023 6.17999 0.082 5.51699 0.19C4.85572 0.302207 4.21517 0.513588 3.61699 0.817C2.71706 1.27724 1.93814 1.94292 1.34329 2.76014C0.748444 3.57737 0.354377 4.52317 0.192993 5.521C0.0817209 6.18271 0.0218752 6.85205 0.0139929 7.523C0.00399292 7.83 0.00399292 8.138 -0.00100708 8.444V31.56C0.00399292 31.87 0.00499292 32.17 0.0139929 32.481C0.0219929 33.152 0.0819929 33.821 0.193993 34.483C0.303993 35.146 0.513993 35.789 0.817993 36.388C1.12099 36.986 1.51899 37.531 1.99699 38.002C2.46999 38.479 3.01699 38.877 3.61499 39.181C4.21352 39.4851 4.85434 39.6974 5.51599 39.811C6.17899 39.921 6.84899 39.979 7.51999 39.988C7.82999 39.995 8.13299 39.999 8.43899 39.999C8.80499 40.001 9.16699 40.001 9.53399 40.001H110.134C110.494 40.001 110.858 40.001 111.218 39.999C111.522 39.999 111.835 39.995 112.14 39.989C112.81 39.979 113.478 39.921 114.14 39.811C114.804 39.6966 115.447 39.4843 116.048 39.181C116.647 38.8765 117.193 38.4777 117.666 38C118.142 37.5273 118.541 36.9827 118.848 36.386C119.15 35.786 119.358 35.144 119.467 34.481C119.578 33.82 119.64 33.151 119.652 32.479C119.656 32.169 119.656 31.869 119.656 31.558C119.664 31.194 119.664 30.833 119.664 30.464V9.536C119.664 9.17 119.664 8.806 119.656 8.444C119.656 8.138 119.656 7.83 119.652 7.524C119.64 6.85266 119.578 6.18314 119.467 5.521C119.358 4.8589 119.149 4.21723 118.847 3.618C118.23 2.41511 117.251 1.43588 116.049 0.818C115.448 0.515273 114.805 0.303946 114.141 0.191C113.48 0.081 112.811 0.022 112.141 0.015C111.836 0.01 111.523 0.004 111.219 0.002C110.859 0 110.494 0 110.135 0Z"
+              fill="#A6A6A6"
+            />
+            <path
+              d="M8.44499 39.125C8.13999 39.125 7.84299 39.121 7.54099 39.115C6.91446 39.1066 6.28941 39.0518 5.67099 38.951C5.09483 38.8516 4.53669 38.6669 4.01499 38.403C3.49787 38.1414 3.02619 37.7984 2.61799 37.387C2.20405 36.9801 1.8595 36.5082 1.59799 35.99C1.33305 35.4687 1.14959 34.9099 1.05399 34.333C0.95128 33.7131 0.895787 33.0863 0.887986 32.458C0.880986 32.248 0.872986 31.545 0.872986 31.545V8.445C0.872986 8.445 0.881986 7.753 0.887986 7.55C0.895438 6.92272 0.950598 6.29691 1.05299 5.678C1.1486 5.09952 1.33205 4.53905 1.59699 4.016C1.85699 3.498 2.19999 3.026 2.61199 2.618C3.43957 1.78636 4.50882 1.23756 5.66699 1.05C6.28699 0.95 6.91499 0.895 7.54299 0.887L8.44499 0.875H111.214L112.127 0.888C112.75 0.895 113.371 0.949 113.985 1.05C114.566 1.14872 115.129 1.33341 115.656 1.598C116.694 2.13288 117.538 2.97908 118.071 4.018C118.331 4.538 118.512 5.094 118.606 5.667C118.71 6.291 118.768 6.922 118.78 7.554C118.783 7.837 118.783 8.142 118.783 8.444C118.791 8.819 118.791 9.176 118.791 9.536V30.465C118.791 30.828 118.791 31.183 118.783 31.54C118.783 31.865 118.783 32.163 118.779 32.47C118.768 33.09 118.71 33.71 118.609 34.323C118.516 34.9041 118.334 35.4673 118.069 35.993C117.805 36.5056 117.462 36.9733 117.053 37.379C116.644 37.7927 116.172 38.1377 115.653 38.401C115.128 38.6671 114.565 38.8525 113.985 38.951C113.367 39.052 112.742 39.107 112.116 39.114C111.823 39.121 111.516 39.125 111.219 39.125L110.135 39.127L8.44499 39.125Z"
+              fill="black"
+            />
+            <path
+              d="M24.797 20.2999C24.808 19.4654 25.0299 18.6472 25.4419 17.9215C25.854 17.1957 26.443 16.586 27.154 16.1489C26.7023 15.5038 26.1064 14.9728 25.4136 14.5982C24.7208 14.2236 23.9502 14.0156 23.163 13.9909C21.483 13.8149 19.856 14.9959 19 14.9959C18.128 14.9959 16.81 14.0079 15.391 14.0379C14.4734 14.0674 13.5791 14.3342 12.7952 14.8121C12.0113 15.29 11.3646 15.9628 10.918 16.7649C8.984 20.1139 10.427 25.0349 12.28 27.7419C13.206 29.0669 14.29 30.5469 15.707 30.4949C17.094 30.4369 17.612 29.6099 19.287 29.6099C20.945 29.6099 21.431 30.4949 22.877 30.4619C24.366 30.4369 25.304 29.1299 26.198 27.7919C26.8641 26.8478 27.3768 25.8042 27.717 24.6999C26.852 24.3343 26.1138 23.722 25.5946 22.9395C25.0753 22.1571 24.7979 21.239 24.797 20.2999ZM22.066 12.2099C22.8772 11.2358 23.2768 9.98389 23.18 8.71993C21.9403 8.85035 20.7952 9.44305 19.973 10.3799C19.5708 10.8375 19.2628 11.3699 19.0665 11.9466C18.8702 12.5233 18.7895 13.133 18.829 13.7409C19.4491 13.7474 20.0627 13.6131 20.6234 13.348C21.1841 13.083 21.6773 12.6942 22.066 12.2109V12.2099ZM42.802 27.1399H38.07L36.933 30.4959H34.928L39.412 18.0779H41.495L45.978 30.4959H43.939L42.803 27.1399H42.802ZM38.559 25.5899H42.311L40.461 20.1439H40.41L38.56 25.5909L38.559 25.5899ZM55.66 25.9699C55.66 28.7829 54.154 30.5899 51.881 30.5899C51.3056 30.6199 50.7333 30.4874 50.2297 30.2074C49.726 29.9275 49.3113 29.5115 49.033 29.0069H48.99V33.4909H47.13V21.4419H48.93V22.9479H48.963C49.2541 22.4456 49.6759 22.0315 50.1835 21.7498C50.6912 21.468 51.2657 21.3292 51.846 21.3479C54.144 21.3479 55.66 23.1639 55.66 25.9699ZM53.75 25.9699C53.75 24.1369 52.802 22.9319 51.357 22.9319C49.937 22.9319 48.982 24.1619 48.982 25.9699C48.982 27.7939 49.937 29.0159 51.357 29.0159C52.802 29.0159 53.75 27.8189 53.75 25.9699ZM65.625 25.9699C65.625 28.7829 64.119 30.5899 61.846 30.5899C61.2706 30.6199 60.6983 30.4874 60.1947 30.2074C59.691 29.9275 59.2763 29.5115 58.998 29.0069H58.955V33.4909H57.096V21.4419H58.895V22.9479H58.929C59.2201 22.4456 59.6419 22.0315 60.1495 21.7498C60.6572 21.468 61.2317 21.3292 61.812 21.3479C64.11 21.3479 65.625 23.1639 65.625 25.9699ZM63.715 25.9699C63.715 24.1369 62.767 22.9319 61.322 22.9319C59.902 22.9319 58.947 24.1619 58.947 25.9699C58.947 27.7939 59.902 29.0159 61.322 29.0159C62.767 29.0159 63.715 27.8189 63.715 25.9699ZM72.21 27.0359C72.348 28.2679 73.544 29.0759 75.18 29.0759C76.746 29.0759 77.873 28.2679 77.873 27.1569C77.873 26.1929 77.193 25.6169 75.583 25.2209L73.974 24.8329C71.694 24.2829 70.635 23.2159 70.635 21.4849C70.635 19.3429 72.502 17.8709 75.154 17.8709C77.778 17.8709 79.577 19.3429 79.637 21.4849H77.761C77.649 20.2459 76.625 19.4979 75.127 19.4979C73.63 19.4979 72.606 20.2549 72.606 21.3559C72.606 22.2339 73.26 22.7509 74.861 23.1459L76.229 23.4819C78.777 24.0849 79.835 25.1079 79.835 26.9249C79.835 29.2479 77.985 30.7029 75.042 30.7029C72.288 30.7029 70.428 29.2829 70.308 27.0359H72.21ZM83.846 19.2999V21.4419H85.568V22.9139H83.846V27.9049C83.846 28.6809 84.191 29.0419 84.948 29.0419C85.152 29.0379 85.356 29.0239 85.559 28.9989V30.4619C85.219 30.5249 84.873 30.5539 84.527 30.5479C82.694 30.5479 81.979 29.8589 81.979 28.1029V22.9139H80.663V21.4419H81.979V19.2999H83.846ZM86.565 25.9699C86.565 23.1209 88.243 21.3309 90.859 21.3309C93.484 21.3309 95.154 23.1209 95.154 25.9699C95.154 28.8259 93.493 30.6079 90.859 30.6079C88.226 30.6079 86.565 28.8259 86.565 25.9699ZM93.26 25.9699C93.26 24.0159 92.365 22.8619 90.859 22.8619C89.353 22.8619 88.459 24.0239 88.459 25.9699C88.459 27.9319 89.353 29.0759 90.859 29.0759C92.365 29.0759 93.26 27.9319 93.26 25.9699ZM96.686 21.4419H98.459V22.9829H98.502C98.6221 22.502 98.9041 22.077 99.3005 21.7793C99.6969 21.4815 100.184 21.3292 100.679 21.3479C100.893 21.3469 101.107 21.3699 101.316 21.4169V23.1549C101.046 23.0724 100.764 23.0346 100.481 23.0429C100.211 23.032 99.9418 23.0796 99.6919 23.1824C99.4421 23.2853 99.2174 23.441 99.0334 23.6389C98.8494 23.8368 98.7104 24.0722 98.6259 24.3288C98.5414 24.5855 98.5135 24.8574 98.544 25.1259V30.4959H96.686V21.4419ZM109.884 27.8369C109.634 29.4799 108.034 30.6079 105.986 30.6079C103.352 30.6079 101.717 28.8439 101.717 26.0129C101.717 23.1729 103.361 21.3309 105.907 21.3309C108.413 21.3309 109.987 23.0509 109.987 25.7969V26.4339H103.593V26.5459C103.564 26.8791 103.605 27.2148 103.716 27.5306C103.826 27.8464 104.002 28.1352 104.232 28.3777C104.463 28.6202 104.742 28.8109 105.052 28.9371C105.362 29.0634 105.695 29.1223 106.029 29.1099C106.468 29.151 106.908 29.0493 107.285 28.8199C107.662 28.5906 107.954 28.2458 108.119 27.8369H109.884ZM103.602 25.1349H108.128C108.145 24.8354 108.099 24.5356 107.995 24.2544C107.89 23.9732 107.729 23.7166 107.52 23.5009C107.312 23.2851 107.061 23.1147 106.783 23.0005C106.506 22.8862 106.208 22.8305 105.908 22.8369C105.605 22.8351 105.305 22.8932 105.025 23.0079C104.745 23.1227 104.491 23.2917 104.276 23.5054C104.062 23.719 103.892 23.973 103.776 24.2527C103.66 24.5324 103.601 24.8323 103.602 25.1349ZM38.326 8.73093C38.7156 8.70297 39.1066 8.76184 39.4708 8.90328C39.8349 9.04471 40.1631 9.2652 40.4317 9.54884C40.7004 9.83247 40.9027 10.1722 41.0241 10.5435C41.1456 10.9148 41.1831 11.3084 41.134 11.6959C41.134 13.6019 40.104 14.6979 38.326 14.6979H36.171V8.72993H38.326V8.73093ZM37.098 13.8539H38.223C38.5013 13.8704 38.7798 13.8247 39.0383 13.72C39.2967 13.6153 39.5286 13.4544 39.717 13.2488C39.9054 13.0433 40.0456 12.7983 40.1274 12.5318C40.2092 12.2652 40.2306 11.9838 40.19 11.7079C40.2277 11.4331 40.2042 11.1534 40.1212 10.8888C40.0381 10.6242 39.8975 10.3812 39.7096 10.1772C39.5216 9.97329 39.2908 9.81345 39.0338 9.70915C38.7768 9.60485 38.4999 9.55867 38.223 9.57393H37.098V13.8539ZM42.18 12.4439C42.1528 12.1486 42.1875 11.8508 42.2818 11.5696C42.3762 11.2884 42.5282 11.03 42.7281 10.8108C42.9279 10.5917 43.1713 10.4166 43.4427 10.2968C43.714 10.1771 44.0074 10.1152 44.304 10.1152C44.6006 10.1152 44.894 10.1771 45.1653 10.2968C45.4367 10.4166 45.6801 10.5917 45.8799 10.8108C46.0798 11.03 46.2318 11.2884 46.3262 11.5696C46.4205 11.8508 46.4552 12.1486 46.428 12.4439C46.4575 12.7405 46.4246 13.04 46.3313 13.3231C46.2381 13.6062 46.0865 13.8667 45.8864 14.0876C45.6864 14.3086 45.4423 14.4852 45.1698 14.6061C44.8973 14.7269 44.6026 14.7894 44.3045 14.7894C44.0064 14.7894 43.7117 14.7269 43.4392 14.6061C43.1667 14.4852 42.9226 14.3086 42.7225 14.0876C42.5225 13.8667 42.3709 13.6062 42.2777 13.3231C42.1844 13.04 42.1505 12.7405 42.18 12.4439ZM45.514 12.4439C45.514 11.4679 45.075 10.8969 44.306 10.8969C43.533 10.8969 43.099 11.4679 43.099 12.4439C43.099 13.4279 43.533 13.9939 44.306 13.9939C45.076 13.9939 45.514 13.4239 45.514 12.4439ZM52.073 14.6979H51.151L50.221 11.3809H50.151L49.224 14.6979H48.311L47.069 10.1949H47.971L48.777 13.6309H48.844L49.77 10.1949H50.622L51.548 13.6309H51.618L52.421 10.1949H53.31L52.073 14.6979ZM54.354 10.1949H55.209V10.9099H55.275C55.506 10.3829 56.046 10.0609 56.619 10.1079C56.8381 10.0915 57.0582 10.1245 57.2628 10.2046C57.4674 10.2847 57.6514 10.4098 57.8011 10.5707C57.9508 10.7316 58.0624 10.924 58.1277 11.1339C58.1929 11.3437 58.2101 11.5655 58.178 11.7829V14.6979H57.289V12.0059C57.289 11.2819 56.975 10.9219 56.317 10.9219C56.1683 10.915 56.0198 10.9404 55.8818 10.9962C55.7438 11.0521 55.6195 11.1371 55.5174 11.2455C55.4153 11.3538 55.3378 11.483 55.2903 11.6241C55.2427 11.7652 55.2263 11.9149 55.242 12.0629V14.6979H54.354V10.1949ZM59.594 8.43693H60.482V14.6969H59.594V8.43693ZM61.718 12.4439C61.69 12.1482 61.7241 11.8499 61.818 11.568C61.912 11.2862 62.0638 11.0272 62.2637 10.8074C62.4637 10.5877 62.7073 10.4121 62.979 10.292C63.2506 10.1719 63.5444 10.1098 63.8415 10.1098C64.1386 10.1098 64.4324 10.1719 64.704 10.292C64.9757 10.4121 65.2193 10.5877 65.4192 10.8074C65.6192 11.0272 65.771 11.2862 65.8649 11.568C65.9589 11.8499 65.993 12.1482 65.965 12.4439C65.9945 12.7405 65.9616 13.04 65.8683 13.3231C65.775 13.6062 65.6235 13.8667 65.4235 14.0876C65.2234 14.3086 64.9793 14.4852 64.7068 14.6061C64.4343 14.7269 64.1396 14.7894 63.8415 14.7894C63.5434 14.7894 63.2487 14.7269 62.9762 14.6061C62.7037 14.4852 62.4596 14.3086 62.2595 14.0876C62.0595 13.8667 61.9079 13.6062 61.8147 13.3231C61.7214 13.04 61.6885 12.7405 61.718 12.4439ZM65.051 12.4439C65.051 11.4679 64.612 10.8969 63.843 10.8969C63.07 10.8969 62.636 11.4679 62.636 12.4439C62.636 13.4279 63.07 13.9939 63.843 13.9939C64.613 13.9939 65.051 13.4239 65.051 12.4439ZM66.9 13.4239C66.9 12.6139 67.504 12.1459 68.576 12.0799L69.796 12.0099V11.6209C69.796 11.1459 69.481 10.8769 68.874 10.8769C68.377 10.8769 68.034 11.0589 67.935 11.3769H67.075C67.165 10.6039 67.893 10.1069 68.915 10.1069C70.043 10.1069 70.68 10.6699 70.68 11.6209V14.6979H69.825V14.0649H69.755C69.464 14.5269 68.947 14.7969 68.402 14.7719C68.2129 14.7916 68.0218 14.7715 67.841 14.7128C67.6602 14.6541 67.4937 14.5581 67.3523 14.4311C67.2108 14.3041 67.0976 14.1488 67.0199 13.9754C66.9421 13.8019 66.9007 13.614 66.9 13.4239ZM69.795 13.0399V12.6629L68.695 12.7329C68.075 12.7749 67.795 12.9859 67.795 13.3829C67.795 13.7879 68.146 14.0229 68.629 14.0229C68.7705 14.0373 68.9136 14.0231 69.0495 13.9812C69.1855 13.9392 69.3116 13.8703 69.4204 13.7786C69.5291 13.6869 69.6184 13.5742 69.6827 13.4473C69.7471 13.3204 69.7853 13.1819 69.795 13.0399ZM71.848 12.4439C71.848 11.0209 72.58 10.1199 73.718 10.1199C73.9993 10.1071 74.2784 10.1746 74.5227 10.3145C74.7671 10.4544 74.9666 10.6609 75.098 10.9099H75.165V8.43693H76.053V14.6969H75.202V13.9869H75.132C74.9902 14.2344 74.7834 14.4384 74.534 14.5768C74.2846 14.7152 74.002 14.7827 73.717 14.7719C72.572 14.7719 71.848 13.8709 71.848 12.4439ZM72.766 12.4439C72.766 13.3989 73.216 13.9739 73.969 13.9739C74.719 13.9739 75.181 13.3909 75.181 12.4479C75.181 11.5099 74.713 10.9179 73.969 10.9179C73.221 10.9179 72.766 11.4979 72.766 12.4439ZM79.837 8.86293C79.8302 8.7478 79.8581 8.63328 79.9171 8.5342C79.9761 8.43511 80.0635 8.35602 80.168 8.30716C80.2725 8.25831 80.3892 8.24194 80.5031 8.26018C80.6169 8.27841 80.7227 8.33041 80.8067 8.40945C80.8907 8.48848 80.949 8.5909 80.9742 8.70346C80.9993 8.81602 80.99 8.93353 80.9476 9.04077C80.9052 9.14802 80.8316 9.24006 80.7363 9.30499C80.6409 9.36991 80.5283 9.40473 80.413 9.40493C80.3392 9.40885 80.2653 9.39777 80.1959 9.37236C80.1265 9.34694 80.063 9.30772 80.0091 9.25707C79.9553 9.20641 79.9123 9.14537 79.8827 9.07762C79.8531 9.00988 79.8376 8.93685 79.837 8.86293ZM79.969 10.1949H80.855V14.6979H79.969V10.1949ZM82.289 10.1949H83.144V10.9099H83.21C83.441 10.3829 83.981 10.0609 84.554 10.1079C84.7731 10.0915 84.9932 10.1245 85.1978 10.2046C85.4024 10.2847 85.5864 10.4098 85.7361 10.5707C85.8858 10.7316 85.9974 10.924 86.0627 11.1339C86.1279 11.3437 86.1451 11.5655 86.113 11.7829V14.6979H85.224V12.0059C85.224 11.2819 84.91 10.9219 84.252 10.9219C84.1033 10.915 83.9548 10.9404 83.8168 10.9962C83.6788 11.0521 83.5545 11.1371 83.4524 11.2455C83.3503 11.3538 83.2728 11.483 83.2253 11.6241C83.1777 11.7652 83.1613 11.9149 83.177 12.0629V14.6979H82.289V10.1949ZM89.708 12.4439C89.708 11.0209 90.439 10.1199 91.577 10.1199C91.8583 10.1071 92.1374 10.1746 92.3817 10.3145C92.6261 10.4544 92.8256 10.6609 92.957 10.9099H93.024V8.43693H93.913V14.6969H93.061V13.9869H92.991C92.8493 14.2343 92.6426 14.4382 92.3934 14.5765C92.1442 14.7149 91.8619 14.7825 91.577 14.7719C90.431 14.7719 89.708 13.8709 89.708 12.4439ZM90.626 12.4439C90.626 13.3989 91.076 13.9739 91.829 13.9739C92.578 13.9739 93.041 13.3909 93.041 12.4479C93.041 11.5099 92.573 10.9179 91.829 10.9179C91.081 10.9179 90.626 11.4979 90.626 12.4439ZM99.178 13.4819C99.0573 13.8933 98.7959 14.2492 98.4395 14.4874C98.083 14.7255 97.6542 14.8309 97.228 14.7849C96.9312 14.793 96.6361 14.7363 96.3634 14.6188C96.0907 14.5013 95.8469 14.3258 95.6488 14.1045C95.4508 13.8833 95.3033 13.6216 95.2167 13.3375C95.13 13.0535 95.1062 12.7541 95.147 12.4599C95.1076 12.1651 95.132 11.8653 95.2185 11.5807C95.305 11.2961 95.4517 11.0334 95.6485 10.8104C95.8453 10.5874 96.0878 10.4093 96.3594 10.2881C96.6311 10.1669 96.9256 10.1055 97.223 10.1079C98.476 10.1079 99.232 10.9639 99.232 12.3779V12.6879H96.052V12.7379C96.038 12.9032 96.0588 13.0697 96.113 13.2265C96.1671 13.3833 96.2535 13.5271 96.3665 13.6485C96.4795 13.77 96.6166 13.8665 96.7691 13.9318C96.9216 13.9972 97.0861 14.0299 97.252 14.0279C97.4644 14.0531 97.6794 14.0146 97.8699 13.9174C98.0604 13.8202 98.2177 13.6687 98.322 13.4819H99.178ZM96.052 12.0309H98.327C98.3384 11.8797 98.3179 11.7278 98.267 11.5849C98.216 11.4421 98.1357 11.3114 98.0313 11.2015C97.9268 11.0916 97.8005 11.0047 97.6604 10.9466C97.5203 10.8885 97.3696 10.8603 97.218 10.8639C97.0643 10.862 96.9117 10.891 96.7693 10.9489C96.627 11.0069 96.4976 11.0928 96.389 11.2016C96.2803 11.3104 96.1945 11.4398 96.1366 11.5822C96.0788 11.7246 96.05 11.8772 96.052 12.0309Z"
+              fill="white"
+            />
+          </svg>
+        </a>
+        <a href="#"
+          ><img src="images/googlePlay.png" alt="Logo van de Google Play Store"
+        /></a>
+
+        <section>
+          <h4>4.7 - 9000 + beoordelingen</h4>
+          <svg
+            viewBox="0 0 804 156"
+            fill="currentcolor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M73.716 7.11861C75.6593 3.88951 80.3407 3.88951 82.284 7.11861L102.582 40.8472C103.28 42.0072 104.419 42.8346 105.738 43.1401L144.088 52.0221C147.76 52.8724 149.207 57.3248 146.736 60.1708L120.931 89.8982C120.043 90.9207 119.608 92.2593 119.725 93.6082L123.129 132.826C123.455 136.581 119.667 139.333 116.197 137.862L79.9505 122.506C78.7038 121.978 77.2962 121.978 76.0496 122.506L39.8028 137.862C36.3327 139.333 32.5452 136.581 32.8711 132.826L36.2747 93.6082C36.3918 92.2593 35.9568 90.9207 35.0693 89.8982L9.26395 60.1708C6.7934 57.3248 8.24006 52.8724 11.9116 52.0221L50.2619 43.1401C51.5809 42.8346 52.7197 42.0072 53.4178 40.8472L73.716 7.11861Z"
+              fill="#FFA600"
+            />
+            <path
+              d="M235.716 7.11861C237.659 3.88951 242.341 3.88951 244.284 7.11861L264.582 40.8472C265.28 42.0072 266.419 42.8346 267.738 43.1401L306.088 52.0221C309.76 52.8724 311.207 57.3248 308.736 60.1708L282.931 89.8982C282.043 90.9207 281.608 92.2593 281.725 93.6082L285.129 132.826C285.455 136.581 281.667 139.333 278.197 137.862L241.95 122.506C240.704 121.978 239.296 121.978 238.05 122.506L201.803 137.862C198.333 139.333 194.545 136.581 194.871 132.826L198.275 93.6082C198.392 92.2593 197.957 90.9207 197.069 89.8982L171.264 60.1708C168.793 57.3248 170.24 52.8724 173.912 52.0221L212.262 43.1401C213.581 42.8346 214.72 42.0072 215.418 40.8472L235.716 7.11861Z"
+              fill="#FFA600"
+            />
+            <path
+              d="M397.716 7.11861C399.659 3.88951 404.341 3.88951 406.284 7.11861L426.582 40.8472C427.28 42.0072 428.419 42.8346 429.738 43.1401L468.088 52.0221C471.76 52.8724 473.207 57.3248 470.736 60.1708L444.931 89.8982C444.043 90.9207 443.608 92.2593 443.725 93.6082L447.129 132.826C447.455 136.581 443.667 139.333 440.197 137.862L403.95 122.506C402.704 121.978 401.296 121.978 400.05 122.506L363.803 137.862C360.333 139.333 356.545 136.581 356.871 132.826L360.275 93.6082C360.392 92.2593 359.957 90.9207 359.069 89.8982L333.264 60.1708C330.793 57.3248 332.24 52.8724 335.912 52.0221L374.262 43.1401C375.581 42.8346 376.72 42.0072 377.418 40.8472L397.716 7.11861Z"
+              fill="#FFA600"
+            />
+            <path
+              d="M559.716 7.11861C561.659 3.88951 566.341 3.88951 568.284 7.11861L588.582 40.8472C589.28 42.0072 590.419 42.8346 591.738 43.1401L630.088 52.0221C633.76 52.8724 635.207 57.3248 632.736 60.1708L606.931 89.8982C606.043 90.9207 605.608 92.2593 605.725 93.6082L609.129 132.826C609.455 136.581 605.667 139.333 602.197 137.862L565.95 122.506C564.704 121.978 563.296 121.978 562.05 122.506L525.803 137.862C522.333 139.333 518.545 136.581 518.871 132.826L522.275 93.6082C522.392 92.2593 521.957 90.9207 521.069 89.8982L495.264 60.1708C492.793 57.3248 494.24 52.8724 497.912 52.0221L536.262 43.1401C537.581 42.8346 538.72 42.0072 539.418 40.8472L559.716 7.11861Z"
+              fill="#FFA600"
+            />
+            <path
+              d="M721.716 7.11861C723.659 3.88951 728.341 3.88951 730.284 7.11861L750.582 40.8472C751.28 42.0072 752.419 42.8346 753.738 43.1401L792.088 52.0221C795.76 52.8724 797.207 57.3248 794.736 60.1708L768.931 89.8982C768.043 90.9207 767.608 92.2593 767.725 93.6082L771.129 132.826C771.455 136.581 767.667 139.333 764.197 137.862L727.95 122.506C726.704 121.978 725.296 121.978 724.05 122.506L687.803 137.862C684.333 139.333 680.545 136.581 680.871 132.826L684.275 93.6082C684.392 92.2593 683.957 90.9207 683.069 89.8982L657.264 60.1708C654.793 57.3248 656.24 52.8724 659.912 52.0221L698.262 43.1401C699.581 42.8346 700.72 42.0072 701.418 40.8472L721.716 7.11861Z"
+              fill="#FFA600"
+            />
+          </svg>
+        </section>
+
+        <section>
+          <h4>4.6 - 6000 + beoordelingen</h4>
+          <svg
+            viewBox="0 0 804 156"
+            fill="currentcolor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M73.716 7.11861C75.6593 3.88951 80.3407 3.88951 82.284 7.11861L102.582 40.8472C103.28 42.0072 104.419 42.8346 105.738 43.1401L144.088 52.0221C147.76 52.8724 149.207 57.3248 146.736 60.1708L120.931 89.8982C120.043 90.9207 119.608 92.2593 119.725 93.6082L123.129 132.826C123.455 136.581 119.667 139.333 116.197 137.862L79.9505 122.506C78.7038 121.978 77.2962 121.978 76.0496 122.506L39.8028 137.862C36.3327 139.333 32.5452 136.581 32.8711 132.826L36.2747 93.6082C36.3918 92.2593 35.9568 90.9207 35.0693 89.8982L9.26395 60.1708C6.7934 57.3248 8.24006 52.8724 11.9116 52.0221L50.2619 43.1401C51.5809 42.8346 52.7197 42.0072 53.4178 40.8472L73.716 7.11861Z"
+              fill="#FFA600"
+            />
+            <path
+              d="M235.716 7.11861C237.659 3.88951 242.341 3.88951 244.284 7.11861L264.582 40.8472C265.28 42.0072 266.419 42.8346 267.738 43.1401L306.088 52.0221C309.76 52.8724 311.207 57.3248 308.736 60.1708L282.931 89.8982C282.043 90.9207 281.608 92.2593 281.725 93.6082L285.129 132.826C285.455 136.581 281.667 139.333 278.197 137.862L241.95 122.506C240.704 121.978 239.296 121.978 238.05 122.506L201.803 137.862C198.333 139.333 194.545 136.581 194.871 132.826L198.275 93.6082C198.392 92.2593 197.957 90.9207 197.069 89.8982L171.264 60.1708C168.793 57.3248 170.24 52.8724 173.912 52.0221L212.262 43.1401C213.581 42.8346 214.72 42.0072 215.418 40.8472L235.716 7.11861Z"
+              fill="#FFA600"
+            />
+            <path
+              d="M397.716 7.11861C399.659 3.88951 404.341 3.88951 406.284 7.11861L426.582 40.8472C427.28 42.0072 428.419 42.8346 429.738 43.1401L468.088 52.0221C471.76 52.8724 473.207 57.3248 470.736 60.1708L444.931 89.8982C444.043 90.9207 443.608 92.2593 443.725 93.6082L447.129 132.826C447.455 136.581 443.667 139.333 440.197 137.862L403.95 122.506C402.704 121.978 401.296 121.978 400.05 122.506L363.803 137.862C360.333 139.333 356.545 136.581 356.871 132.826L360.275 93.6082C360.392 92.2593 359.957 90.9207 359.069 89.8982L333.264 60.1708C330.793 57.3248 332.24 52.8724 335.912 52.0221L374.262 43.1401C375.581 42.8346 376.72 42.0072 377.418 40.8472L397.716 7.11861Z"
+              fill="#FFA600"
+            />
+            <path
+              d="M559.716 7.11861C561.659 3.88951 566.341 3.88951 568.284 7.11861L588.582 40.8472C589.28 42.0072 590.419 42.8346 591.738 43.1401L630.088 52.0221C633.76 52.8724 635.207 57.3248 632.736 60.1708L606.931 89.8982C606.043 90.9207 605.608 92.2593 605.725 93.6082L609.129 132.826C609.455 136.581 605.667 139.333 602.197 137.862L565.95 122.506C564.704 121.978 563.296 121.978 562.05 122.506L525.803 137.862C522.333 139.333 518.545 136.581 518.871 132.826L522.275 93.6082C522.392 92.2593 521.957 90.9207 521.069 89.8982L495.264 60.1708C492.793 57.3248 494.24 52.8724 497.912 52.0221L536.262 43.1401C537.581 42.8346 538.72 42.0072 539.418 40.8472L559.716 7.11861Z"
+              fill="#FFA600"
+            />
+            <path
+              d="M721.716 7.11861C723.659 3.88951 728.341 3.88951 730.284 7.11861L750.582 40.8472C751.28 42.0072 752.419 42.8346 753.738 43.1401L792.088 52.0221C795.76 52.8724 797.207 57.3248 794.736 60.1708L768.931 89.8982C768.043 90.9207 767.608 92.2593 767.725 93.6082L771.129 132.826C771.455 136.581 767.667 139.333 764.197 137.862L727.95 122.506C726.704 121.978 725.296 121.978 724.05 122.506L687.803 137.862C684.333 139.333 680.545 136.581 680.871 132.826L684.275 93.6082C684.392 92.2593 683.957 90.9207 683.069 89.8982L657.264 60.1708C654.793 57.3248 656.24 52.8724 659.912 52.0221L698.262 43.1401C699.581 42.8346 700.72 42.0072 701.418 40.8472L721.716 7.11861Z"
+              fill="#FFA600"
+            />
+          </svg>
+        </section>
+      </section>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
