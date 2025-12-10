@@ -109,7 +109,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Rohit   | Frank          | student 3    | student 4        |
+  | Rohit   | Frank          | Linsy    | Bryan       |
   | ---            | ---                | ---          | ---              |
   | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | en ik dit    | en dan ik dat    |
   | Ook wil ik graag weten hoe ik er voor zou kunnen zorgen dat alleen de header de volle breedte van de pagina neemt en de rest van de pagina 1em padding links en rechts heeft. | dit als er tijd is | nog een punt | dit wil ik zeker |
@@ -118,6 +118,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+  Bij Frank zeiden ze inderdaad dat hij het in een grid kon zetten en dan die twee elementen met span over twee grids kon laten komen. Voor Linsy 
 
   De student-assistenten hebben mij aangeraden om een schets te maken van die card. Ze vertelde me dat het inderdaad met een grid kan en dat binnen die grid ook nog een flex zit voor de datum en het aantal tickets.
 
@@ -129,7 +130,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
    Voor het fixen van de header en main van de pagina werd mij aangeraden / toestemming gegeven om om alle content in de main een div te zetten en die een padding: 0 1em; te geven. Dat heb ik gedaan, en het werkte.
 
-<img src="readme-images/werkteNiet.png" width="375px" alt="omschrijving van de pagina">
+<img src="readme-images/werkteNiet.png" width="175px" alt="omschrijving van de pagina">
 
 
    
@@ -170,8 +171,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
+  | Rohit      | Linsy          | student 3    | student 4        |
+  | Ik wil graag weten waarom mijn website niet meer responsive is? Uw code van het grid werkt nu na veel pijn en moeite wel, maar nu is mijn homepagina niet meer schaalbaar?           | Ik heb een probleem met de carousel die ik nog niet heb gemaakt en ik weet ook niet goed hoe ik dat moet doen?                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
@@ -180,7 +181,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   Ik had nog geen carousel gemaakt terwijl de echte website die ik had gekozen dat wel heeft. Ik was er nog niet aan toe gekomen en wist niet waar ik moest beginnen, totdat tijdens dit gesprek Linsy een soortgelijke vraag had van hoe maak je nou zo een carousel? De docent liet het haar zien, gelijk met code en ik typte gelijk mee. Door zijn uitleg begreep ik ook meteen hoe zo een carousel gemaakt werd en zo heb ik die meteen op mijn eigen website kunnen toepassen.
 
-  Mijn grootste vraag voor dit gesprek was eigenlijk hoe kan ik mijn pagina op een grid zetten (werd aangeraden door de docent), omdat de div ide ik had gebruikt niet mag, ondanks ik die tip/toestemming wel kreeg van de stundent-assistenten. Die vraag was te groot om in die tijd op te lossen dus hij gaf me een aantal tips. In dat weekend heb ik vanalles geprobeerd, echter niks lukte me om het probleem op te lossen. De volgende maandag heeft de docent mij geholpen het probleem te verhelpen. Ik had code soms wel 4 keer herhaald waardoor de css zich ging overschrijven en het dus niet altijd werkte. Uiteindelijk lag het er aan dat ik die carousel geen width had gegeven dus dit was de boosdoener:
+  Mijn grootste vraag voor dit gesprek was eigenlijk hoe kan ik mijn pagina op een grid zetten (werd aangeraden door de docent), omdat de div die ik had gebruikt niet mag, ondanks ik die tip/toestemming wel kreeg van de stundent-assistenten. En mijn vraag was dan ook waarom die grid wel werkt maar nu mijn hele pagina heel breed is. Die vraag was te groot om in die tijd op te lossen dus hij gaf me een aantal tips. In dat weekend heb ik vanalles geprobeerd, echter niks lukte me om het probleem op te lossen. De volgende maandag heeft de docent mij geholpen het probleem te verhelpen. Ik had code soms wel 4 keer herhaald waardoor de css zich ging overschrijven en het dus niet altijd werkte. Uiteindelijk lag het er aan dat ik die carousel geen width had gegeven dus dit was de boosdoener:
 
 <img src="readme-images/codeCarousel.png" width="300px" alt="Code van de carousel en waarom die heel breed was">
   
