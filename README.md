@@ -107,6 +107,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Beginnen aan je eigen website vind ik altijd lastig, die breakdown-schets heeft me wel geholpen. Ik weet nou niet of de h1 met achtergrond en zoekbalk in de header moet of niet? Daar zit ik nu een beetje mee te puzzelen. Ook omdat de header van de tweede pagina er heel anders uitziet. Header is volgens mij alleen het logo en de nav maar ik maak eerst de header wél met de h1 en achtergrond-foto en zoekbalk.
+
+  Achteraf bleek dat niet te moeten omdat ik anders dingen waarschijnlijk niet meer goed gepositioneerd zou krijgen en omdat de header op de tweede pagina helemaal geen afbeelding bevat, dus heb ik het zo gemaakt:
+
+  <img src="readme-images/header1.jpg" width="350px" alt="code van header en header van eigen website ticketswap">
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -115,12 +121,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | Ik wil graag weten hoe ik artikelen naast elkaar zet.    | en dan ik dat    |
   | Ook wil ik graag weten hoe ik er voor zou kunnen zorgen dat alleen de header de volle breedte van de pagina neemt en de rest van de pagina 1em padding links en rechts heeft. | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | ...            | ...                |        | Bryan was niet aanwezig             |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-  Bij Frank zeiden ze inderdaad dat hij het in een grid kon zetten en dan die twee elementen met span over twee grids kon laten komen. Voor Linsy 
+  Bij Frank zeiden ze inderdaad dat hij het in een grid kon zetten en dan die twee elementen met span over twee grids kon laten komen. 
+  Voor Linsy was het volgens mij de oplossing om flexbox te gebruiken voor het naast elkaar zetten van alle producten op groot scherm.
 
   De student-assistenten hebben mij aangeraden om een schets te maken van die card. Ze vertelde me dat het inderdaad met een grid kan en dat binnen die grid ook nog een flex zit voor de datum en het aantal tickets.
 
@@ -175,13 +182,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Rohit      | Linsy          | student 3    | student 4        |
   | Ik wil graag weten waarom mijn website niet meer responsive is? Uw code van het grid werkt nu na veel pijn en moeite wel, maar nu is mijn homepagina niet meer schaalbaar?           | Ik heb een probleem met de carousel die ik nog niet heb gemaakt en ik weet ook niet goed hoe ik dat moet doen?                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | dit bespreken  | Mijn website geeft een error door de img van de vlag die ik heb voor het menu waar je je taal kan kiezen, hoe los ik dat op en hoe maak ik dat eigenlijk mooi?             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   Ik had nog geen carousel gemaakt terwijl de echte website die ik had gekozen dat wel heeft. Ik was er nog niet aan toe gekomen en wist niet waar ik moest beginnen, totdat tijdens dit gesprek Linsy een soortgelijke vraag had van hoe maak je nou zo een carousel? De docent liet het haar zien, gelijk met code en ik typte gelijk mee. Door zijn uitleg begreep ik ook meteen hoe zo een carousel gemaakt werd en zo heb ik die meteen op mijn eigen website kunnen toepassen.
+
+  Linsy's probleem werd door de docent snel verholpen, al heb ik geen idee hoe, maar hij vertelde wel dat het niet hoefde dat die taal/regio optie ook echt moest te werken dus dat was een geruststelling leek mij.
 
   Mijn grootste vraag voor dit gesprek was eigenlijk hoe kan ik mijn pagina op een grid zetten (werd aangeraden door de docent), omdat de div die ik had gebruikt niet mag, ondanks ik die tip/toestemming wel kreeg van de stundent-assistenten. En mijn vraag was dan ook waarom die grid wel werkt maar nu mijn hele pagina heel breed is. Die vraag was te groot om in die tijd op te lossen dus hij gaf me een aantal tips. In dat weekend heb ik vanalles geprobeerd, echter niks lukte me om het probleem op te lossen. De volgende maandag heeft de docent mij geholpen het probleem te verhelpen. Ik had code soms wel 4 keer herhaald waardoor de css zich ging overschrijven en het dus niet altijd werkte. Uiteindelijk lag het er aan dat ik die carousel geen width had gegeven dus dit was de boosdoener:
 
@@ -336,6 +345,12 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
+  In het begin vond ik de grid vrij lastig om mee te werken maar ik leerde er meer en meer van en nu is het gemakkelijk om voor dingen grid te gebruiken. Wel was het grid laten werken op de gehele homepagina van 1em 1fr 1em een grote uitdaging. Dat is me wel gelukt, ondanks na de eerste keer mijn homepagina niet meer schaalbaar was.
+  Het is me helaas niet gelukt om op groot scherm op de homepagina op het grid van 1em 1fr 1em naar bijvoorbeeld 10em 1fr 10em te gaan. Dus dat er op een groot scherm meer witruimte aan de zijkanten is:
+
+  <img src="readme-images/gridHome.png" width="500px" alt="navbar met uitgeschreven menu">
+ <img src="readme-images/watNietLukte.jpg" width="500px" alt="navbar met uitgeschreven menu">
+
   Wat ik wel graag nog had willen doen is een nav-bar hebben dat wanneer deze op groot scherm is het geen hamburger-menu meer heeft maar dat alle links uitgeschreven in de nav-bar zijn. Zoals dit:
 
   <img src="readme-images/nav1.png" width="375px" alt="navbar zonder uitgeschreven menu">
@@ -343,9 +358,7 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
   <img src="readme-images/nav2.png" width="375px" alt="navbar met uitgeschreven menu">
 
 
-  Daarnaast is het me helaas niet op groot scherm op de homepagina gelukt om van een grid van 1em 1fr 1em naar bijvoorbeeld 10em 1fr 10em te gaan. Dus dat er op een groot scherm meer witruimte aan de zijkanten is:
-
- <img src="readme-images/watNietLukte.jpg" width="500px" alt="navbar met uitgeschreven menu">
+  
 
 Wat ik ook erg lastig vond was het positioneren van de ster-maak-favoriet-buttons op de trending in de buurt cards. Bij het slecht positioneren verdween vaak een ster uit beeld waardoor de laatste card geen ster button had
   
