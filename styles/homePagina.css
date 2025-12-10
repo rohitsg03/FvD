@@ -183,7 +183,7 @@ article:nth-of-type(3) ul li a {
   background-color: var(--cardAchtergrondkleurHome);
   border-radius: var(--cardBorderRadius);
   width: 18em;
-  height: 26em;
+  height: 23em;
   flex-shrink: 1;
   scroll-snap-align: center;
 }
@@ -242,6 +242,7 @@ article:nth-of-type(4) ul li a > img {
 
 article:nth-of-type(3) ul li a p:nth-of-type(1) {
   margin-top: auto;
+  margin-bottom: auto;
   padding: 1rem;
   font-weight: 600;
   color: var(--h4Kleur);
