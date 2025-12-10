@@ -338,8 +338,9 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
 
   Daarnaast is het me helaas niet op groot scherm op de homepagina gelukt om van een grid van 1em 1fr 1em naar bijvoorbeeld 10em 1fr 10em te gaan. Dus dat er op een groot scherm meer witruimte aan de zijkanten is:
 
-<img src="readme-images/grootWitruimte.png" width="375px" alt="codepen van de docent.">
-<img src="readme-images/grootGeenWitruimte.png" width="150px" alt="Mijn website op groot scherm zonder witruimte">
+ <img src="readme-images/watNietLukte.jpg" width="375px" alt="navbar met uitgeschreven menu">
+
+
   
 
   
