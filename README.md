@@ -324,6 +324,9 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
+Ik heb ticketswap zo goed mogelijk na proberen te maken: Dit zijn dingen waar ik trots op ben wat ik na heb kunnen maken:
+
+<img src="readme-images/trots.png" width="600px" alt="Afbeelding van dingen waar ik trots op ben.">
 
 
   ### Dit ging goed/Heb ik geleerd: 
