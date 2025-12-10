@@ -83,10 +83,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina: 
   <img src="readme-images/breakdown.jpg" width="375px" alt="Breakdown schets van de homepagina van Ticketswap">
+
+   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/breakdown2.png" width="375px" alt="Breakdown schets van hamburgermenu van Ticketswap">
   
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
+ 
   
 
 </details>
@@ -127,7 +129,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
    Voor het fixen van de header en main van de pagina werd mij aangeraden / toestemming gegeven om om alle content in de main een div te zetten en die een padding: 0 1em; te geven. Dat heb ik gedaan, en het werkte.
 
-    <img src="readme-images/div.png" width="375px" alt="omschrijving van de pagina">
+<img src="readme-images/werkteNiet.png" width="375px" alt="omschrijving van de pagina">
 
 
    
