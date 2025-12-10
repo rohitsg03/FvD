@@ -119,9 +119,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Rohit   | Frank | Linsy    | Bryan       |
   | ---            | ---                | ---          | ---              |
-  | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | Ik wil graag weten hoe ik artikelen naast elkaar zet.    | en dan ik dat    |
+  | Ik wilde graag weten hoe ik die kleine evenement-cards maak en hoe ik dat doe met bijvoorbeeld een grid of met flex. Mijn code nu is bijzonder rommelig en werkt niet, hoe maak ik zo'n card?| Frank wilde graag weten hoe hij de detail-pagina kon opmaken, het ging er dan bij hem om dat hij wilde weten hoe je de categoriën net onder de afbeeldingen kreeg, zonder dat het te veel uit elkaar zou staan.             | Ik wil graag weten hoe ik artikelen naast elkaar zet.    |     |
   | Ook wil ik graag weten hoe ik er voor zou kunnen zorgen dat alleen de header de volle breedte van de pagina neemt en de rest van de pagina 1em padding links en rechts heeft. | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                |        | Bryan was niet aanwezig             |
+  |             |                |        | Bryan was niet aanwezig             |
 
 
   ### Verslag van meeting
@@ -182,9 +182,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Rohit      | Linsy          | student 3    | student 4        |
   | Ik wil graag weten waarom mijn website niet meer responsive is? Uw code van het grid werkt nu na veel pijn en moeite wel, maar nu is mijn homepagina niet meer schaalbaar?           | Ik heb een probleem met de carousel die ik nog niet heb gemaakt en ik weet ook niet goed hoe ik dat moet doen?                | ---          | ---              |
-  | dit bespreken  | Mijn website geeft een error door de img van de vlag die ik heb voor het menu waar je je taal kan kiezen, hoe los ik dat op en hoe maak ik dat eigenlijk mooi?             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | dit bespreken  | Mijn website geeft een error door de img van de vlag die ik heb voor het menu waar je je taal kan kiezen, hoe los ik dat op en hoe maak ik dat eigenlijk mooi?             | ---     | ---     |
+  | --- | --- | --- | --- |
+  | ---             | ---               | ---         | ---              |
 
 
   ### Verslag van meeting
@@ -291,10 +291,10 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
 
   | Rohit      | Frank          | Linsy    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | - Waarom de articles van Maak de club onveilig op groot scherm niet mooi in het midden staan uitgelijnd.  | en dit             | en ik dit    | en dan ik dat    |
-  | - Hoe kan in het onderdeel van Spotify wegklikken dmv dat kruisje? | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | - Waarom de articles van Maak de club onveilig op groot scherm niet mooi in het midden staan uitgelijnd.  | ---            | ---     | ---     |
+  | - Hoe kan in het onderdeel van Spotify wegklikken dmv dat kruisje? | ---  | ---  | ---  |
   | - Hoe maak ik een uitklapbaar menu voor in de footer?
-  - De grid van de tweede section in de footer werkt niet, hoe los ik dit op? Inspecteren zegt iets van door display block van het bovenliggende element heeft grid area geen effect.| ...                | ...          | ...              |
+  - De grid van de tweede section in de footer werkt niet, hoe los ik dit op? Inspecteren zegt iets van door display block van het bovenliggende element heeft grid area geen effect.| ---                 | ---       | ---       |
 
 
   ### Verslag van meeting
@@ -351,8 +351,8 @@ Ik heb ticketswap zo goed mogelijk na proberen te maken: Dit zijn dingen waar ik
   In het begin vond ik de grid vrij lastig om mee te werken maar ik leerde er meer en meer van en nu is het gemakkelijk om voor dingen grid te gebruiken. Wel was het grid laten werken op de gehele homepagina van 1em 1fr 1em een grote uitdaging. Dat is me wel gelukt, ondanks na de eerste keer mijn homepagina niet meer schaalbaar was.
   Het is me helaas niet gelukt om op groot scherm op de homepagina op het grid van 1em 1fr 1em naar bijvoorbeeld 10em 1fr 10em te gaan. Dus dat er op een groot scherm meer witruimte aan de zijkanten is:
 
-  <img src="readme-images/gridHome.png" width="500px" alt="navbar met uitgeschreven menu">
- <img src="readme-images/watNietLukte.jpg" width="500px" alt="navbar met uitgeschreven menu">
+  <img src="readme-images/gridHome.png" width="500px" alt="grid">
+ <img src="readme-images/watNietLukte.jpg" width="500px" alt="lastige onderdelen">
 
   Wat ik wel graag nog had willen doen is een nav-bar hebben dat wanneer deze op groot scherm is het geen hamburger-menu meer heeft maar dat alle links uitgeschreven in de nav-bar zijn. Zoals dit:
 
