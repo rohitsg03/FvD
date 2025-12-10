@@ -314,7 +314,7 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
 
   Wat ik heb geleerd en wat ik inmiddels heel vaak gebuik zijn grids, css nesten en ook het gebruiken van grid-areas. Daarnaast heb ik ook veel meer geleerd over display flex en hoe je dingen goed kan uitlijnen. Het gebruiken van grid gaat nu echt heel goed, tevens als het nesten van css. Heel handig en overzichtelijk is dat ook.
 
-
+<img src="readme-images/grid.png" width="375px" alt="lightmode">
   
   Het maken van een darkmode was erg uitdagend maar na lang coderen en het omzetten van alle img's naat svg's is het me wel gelukt om een mooie darkmode te maken. Ik heb ook de echte website op contrast verbetert:
 
@@ -329,9 +329,9 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
 
   Wat ik wel graag nog had willen doen is een nav-bar hebben dat wanneer deze op groot scherm is het geen hamburger-menu meer heeft maar dat alle links uitgeschreven in de nav-bar zijn. Zoals dit:
 
-  <img src="readme-images/nav1.png" width="375px" height="50px" alt="navbar zonder uitgeschreven menu">
+  <img src="readme-images/nav1.png" width="375px" alt="navbar zonder uitgeschreven menu">
   
-  <img src="readme-images/nav2.png" width="375px" height="50px" alt="navbar met uitgeschreven menu">
+  <img src="readme-images/nav2.png" width="375px" alt="navbar met uitgeschreven menu">
 
 
   Daarnaast is het me helaas niet op groot scherm op de homepagina gelukt om van een grid van 1em 1fr 1em naar bijvoorbeeld 10em 1fr 10em te gaan. Dus dat er op een groot scherm meer witruimte aan de zijkanten is:
