@@ -320,8 +320,8 @@ Ook bij de :hover het contrast van alle buttons verbetert, soms niet veel, bij a
   
   Het maken van een darkmode was erg uitdagend maar na lang coderen en het omzetten van alle img's naat svg's is het me wel gelukt om een mooie darkmode te maken. Ik heb ook de echte website op contrast verbetert:
 
-  <img src="readme-images/lightEind.png" width="375px" height="50px" alt="lightmode">
-  <img src="readme-images/darkEind.png" width="375px" height="50px" alt="darkmode">
+  <img src="readme-images/lightEind.png" width="375px" alt="lightmode">
+  <img src="readme-images/darkEind.png" width="375px" alt="darkmode">
 
 
 
