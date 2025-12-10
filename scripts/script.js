@@ -13,7 +13,6 @@ function openMenu() {
   deNav.classList.add("toonMenu");
 }
 
-
 /* menu sluiten met de sluit button */
 // stap 1 - zoek sluiten button op
 var sluitButton;
@@ -27,8 +26,6 @@ function sluitMenu() {
   deNav = document.querySelector("nav");
   deNav.classList.remove("toonMenu");
 }
-
-
 
 // Sluiten van Spotify atricle
 // Bron: de student-assistenten
