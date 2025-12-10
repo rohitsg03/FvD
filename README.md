@@ -60,8 +60,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  Wat mij opviel aan Ticketswap is dat zij al hun links wel unieke namen geven maar dat het alleen nog niet heel duidelijk is waar die links voor zijn, dat komt voornamelijk door sommige Engelse termen die ze er bij voegen. De formulierregelaars zijn alleen niet uniek en hebben een onduidelijke naam. Hun globale code is wel heel erg goed en mankeert eigenlijk niets. Ik kan inzoomen, ze gebruiken een lang attribute en elke pagina heeft een unieke titel. Echter is de website niet heel toegankelijk. Met de tabtoets kom ik niet verder dan de zoekbalk.
-  Op mobiel is de website wel weer heel goed, er is geen horizontale scoll, de webisite kan zowel horizontaal als verticaal bekeken worden en links en buttons zijn groot. Alle headings op de pagina kloppen ook en elke pagina heeft maar 1 h1. Lijsten zijn gemaakt met een li. De website mist alt teksten bij afbeeldingen waar tekst op staat. Verder zijn alle links een a en buttons buttons. Bij de website ontbreek wel nog de prefers-reduced-motion query.
+  Wat mij opviel aan Ticketswap is dat zij al hun links wel unieke namen geven maar dat het alleen nog niet heel duidelijk is waar die links voor zijn, dat komt voornamelijk door sommige Engelse termen die ze er bij voegen.
+  
+  - De formulierregelaars zijn alleen niet uniek en hebben een onduidelijke naam.
+  - Hun globale code is wel heel erg goed en mankeert eigenlijk niets.
+  - Ik kan inzoomen, ze gebruiken een lang attribute en elke pagina heeft een unieke titel.
+  - Met de tabtoets kom ik niet verder dan de zoekbalk.
+  - Op mobiel is de website wel weer heel goed, er is geen horizontale scoll, de webisite kan zowel horizontaal als verticaal bekeken worden en links en buttons zijn groot.
+  - Alle headings op de pagina kloppen ook en elke pagina heeft maar 1 h1.
+  - Lijsten zijn gemaakt met een li.
+  - De website mist alt teksten bij afbeeldingen waar tekst op staat.
+  - Verder zijn alle links een a en buttons buttons.
+  - Bij de website ontbreek wel nog de prefers-reduced-motion query.
 
    <img src="readme-images/testAfbeelding.jpg" width="500px" alt="afbeelding van wat er te zien is met een screenreader op ticketswap.nl">
 
@@ -105,7 +115,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   Beginnen aan je eigen website vind ik altijd lastig, die breakdown-schets heeft me wel geholpen. Ik weet nou niet of de h1 met achtergrond en zoekbalk in de header moet of niet? Daar zit ik nu een beetje mee te puzzelen. Ook omdat de header van de tweede pagina er heel anders uitziet. Header is volgens mij alleen het logo en de nav maar ik maak eerst de header wél met de h1 en achtergrond-foto en zoekbalk.
 
@@ -115,7 +124,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
   | Rohit   | Frank | Linsy    | Bryan       |
   | ---            | ---                | ---          | ---              |
@@ -156,7 +164,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
   In deze week heb ik de carousel gemaakt omdat die wel op de echte website staat, echter had ik deze nog niet gemaakt voor mijn eigen website. Ik had eigenlijk geen idee waar ik zou moeten beginnen, maar tijdens het voortgangsgesprek schreef ik gelijk mee. 
 
@@ -178,7 +185,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
   | Rohit      | Linsy          | student 3    | student 4        |
   | Ik wil graag weten waarom mijn website niet meer responsive is? Uw code van het grid werkt nu na veel pijn en moeite wel, maar nu is mijn homepagina niet meer schaalbaar?           | Ik heb een probleem met de carousel die ik nog niet heb gemaakt en ik weet ook niet goed hoe ik dat moet doen?                | ---          | ---              |
@@ -211,7 +217,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-  In vergelijking met Ticketswap.nl heb ik al zeker een aantal goede verbeteringen doorgevoerd, ondanks dat er niet geweldig veel verbetering nodig had. Alle links zijn nu wel uniek, echter moet ik ze soms wel meer beschrijving geven. De link van 'Toon alle' beschrijft nu ook echt wat de link dan allemaal toont. De enige error die Ticketswap had, heb ik niet. Nu kan je wel met tab door alle klibare elementen. 
+  In vergelijking met Ticketswap.nl heb ik al zeker een aantal goede verbeteringen doorgevoerd, ondanks dat er niet geweldig veel verbetering nodig had. 
+  - Alle links zijn nu wel uniek, echter moet ik ze soms wel meer beschrijving geven.
+  - De link van 'Toon alle' beschrijft nu ook echt wat de link dan allemaal toont.
+  - De enige error die Ticketswap had, heb ik niet. Nu kan je wel met tab door alle klibare elementen. 
 
  <img src="readme-images/test3Afbeelding.jpg" width="500px" alt="test5">
  <img src="readme-images/test4Afbeelding.jpg" width="375px" alt="test2">
