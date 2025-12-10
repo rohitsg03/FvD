@@ -3,21 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/homePagina.css" />
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/hoeHetWerkt.css" />
     <link
       rel="icon"
       type="image/x-icon"
       href="https://ticketswap-image-cdn.b-cdn.net/static/website-icons/favicon-32x32.png"
     />
 
-    <title>Hoe werkt TicketSwap?</title>
+    <title>TicketSwap | Snelle, veilige en eerlijke ticketdoorverkoop</title>
   </head>
   <body>
     <a href="#main">Ga naar inhoud</a>
     <header>
-      <a href="index.html"
+      <!-- Logo -->
+      <a href="#"
         ><svg
+          aria-label="Logo Ticketswap - link naar home"
           viewBox="0 0 220 36"
           fill="currentcolor"
           fill-rule="evenodd"
@@ -43,7 +45,7 @@
       <section>
         <a href="#"
           ><svg
-            aria-label="Cart"
+            aria-label="Winkelmandje"
             fill="currentcolor"
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -60,27 +62,7 @@
             ></path>
           </svg>
         </a>
-        <a href="#"
-          ><svg
-            aria-label="Zoeken icoon"
-            fill="currentcolor"
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            stroke-linejoin="round"
-            stroke-miterlimit="1.414"
-            xmlns="http://www.w3.org/2000/svg"
-            role="presentation"
-            focusable="false"
-            viewBox="0 0 32 32"
-            preserveAspectRatio="xMidYMid meet"
-          >
-            <path
-              d="M22.032 20.618l3.675 3.675a1 1 0 0 1-1.414 1.414l-3.675-3.675a9 9 0 1 1 1.414-1.414zM15 22a7 7 0 1 0 0-14 7 7 0 0 0 0 14z"
-            ></path>
-          </svg>
-        </a>
-
-        <button aria-label="Menu-knop">
+        <button aria-label="Menu">
           <svg
             fill="currentcolor"
             fill-rule="evenodd"
@@ -100,10 +82,11 @@
         </button>
       </section>
 
-      <nav>
+      <nav aria-label="Hoofd-navigatie">
         <section>
-          <a href="#"
+          <a href="index.html"
             ><svg
+              aria-label="Logo van Ticketswap"
               viewBox="0 0 220 36"
               fill="currentcolor"
               fill-rule="evenodd"
@@ -119,7 +102,6 @@
                   d="M30.388 21.2a4.86 4.86 0 0 0 1.309-2.266l9.296 9.255a15.297 15.297 0 0 1-1.665 1.91c-6.898 6.889-18.113 6.89-25.035 0L0 15.85l6.259-6.226a3.774 3.774 0 0 1 5.358 0L23.246 21.2a5.05 5.05 0 0 0 7.142 0zm8.94-16.036l14.304 14.25-6.254 6.245a3.812 3.812 0 0 1-5.365 0L30.388 14.066a5.078 5.078 0 0 0-7.142 0 5.065 5.065 0 0 0-1.31 2.263l-9.294-9.255a18.603 18.603 0 0 1 1.651-1.91c6.922-6.885 18.137-6.885 25.035 0z"
                 ></path>
                 <path
-                  id="type"
                   transform="translate(66.672 4.012)"
                   d="M136.892 32.053V8.55h3.988v1.14c1.243-1.011 2.695-1.428 4.284-1.428 4.542 0 8.164 3.562 8.164 8.004 0 4.43-3.622 8.04-8.164 8.04-1.589 0-3.04-.418-4.284-1.41v9.158h-3.988zm-6.653-8.166v-.993c-1.224.993-2.687 1.41-4.267 1.41-4.541 0-8.169-3.609-8.169-8.039 0-4.442 3.628-8.004 8.17-8.004 1.56 0 3.017.417 4.266 1.428v-1.14h3.994v15.338h-3.994zm-21.893 0l-3.458-9.787-3.33 9.787h-4.144L91.93 8.55h4.474l3.109 10.077 3.63-10.077h3.5l3.558 10.077 3.151-10.077h4.495l-5.534 15.338h-3.968zm-26.834-4.779c1.421 1.232 3.137 1.587 4.238 1.587 1.427 0 1.878-.58 1.878-1.123 0-2.294-7.811-.88-7.811-6.401 0-2.808 2.017-4.91 5.44-4.91 1.372 0 3.859.32 5.614 1.941l-2.11 2.839c-1.361-.93-2.625-1.154-3.47-1.154-1.328 0-1.587.576-1.587.964 0 2.165 7.713 1.121 7.713 6.593 0 2.805-2.045 4.86-5.924 4.86-2.862 0-4.7-1.09-6.094-2.15l2.113-3.046zm-4.574 4.811s-1.164.385-3.073.385c-3.008 0-4.574-1.958-4.574-4.973v-6.964H66.86V8.55h2.431V3.354h3.996v5.195h4.08v3.818h-4.08v6.128c0 1.077.289 2.069 1.716 2.069 1.004 0 1.935-.16 1.935-.16v3.515zm-22.545-6.384c.452 1.877 1.972 3.19 4.275 3.19 1.405 0 2.89-.513 3.79-1.713l2.723 2.164c-1.394 1.974-3.86 3.128-6.483 3.128-4.637 0-8.204-3.447-8.204-7.943 0-4.346 3.087-8.1 7.982-8.1 4.527 0 7.741 3.69 7.741 8.004 0 .437-.03.884-.096 1.27H54.393zm-7.946 6.352l-6.082-6.833v6.833h-3.987V0h3.987v14.502l5.568-5.953h5.118l-6.732 7.012 7.389 8.326h-5.261zm-11.684-3.353c-1.438 2.265-4.027 3.77-6.973 3.77-4.544 0-8.174-3.609-8.174-8.039 0-4.442 3.63-8.004 8.174-8.004 2.912 0 5.451 1.46 6.907 3.658l-3.408 1.957a4.276 4.276 0 0 0-3.5-1.797c-2.324 0-4.24 1.925-4.24 4.186 0 2.296 1.916 4.236 4.24 4.236 1.52 0 2.848-.77 3.6-1.972l3.374 2.005zm-20.99 3.353V8.55h3.998v15.338h-3.997zM13.26 3.481C13.26 2.07 14.35.994 15.79.994c1.421 0 2.494 1.075 2.494 2.487C18.285 4.907 17.212 6 15.791 6c-1.44 0-2.531-1.093-2.531-2.519zM10.079 23.92s-1.157.385-3.073.385c-3.01 0-4.576-1.958-4.576-4.973v-6.964H0V8.55h2.43V3.354h3.998v5.195h4.08v3.818h-4.08v6.128c0 1.077.286 2.069 1.714 2.069.995 0 1.937-.16 1.937-.16v3.515zm130.801-7.46c.101 2.2 1.98 4.042 4.284 4.042 2.333 0 4.236-1.94 4.236-4.236 0-2.26-1.903-4.186-4.236-4.186-2.303 0-4.183 1.861-4.284 4.026v.355zm-14.908-4.38c-2.33 0-4.242 1.925-4.242 4.186 0 2.296 1.911 4.236 4.242 4.236 2.37 0 4.267-1.94 4.267-4.236 0-2.26-1.898-4.186-4.267-4.186zm-63.771 2.552c-.225-1.557-1.852-2.744-3.76-2.744-1.852 0-3.34 1.09-3.918 2.744H62.2z"
                 ></path>
@@ -179,8 +161,6 @@
               >Hoe het werkt
               <svg
                 aria-label="pijltje naar rechts - open link"
-                width="20"
-                height="20"
                 fill="currentcolor"
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -204,8 +184,6 @@
               >Tickets verkopen
               <svg
                 aria-label="pijltje naar rechts - open link"
-                width="20"
-                height="20"
                 fill="currentcolor"
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -229,8 +207,6 @@
               >Word een partner
               <svg
                 aria-label="pijltje naar rechts - open link"
-                width="20"
-                height="20"
                 fill="currentcolor"
                 fill-rule="evenodd"
                 clip-rule="evenodd"
@@ -278,176 +254,12 @@
     </header>
 
     <main id="main">
-      <section>
-        <h1>TicketSwap: Veilig tweedehands tickets kopen en verkopen</h1>
-        <p>
-          Op TicketSwap koop en verkoop je veilig, makkelijk en eerlijk tickets
-          voor concerten, festivals, sportwedstrijden, theater en dagjes weg.
-          Door strenge controles en samenwerkingen met organisaties wordt fraude
-          voorkomen.
-        </p>
-
-        <button>
-          Verkoop tickets
+      <!-- h1 met achtergrond -->
+      <section aria-label="Hoofdtitel met zoekbalk">
+        <h1>TicketSwap: Veilig tickets kopen en verkopen</h1>
+        <section>
           <svg
-            viewBox="0 0 600 601"
-            fill="currentcolor"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M351 150.725H87.35C66.725 150.725 49.9875 167.463 49.9875 188.088V512.638C49.9875 533.263 66.725 550 87.35 550H412.65C433.275 550 450.012 533.263 450.012 512.638V250.725H500V525.075C500 566.425 466.425 600 425.063 600.012H74.9375C33.575 600.012 0 566.425 0 525.075V175.65C0 134.288 33.575 100.712 74.9375 100.712H351V150.725Z"
-              fill="currentcolor"
-            />
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M599.737 216.5H549.675V85.4875L201 434.15L165.6 398.75L514.287 50.0625H383.237V0H599.712L599.737 0.0125051V216.5Z"
-              fill="currentcolor"
-            />
-          </svg>
-        </button>
-      </section>
-
-      <!-- Article 1 Waarom Ticketswap -->
-      <article>
-        <h2>Waarom TicketSwap?</h2>
-        <section>
-          <h3>Veilig</h3>
-          <p>
-            TicketSwap is veilig. De tickets en verkopers op ons platform worden
-            op basis van verschillende criteria gecontroleerd. Door partnerships
-            met organisaties en ticket providers bieden we SecureSwap tickets
-            aan, die 100% geldig zijn. Lees
-            <a href="" aria-label="Pagina uitleg SecureSwap."
-              >hier
-              <svg
-                viewBox="0 0 600 601"
-                fill="currentcolor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M351 150.725H87.35C66.725 150.725 49.9875 167.463 49.9875 188.088V512.638C49.9875 533.263 66.725 550 87.35 550H412.65C433.275 550 450.012 533.263 450.012 512.638V250.725H500V525.075C500 566.425 466.425 600 425.063 600.012H74.9375C33.575 600.012 0 566.425 0 525.075V175.65C0 134.288 33.575 100.712 74.9375 100.712H351V150.725Z"
-                  fill="currentcolor"
-                />
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M599.737 216.5H549.675V85.4875L201 434.15L165.6 398.75L514.287 50.0625H383.237V0H599.712L599.737 0.0125051V216.5Z"
-                  fill="currentcolor"
-                />
-              </svg>
-            </a>
-            meer over SecureSwap.
-          </p>
-          <img
-            src="images/waaromTicketswap.svg"
-            alt="Afbeelding van een slot met cybersecurity."
-          />
-        </section>
-
-        <section>
-          <h3>Makkelijk</h3>
-          <p>
-            Het aanmaken van een advertentie is met een paar klikken gebeurd.
-            Upload je ticket en vul de benodigde informatie in. Hierna heb je er
-            geen omkijken meer naar - we laten het je weten zodra je ticket is
-            verkocht en we maken het geld binnen 5 werkdagen over naar jouw
-            bankrekening. Een ticket kopen is ook heel eenvoudig. Je rekent
-            direct af via onze app, waarna het kaartje onmiddellijk beschikbaar
-            is in jouw account op TicketSwap en ook per e-mail naar jou wordt
-            verstuurd.
-          </p>
-          <img
-            src="images/waaromTicketswap2.svg"
-            alt="Afbeelding van een papieren vliegtuig."
-          />
-        </section>
-
-        <section>
-          <h3>Eerlijk</h3>
-          <p>
-            Als TicketSwap-fan weet je dat je altijd een eerlijke prijs betaalt
-            voor jouw tickets. We beschermen kopers tegen woekerprijzen doordat
-            we een maximale verkoopprijs hanteren van 20% boven de originele
-            ticketprijs.
-          </p>
-          <img
-            src="images/waaromTicketswap3.svg"
-            alt="Afbeelding van twee handen die elkaar schudden"
-          />
-        </section>
-      </article>
-
-      <!-- Article 2 Tickets kopen -->
-      <article>
-        <h2>Tickets kopen</h2>
-
-        <section>
-          <h3>⚡️ Ontvang je ticket gelijk</h3>
-          <p>
-            Vind het ticket waarnaar je op zoek bent, betaal online en je
-            ontvangt het ticket direct. Tickets die je te koop ziet staan zijn
-            al door de verkoper geüpload, dus ze worden meteen na het afrekenen
-            naar jou verstuurd.
-          </p>
-        </section>
-
-        <section>
-          <h3>👮‍♂️ Strenge controles</h3>
-          <p>
-            Fraude wordt voorkomen door het controleren van gebruikers en door
-            samenwerking met evenementenorganisaties. Klik
-            <a href="#" aria-label="Pagina uitleg SecureSwap"
-              >hier
-              <svg
-                viewBox="0 0 600 601"
-                fill="currentcolor"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M351 150.725H87.35C66.725 150.725 49.9875 167.463 49.9875 188.088V512.638C49.9875 533.263 66.725 550 87.35 550H412.65C433.275 550 450.012 533.263 450.012 512.638V250.725H500V525.075C500 566.425 466.425 600 425.063 600.012H74.9375C33.575 600.012 0 566.425 0 525.075V175.65C0 134.288 33.575 100.712 74.9375 100.712H351V150.725Z"
-                  fill="currentcolor"
-                />
-                <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M599.737 216.5H549.675V85.4875L201 434.15L165.6 398.75L514.287 50.0625H383.237V0H599.712L599.737 0.0125051V216.5Z"
-                  fill="currentcolor"
-                />
-              </svg>
-            </a>
-            voor meer informatie over gebruikerscontrole.
-          </p>
-        </section>
-
-        <section>
-          <h3>👁 Transparantie</h3>
-          <p>
-            Je kan de naam en de foto zien van de persoon van wie je een kaartje
-            koopt. Daarnaast kan je ook zien of er een social media account is
-            gekoppeld en of ze in het verleden tickets hebben verkocht op ons
-            platform. Hierdoor is duidelijk van wie je een kaartje koopt.
-          </p>
-        </section>
-
-        <section>
-          <h3>🤑 Eerlijke prijzen</h3>
-          <p>
-            Wij beschermen kopers tegen woekerprijzen doordat we maximaal 20%
-            toename hanteren van de originele verkoopprijs. Als koper weet je
-            altijd dat je een eerlijke prijs betaalt voor je tickets.
-          </p>
-        </section>
-
-        <button aria-label="Speel video af - hoe werkt ticketswap">
-          Hoe het werkt
-          <svg
+            aria-label="Vergrootglas"
             fill="currentcolor"
             fill-rule="evenodd"
             clip-rule="evenodd"
@@ -460,161 +272,931 @@
             preserveAspectRatio="xMidYMid meet"
           >
             <path
-              d="M8.00190181,28 C7.6675842,28 7.33426755,27.9169622 7.03198038,27.7498863 C6.39537561,27.3977261 6,26.7274213 6,25.9990901 L6,6.00199694 C6,5.27366575 6.39537561,4.60336095 7.03198038,4.25120081 C7.66858516,3.89804022 8.44732496,3.91804932 9.06290976,4.30622583 L25.0591062,14.3047724 C25.6476653,14.6719394 26,15.3062278 26,16.0005435 C26,16.6948593 25.6466643,17.3291477 25.0581052,17.6963146 L9.06290976,27.6948612 C8.73960262,27.8989541 8.37025174,28 8.00190181,28 Z"
+              d="M24.064 21.235l3.35 3.35a2 2 0 0 1-2.828 2.83l-3.35-3.351A10.95 10.95 0 0 1 15 26C8.924 26 4 21.076 4 15S8.924 4 15 4s11 4.924 11 11a10.95 10.95 0 0 1-1.936 6.235zM22 15a7 7 0 0 0-7-7 7 7 0 0 0-7 7 7 7 0 0 0 7 7 7 7 0 0 0 7-7z"
             ></path>
           </svg>
-        </button>
+
+          <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/label
+           voor het toevoegen van een label aan de input -->
+          <label>Zoek hier je volgende evenement</label>
+          <input
+            type="text"
+            placeholder="Zoek een evenement, artiest, locatie"
+          />
+        </section>
+      </section>
+
+      <!-- Article 1 -->
+      <!-- 3 redenen om ticketswap te kiezen -->
+      <article aria-label="3 redenen om TicketSwap te kiezen">
+        <section>
+          <section>
+            <img src="images/chekc.svg" alt="vinkje blauw" />
+            <p>
+              Het veiligste platform om tickets te kopen en verkopen met meer
+              dan 17.5 miljoen fans
+            </p>
+          </section>
+
+          <section>
+            <img src="images/chekc.svg" alt="vinkje blauw" />
+            <p>Prijzen zijn maximaal 20% bovenop de originele prijs</p>
+          </section>
+
+          <section>
+            <img src="images/chekc.svg" alt="vinkje blauw" />
+            <p>Met 6000+ evenementen een samenwerking</p>
+          </section>
+        </section>
+      </article>
+
+      <!-- Article 2 -->
+      <!-- Onderdeel evenement zoeken, vandaag, morgen etc. -->
+      <article aria-label="Zoek je volgende evenement">
+        <section>
+          <h2>Zoek je volgende evenement</h2>
+        </section>
+
+        <section
+          aria-label="Kies tussen: vandaag, morgen, dit weekend, ontdek alles"
+        >
+          <a href="#">
+            <section>
+              <h3>Vandaag</h3>
+              <img src="images/vandaag.png" alt="Kalender icoon blauw" />
+            </section>
+          </a>
+
+          <a href="#">
+            <section>
+              <h3>Morgen</h3>
+              <img src="images/morgen.png" alt="Kalender icoon geel" />
+            </section>
+          </a>
+
+          <a href="#">
+            <section>
+              <h3>Dit weekend</h3>
+              <img src="images/weekend.png" alt="Kalender icoon groen" />
+            </section>
+          </a>
+
+          <a href="#">
+            <section>
+              <h3>Ontdek alles</h3>
+              <img src="images/alle_events.png" alt="Kalender icoon rood" />
+            </section>
+          </a>
+        </section>
       </article>
 
       <!-- Article 3 -->
-      <article>
-        <h2>Tickets verkopen</h2>
-        <p>
-          Zodra je je advertentie online hebt gezet, heb je er geen omkijken
-          meer naar. We sturen je een melding zodra je ticket is verkocht en je
-          ontvangt het geld binnen één werkdag. Zo makkelijk is het!
-        </p>
+      <!-- Onderdeel aanbevelingen -->
+      <article aria-label="Onderdeel 'Onze aanbevelingen'">
+        <section>
+          <h2
+            aria-label="Onze aanbevelingen, check de beste evenementen van het moment"
+          >
+            Onze aanbevelingen
+          </h2>
+          <p>Check de beste evenementen van het moment.</p>
+        </section>
 
-        <ol>
+        <ul>
           <li>
-            <section>
+            <a
+              href="#"
+              aria-label="Festival: Soenda Indoor Werkspoorkathedraal 2025 - Friday (Peggy Gou by
+                night)"
+            >
               <h3>
-                Upload je bestand en selecteer de tickets die je wilt verkopen
+                Soenda Indoor Werkspoorkathedraal 2025 - Friday (Peggy Gou by
+                night)
               </h3>
               <p>
-                Als je meerdere tickets in een ticketpakket verkoopt, kun je
-                gewoon het originele bestand uploaden. Wij splitsen het bestand
-                dan automatisch op en vragen je vervolgens te kiezen welke
-                tickets je wilt verkopen en welke je zelf wilt houden. Nadat de
-                advertentie is gemaakt, sturen we je de tickets die je zelf
-                wilde houden.
+                Soenda Indoor 2025 brengt Utrecht in vuur en vlam met Peggy Gou
               </p>
               <img
-                src="images/howDoesItWord.svg"
-                alt="Afbeelding van een digitaal en geprint ticket."
+                src="images/peggyGou.png"
+                alt="DJ Peggy Gou, banner voor haar show voor Soenda Indoor Festival met de tekst: 'Friday November 21 2025, Soenda Indoor Werkspoorkathedraal, PEGGY GOU, very special guest CHRIS STUSSY, support from SALLY C - CINNAMAN, 23:00 - 06:00'"
               />
-            </section>
+              <p>Festivals</p>
+            </a>
           </li>
 
           <li>
-            <section>
-              <h3>Bepaal de verkoopprijs en geef je bankrekeningnummer op</h3>
-              <p>
-                We beschermen kopers tegen woekerprijzen doordat we een maximale
-                verkoopprijs van 20% boven de originele ticketprijs hanteren.
-              </p>
+            <a
+              href="#"
+              aria-label="Festival: DJ Heartstring pres. Teenage Dreams"
+            >
+              <h3>DJ Heartstring pres. Teenage Dreams</h3>
+              <p>Euforie, emotie en pure Teenage Dreams.</p>
               <img
-                src="images/decidePrice.svg"
-                alt="Afbeelding van een webpagina en menu om een prijs te bepalen."
+                src="images/heartstringGroot.png"
+                alt="DJ duo DJ Heartstring, ruikend aan een zonnebloem met zonnebrillen op."
               />
-            </section>
+              <p>Festivals</p>
+            </a>
           </li>
 
           <li>
-            <section>
-              <h3>Promoot je advertentie op Facebook en X</h3>
+            <a href="#" aria-label="Festival: LOVELAND presents BURST 2026">
+              <h3>LOVELAND presents BURST 2026</h3>
               <p>
-                Je wilt je kaartje zo snel mogelijk verkopen - dat snappen wij!
-                TicketSwap heeft het daarom heel makkelijk gemaakt om je
-                advertentie te promoten. Uiteraard kan je zelf bepalen wat wel
-                en niet gedeeld wordt. Daarnaast kan je er ook voor kiezen om je
-                ticket te verkopen aan een koper die je zelf al gevonden hebt.
+                Na een geweldig uitverkochte eerste editie in 2025 keert BURST
+                weer terug naar Meerpark!
               </p>
               <img
-                src="images/ticketAanbieden.svg"
-                alt="Afbeeldig van een webpagina met een microfoon."
+                src="images/burst.png"
+                alt="Banner voor Koningsdag-festival LOVELAND presents BURST met de tekst: 'LOVELAND BURST, Kingsday 27 april 2026, Meerpark Amsterdam'"
               />
-            </section>
+              <p>Festivals</p>
+            </a>
           </li>
 
           <li>
-            <section>
-              <h3>Krijg een melding & betaald als je ticket is verkocht</h3>
+            <a href="#" aria-label="Festival:FYM x Teletech NYE AFAS Live">
+              <h3>FYM x Teletech NYE AFAS Live</h3>
               <p>
-                Als je je ticket te koop hebt gezet op ons platform, hoef je
-                verder niets meer te doen. We sturen je een melding als je
-                ticket verkocht is en maken het geld binnen 5 werkdagen naar je
-                over. Zo makkelijk is het gebruik van TicketSwap!
+                Vier oud en nieuw op harde techno met de meest geweldige
+                artiesten!
               </p>
               <img
-                src="images/betaaldKrijgen.svg"
-                alt="Afbeelding van geld en een geprint ticket, in circulatie."
+                src="images/FYM.png"
+                alt="Banner met de line-up van Free Your Mind x Teletech in AFAS live"
               />
-            </section>
+              <p>Festivals</p>
+            </a>
           </li>
-        </ol>
-        <a href="#"
-          >Verkoop je ticket nu
-          <svg
-            viewBox="0 0 600 601"
-            fill="currentcolor"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M351 150.725H87.35C66.725 150.725 49.9875 167.463 49.9875 188.088V512.638C49.9875 533.263 66.725 550 87.35 550H412.65C433.275 550 450.012 533.263 450.012 512.638V250.725H500V525.075C500 566.425 466.425 600 425.063 600.012H74.9375C33.575 600.012 0 566.425 0 525.075V175.65C0 134.288 33.575 100.712 74.9375 100.712H351V150.725Z"
-              fill="currentcolor"
-            ></path>
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M599.737 216.5H549.675V85.4875L201 434.15L165.6 398.75L514.287 50.0625H383.237V0H599.712L599.737 0.0125051V216.5Z"
-              fill="currentcolor"
-            ></path>
-          </svg>
-        </a>
+
+          <li>
+            <a
+              href="#"
+              aria-label="Festival: Chris Stussy - Amsterdam Weekender"
+            >
+              <h3>Chris Stussy - Amsterdam Weekender</h3>
+              <p>
+                Met zijn bass-line heavy house tovert hij Lofi om tot een
+                geweldige intieme club.
+              </p>
+              <img
+                src="images/chrisStussy.png"
+                alt="Foto van DJ Chris Stussy"
+              />
+              <p>Festivals</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" aria-label="Festival: WAVY Winter Festival 2025">
+              <h3>WAVY Winter Festival 2025</h3>
+              <p>
+                Met een bizare line-up brengt Wavy haar concept naar Thuishaven
+                met Ben Sterling's Planet X.
+              </p>
+              <img
+                src="images/wavy.png"
+                alt="Banner van line-up Wavy Winterfestival 2025, in wintersfeer"
+              />
+              <p>Festivals</p>
+            </a>
+          </li>
+        </ul>
       </article>
 
-      <article>
-        <h2>SecureSwap</h2>
-        <p>
-          We hebben partnerships met organisatoren, locaties en ticketbedrijven.
-          Tickets die voor deze evenementen worden verkocht maken we ongeldig,
-          en de koper ontvangt een geheel nieuw ticket. Je kan deze evenementen
-          herkennen aan het SecureSwap logo bij de advertentie.
-        </p>
-        <button aria-label="Lees hier meer over over SecureSwap">
-          Meer over SecureSwap
-        </button>
-        <svg
-          fill="currentcolor"
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          stroke-linejoin="round"
-          stroke-miterlimit="1.414"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          preserveAspectRatio="xMidYMid meet"
-          class="css-661naj eitekr51"
+      <!-- Article 4 -->
+      <!-- Onderdeel trending in de buurt -->
+      <article aria-label="Onderdeel 'Trending in de buurt'">
+        <section>
+          <h2>Trending in de buurt</h2>
+          <p>Vind evenementen dicht bij huis.</p>
+          <p></p>
+        </section>
+
+        <ul>
+          <!-- The Neighbourhood -->
+          <li>
+            <a href="#">
+              <h3>The Neighbourhood - THE WORLD TOUR</h3>
+              <h4>Ziggo Dome, Amsterdam</h4>
+
+              <p>
+                <svg
+                  aria-label="Klein rood kalender icoon"
+                  fill="currentcolor"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="1.414"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="presentation"
+                  focusable="false"
+                  viewBox="0 0 32 32"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <path
+                    d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                  ></path>
+                </svg>
+                <time datetime="2025-12-05">vr 8 mei 2026, 20:00</time>
+              </p>
+
+              <img
+                src="images/theNeighbourhood.png"
+                alt="De band The Neighbourhood in zwart-wit, zittend voor een deur"
+              />
+            </a>
+            <button aria-label="Ster icoon - maak favoriet">
+              <svg
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+                ></path>
+              </svg>
+            </button>
+          </li>
+
+          <!-- ABN AMRO Open -->
+          <li>
+            <a href="#">
+              <h3>ABN AMRO Open 2026 | Rotterdam Open | ATP 500</h3>
+              <h4>Rotterdam Ahoy, Rotterdam</h4>
+
+              <p>
+                <svg
+                  aria-label="Klein rood kalender icoon"
+                  fill="currentcolor"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="1.414"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="presentation"
+                  focusable="false"
+                  viewBox="0 0 32 32"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <path
+                    d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                  ></path>
+                </svg>
+                <time datetime="2025-02-07">7 - 12 feb 2026</time>
+              </p>
+
+              <img
+                src="images/ABN.png"
+                alt="Beginnende tennis-serve met racket"
+              />
+            </a>
+            <button aria-label="Ster icoon - maak favoriet">
+              <svg
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+                ></path>
+              </svg>
+            </button>
+          </li>
+
+          <!-- AWAKENINGS NEW YEARS 2025 -->
+          <li>
+            <a href="#">
+              <h3>AWAKENINGS NEW YEARS 2025</h3>
+              <h4>Sugarfactory, Halfveg</h4>
+
+              <section>
+                <p>
+                  <svg
+                    aria-label="Klein rood kalender icoon"
+                    fill="currentcolor"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    stroke-linejoin="round"
+                    stroke-miterlimit="1.414"
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="presentation"
+                    focusable="false"
+                    viewBox="0 0 32 32"
+                    preserveAspectRatio="xMidYMid meet"
+                  >
+                    <path
+                      d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                    ></path>
+                  </svg>
+                  <time datetime="2025-12-30">30 dec 2025 - 1 jan 2026</time>
+                </p>
+              </section>
+
+              <img
+                src="images/awakenings.png"
+                alt="Afbeelding van het logo van Awakenings in het paars"
+              />
+            </a>
+            <button aria-label="Ster icoon - maak favoriet">
+              <svg
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+                ></path>
+              </svg>
+            </button>
+          </li>
+
+          <!-- LOFI BY MILION -->
+          <li>
+            <a href="#">
+              <h3>Lofi by Milion</h3>
+              <h4>Ziggo Dome, Amsterdam</h4>
+              <p>
+                <svg
+                  aria-label="Klein rood kalender icoon"
+                  fill="currentcolor"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="1.414"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="presentation"
+                  focusable="false"
+                  viewBox="0 0 32 32"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <path
+                    d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                  ></path>
+                </svg>
+                <time datetime="2025-12-05">vr 5 dec 2025, 23:00</time>
+              </p>
+              <img
+                src="images/lofi.png"
+                alt="Afbeelding van Lofi by Milion met de tekst: 'Friday 5 december, LOFI by MILION, DJ Boring, Lovefoxy b2b Fasterhorses, Milion, Esy b2b Gabriel Munoz, 22h - 05h'"
+              />
+            </a>
+            <button aria-label="Ster icoon - maak favoriet">
+              <svg
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+                ></path>
+              </svg>
+            </button>
+          </li>
+
+          <!-- Franky Rizardo -->
+          <li>
+            <a href="#">
+              <h3>Franky Rizardo presents More To Life</h3>
+              <h4>Ziggo Dome, Amsterdam</h4>
+              <p>
+                <svg
+                  aria-label="Klein rood kalender icoon"
+                  fill="currentcolor"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="1.414"
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="presentation"
+                  focusable="false"
+                  viewBox="0 0 32 32"
+                  preserveAspectRatio="xMidYMid meet"
+                >
+                  <path
+                    d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                  ></path>
+                </svg>
+                <time datetime="2025-12-05">vr 15 jan 2026, 20:00</time>
+              </p>
+              <img
+                src="images/frankyRizardo.png"
+                alt="Afbeelding van Franky Rizardo met de tekst:'Friday 16th of January FRANKY RIZARDO PRESENTS MORE TO LIFE, Ziggo Dome Amsterdam, Joy, Flow'"
+              />
+            </a>
+            <button aria-label="Ster icoon - maak favoriet">
+              <svg
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+                ></path>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </article>
+
+      <!-- Section 1 -->
+      <section aria-label="Onderdeel 'Maak de club onveilig'">
+        <section>
+          <h2>Maak de club onveilig</h2>
+          <a href="#" aria-label="Toon alle evenementen: Maak de club onveilig"
+            >Toon alle</a
+          >
+        </section>
+
+        <!-- Shelter -->
+        <article
+          aria-label="Evenement: Shelter met LAMMER, Kyle Starkey en meer"
         >
-          <title>SecureSwap</title>
-          <g>
-            <path
-              d="M1 1v11.5c0 4.83 4.44 9.2 11 11.5 6.56-2.3 11-6.67 11-11.5V1H1z"
-              fill="#001319"
-              fill-opacity=".2"
-            ></path>
-            <path
-              d="M1 0v11.5c0 4.83 4.44 9.2 11 11.5 6.56-2.3 11-6.67 11-11.5V0H1z"
-              fill="#FAFAFB"
-            ></path>
-            <path
-              d="M4 11c0 3.825 3.229 7.2 8 9 4.771-1.8 8-5.175 8-9V2H4v9z"
-              fill="#28a745"
-            ></path>
-            <path
-              d="M16.936 7.434a.212.212 0 01.001.302l-6.204 6.196a.22.22 0 01-.303 0l-1.39-1.39c-.085-.083-.22-.22-.304-.301l-1.674-1.674a.215.215 0 010-.303l1.392-1.389a.214.214 0 01.303 0l1.674 1.672c.084.084.22.084.303 0l4.498-4.492a.217.217 0 01.305 0l1.399 1.379z"
-              fill="#fff"
-            ></path>
-          </g>
-        </svg>
+          <a
+            href="#"
+            aria-label="Bekijk evenement: Shelter met LAMMER, Kyle Starkey en meer"
+          >
+            <h3>Shelter | LAMMER, Kyle Starkey</h3>
+            <p>Shelter Amsterdam, A'DAM Toren, Amsterdam</p>
+            <img
+              src="images/gStar.png"
+              alt="Foto van het G-Star logo in hun parkeergarage, donker"
+            />
+
+            <p>
+              <!-- Kalender SVG -->
+              <svg
+                aria-label="Klein rood kalender icoon"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                ></path>
+              </svg>
+              <time datetime="2025-12-05">vr 5 dec 2025, 23:00</time>
+            </p>
+
+            <p>
+              <!-- ticket SVG -->
+              <svg
+                aria-label="Klein ticket-icoon blauw"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M6.305 5.783c0-2.271 1.841-4.112 4.112-4.112h12.792c2.271 0 4.112 1.841 4.112 4.112v12.322l-0.782 0.371c-0.621 0.295-1.045 0.925-1.045 1.652s0.424 1.357 1.045 1.652l0.782 0.372v4.829c0 2.271-1.841 4.112-4.112 4.112h-12.792c-2.271 0-4.112-1.841-4.112-4.112v-4.829l0.783-0.372c0.62-0.295 1.045-0.925 1.045-1.652s-0.425-1.357-1.045-1.652l-0.783-0.371zM10.416 4.413c-0.757 0-1.371 0.614-1.371 1.371v10.691c1.108 0.832 1.828 2.159 1.828 3.655s-0.72 2.822-1.828 3.655v3.198c0 0.757 0.614 1.371 1.371 1.371h12.792c0.757 0 1.371-0.614 1.371-1.371v-3.198c-1.108-0.833-1.827-2.159-1.827-3.655s0.719-2.823 1.827-3.655v-10.691c0-0.757-0.614-1.371-1.371-1.371z"
+                ></path>
+                <path
+                  d="M15.762 20.06c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576m5.254 0c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576"
+                ></path>
+              </svg>
+              8
+            </p>
+          </a>
+
+          <button aria-label="Ster icoon - maak favoriet">
+            <!-- Button ster SVG -->
+            <svg
+              fill="currentcolor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="1.414"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+              focusable="false"
+              viewBox="0 0 32 32"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+              ></path>
+            </svg>
+          </button>
+        </article>
+
+        <!-- NEXUP -->
+        <article aria-label="Evenement: Max Dean & WHP Presents NEXUP">
+          <a
+            href="#"
+            aria-label="Bekijk evenement: Max Dean & The Warehouse Project presents NEXUP"
+          >
+            <h3>Max Dean & WHP Presents NEXUP</h3>
+            <p>Mayfield Depot, Manchester</p>
+            <img
+              src="images/nexup.png"
+              alt="Afbeelding van de line-up van Max Dean & WHP Presents NEXUP"
+            />
+
+            <p>
+              <!-- Kalender SVG -->
+              <svg
+                aria-label="Klein rood kalender icoon"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                ></path>
+              </svg>
+              <time datetime="2025-12-05">vr 28 nov, 20:00</time>
+            </p>
+            <p>
+              <!-- Ticket SVG -->
+              <svg
+                aria-label="Klein ticket-icoon blauw"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M6.305 5.783c0-2.271 1.841-4.112 4.112-4.112h12.792c2.271 0 4.112 1.841 4.112 4.112v12.322l-0.782 0.371c-0.621 0.295-1.045 0.925-1.045 1.652s0.424 1.357 1.045 1.652l0.782 0.372v4.829c0 2.271-1.841 4.112-4.112 4.112h-12.792c-2.271 0-4.112-1.841-4.112-4.112v-4.829l0.783-0.372c0.62-0.295 1.045-0.925 1.045-1.652s-0.425-1.357-1.045-1.652l-0.783-0.371zM10.416 4.413c-0.757 0-1.371 0.614-1.371 1.371v10.691c1.108 0.832 1.828 2.159 1.828 3.655s-0.72 2.822-1.828 3.655v3.198c0 0.757 0.614 1.371 1.371 1.371h12.792c0.757 0 1.371-0.614 1.371-1.371v-3.198c-1.108-0.833-1.827-2.159-1.827-3.655s0.719-2.823 1.827-3.655v-10.691c0-0.757-0.614-1.371-1.371-1.371z"
+                ></path>
+                <path
+                  d="M15.762 20.06c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576m5.254 0c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576"
+                ></path>
+              </svg>
+              53
+            </p>
+          </a>
+
+          <button aria-label="Ster icoon - maak favoriet">
+            <!-- Button ster SVG -->
+            <svg
+              fill="currentcolor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="1.414"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+              focusable="false"
+              viewBox="0 0 32 32"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+              ></path>
+            </svg>
+          </button>
+        </article>
+
+        <!-- The Weeknd -->
+        <article aria-label="Evenement: The Weeknd: After Hours Til Dawn Tour">
+          <a
+            href="#"
+            aria-label="Bekijk evenement: The Weeknd: After Hours Til Dawn Tour"
+          >
+            <h3>The Weeknd: After Hours Til Dawn Tour</h3>
+            <p>Johan Cruijff ArenA, Amsterdam</p>
+            <img
+              src="images/theWeeknd.png"
+              alt="Foto van het gezicht van pop-ster The Weeknd"
+            />
+
+            <p>
+              <!-- Kalender SVG -->
+              <svg
+                aria-label="Klein rood kalender icoon"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                ></path>
+              </svg>
+              <time datetime="2025-12-05">vr 17 jul 2026, 20:00</time>
+            </p>
+
+            <p>
+              <!-- Ticket SVG -->
+              <svg
+                aria-label="Klein ticket-icoon blauw"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M6.305 5.783c0-2.271 1.841-4.112 4.112-4.112h12.792c2.271 0 4.112 1.841 4.112 4.112v12.322l-0.782 0.371c-0.621 0.295-1.045 0.925-1.045 1.652s0.424 1.357 1.045 1.652l0.782 0.372v4.829c0 2.271-1.841 4.112-4.112 4.112h-12.792c-2.271 0-4.112-1.841-4.112-4.112v-4.829l0.783-0.372c0.62-0.295 1.045-0.925 1.045-1.652s-0.425-1.357-1.045-1.652l-0.783-0.371zM10.416 4.413c-0.757 0-1.371 0.614-1.371 1.371v10.691c1.108 0.832 1.828 2.159 1.828 3.655s-0.72 2.822-1.828 3.655v3.198c0 0.757 0.614 1.371 1.371 1.371h12.792c0.757 0 1.371-0.614 1.371-1.371v-3.198c-1.108-0.833-1.827-2.159-1.827-3.655s0.719-2.823 1.827-3.655v-10.691c0-0.757-0.614-1.371-1.371-1.371z"
+                ></path>
+                <path
+                  d="M15.762 20.06c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576m5.254 0c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576"
+                ></path>
+              </svg>
+              99+
+            </p>
+          </a>
+
+          <button aria-label="Ster icoon - maak favoriet">
+            <!-- Button ster SVG -->
+            <svg
+              fill="currentcolor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="1.414"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+              focusable="false"
+              viewBox="0 0 32 32"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+              ></path>
+            </svg>
+          </button>
+        </article>
+
+        <!-- DJ Heartstring -->
+        <article aria-label="Evenement: DJ Heartstring pres. Teenage Dreams">
+          <a
+            href="#"
+            aria-label="Bekijk evenement: DJ Heartstring pres. Teenage Dreams"
+          >
+            <h3>DJ Heartstring pres. Teenage Dreams</h3>
+            <p>Hemkade 48, Zaamdam</p>
+            <img
+              src="images/heartstring.png"
+              alt="Poster afbeelding van de line-up van DJ Heartstring pres. Teenage Dreams"
+            />
+
+            <p>
+              <svg
+                aria-label="Klein rood kalender icoon"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                ></path>
+              </svg>
+              <time datetime="2025-12-05">za 13 dec, 15:00</time>
+            </p>
+
+            <p>
+              <!-- Ticket SVG -->
+              <svg
+                aria-label="Klein ticket-icoon blauw"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M6.305 5.783c0-2.271 1.841-4.112 4.112-4.112h12.792c2.271 0 4.112 1.841 4.112 4.112v12.322l-0.782 0.371c-0.621 0.295-1.045 0.925-1.045 1.652s0.424 1.357 1.045 1.652l0.782 0.372v4.829c0 2.271-1.841 4.112-4.112 4.112h-12.792c-2.271 0-4.112-1.841-4.112-4.112v-4.829l0.783-0.372c0.62-0.295 1.045-0.925 1.045-1.652s-0.425-1.357-1.045-1.652l-0.783-0.371zM10.416 4.413c-0.757 0-1.371 0.614-1.371 1.371v10.691c1.108 0.832 1.828 2.159 1.828 3.655s-0.72 2.822-1.828 3.655v3.198c0 0.757 0.614 1.371 1.371 1.371h12.792c0.757 0 1.371-0.614 1.371-1.371v-3.198c-1.108-0.833-1.827-2.159-1.827-3.655s0.719-2.823 1.827-3.655v-10.691c0-0.757-0.614-1.371-1.371-1.371z"
+                ></path>
+                <path
+                  d="M15.762 20.06c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576m5.254 0c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576"
+                ></path>
+              </svg>
+              69
+            </p>
+          </a>
+
+          <button aria-label="Ster icoon - maak favoriet">
+            <!-- Button ster SVG -->
+            <svg
+              fill="currentcolor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="1.414"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+              focusable="false"
+              viewBox="0 0 32 32"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+              ></path>
+            </svg>
+          </button>
+        </article>
+
+        <!-- Rotterdam Rave Kickoff 2026 -->
+        <article aria-label="Evenement: Rotterdam Rave Kick-Off 2026">
+          <a
+            href="#"
+            aria-label="Bekijk evenement: Rotterdam Rave Kick-Off 2026"
+          >
+            <h3>Rotterdam Rave 'Kick-Off 2026' By Day - 'Modular presents'</h3>
+            <p>Rotterdam Ahoy, Rotterdam</p>
+            <img
+              src="images/rrKickoff.png"
+              alt="Afbeelding van de line-up van Rotterdam Rave Kick-Off 2026, grijs"
+            />
+
+            <p>
+              <!-- Kalender SVG -->
+              <svg
+                aria-label="Klein rood kalender icoon"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M12.5 3H9V4.93689C5.05369 5.42899 2 8.79538 2 12.875V21.25C2 25.6683 5.58172 29.25 10 29.25H22C26.4183 29.25 30 25.6683 30 21.25V12.875C30 8.79538 26.9463 5.42899 23 4.93689V3H19.5V4.875H12.5V3ZM9.5 11.75C7.29086 11.75 5.5 13.5409 5.5 15.75V21.75C5.5 23.9591 7.29086 25.75 9.5 25.75H22.5C24.7091 25.75 26.5 23.9591 26.5 21.75V15.75C26.5 13.5409 24.7091 11.75 22.5 11.75H9.5Z"
+                ></path>
+              </svg>
+              <time datetime="2025-12-05">za 21 feb 2026, 13:00</time>
+            </p>
+
+            <p>
+              <!-- Ticket SVG -->
+              <svg
+                aria-label="Klein ticket-icoon blauw"
+                fill="currentcolor"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="1.414"
+                xmlns="http://www.w3.org/2000/svg"
+                role="presentation"
+                focusable="false"
+                viewBox="0 0 32 32"
+                preserveAspectRatio="xMidYMid meet"
+              >
+                <path
+                  d="M6.305 5.783c0-2.271 1.841-4.112 4.112-4.112h12.792c2.271 0 4.112 1.841 4.112 4.112v12.322l-0.782 0.371c-0.621 0.295-1.045 0.925-1.045 1.652s0.424 1.357 1.045 1.652l0.782 0.372v4.829c0 2.271-1.841 4.112-4.112 4.112h-12.792c-2.271 0-4.112-1.841-4.112-4.112v-4.829l0.783-0.372c0.62-0.295 1.045-0.925 1.045-1.652s-0.425-1.357-1.045-1.652l-0.783-0.371zM10.416 4.413c-0.757 0-1.371 0.614-1.371 1.371v10.691c1.108 0.832 1.828 2.159 1.828 3.655s-0.72 2.822-1.828 3.655v3.198c0 0.757 0.614 1.371 1.371 1.371h12.792c0.757 0 1.371-0.614 1.371-1.371v-3.198c-1.108-0.833-1.827-2.159-1.827-3.655s0.719-2.823 1.827-3.655v-10.691c0-0.757-0.614-1.371-1.371-1.371z"
+                ></path>
+                <path
+                  d="M15.762 20.06c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576m5.254 0c0 0.87-0.706 1.576-1.576 1.576s-1.576-0.706-1.576-1.576 0.706-1.576 1.576-1.576 1.576 0.706 1.576 1.576"
+                ></path>
+              </svg>
+              24
+            </p>
+          </a>
+
+          <button aria-label="Ster icoon - maak favoriet">
+            <!-- Button ster SVG -->
+            <svg
+              fill="currentcolor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="1.414"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+              focusable="false"
+              viewBox="0 0 32 32"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M16 24.88L21.17 27.75C21.48 27.92 21.81 28 22.14 28C22.54 28 22.95 27.88 23.29 27.63C23.92 27.19 24.24 26.44 24.12 25.68L23.1 19.44L27.43 14.98C27.96 14.44 28.13 13.67 27.9 12.95C27.66 12.24 27.04 11.73 26.3 11.61L20.41 10.71L17.81 5.15C17.48 4.44 16.79 4 16 4C15.21 4 14.52 4.44 14.19 5.15L11.59 10.71L5.7 11.61C4.95 11.73 4.34 12.24 4.1 12.95C3.87 13.67 4.04 14.44 4.57 14.98L8.9 19.44L7.88 25.68C7.76 26.44 8.08 27.19 8.71 27.63C9.34 28.08 10.15 28.12 10.83 27.75L16 24.88ZM10.78 24.69L16 21.79L21.22 24.69L20.22 18.53L24.55 14.08L18.57 13.16L16 7.65L13.43 13.16L7.45 14.08L11.78 18.53L10.78 24.69Z"
+              ></path>
+            </svg>
+          </button>
+        </article>
+      </section>
+
+      <!-- Article 5 -->
+      <!-- Spotify -->
+      <article aria-label="Spotify - link je favoriete artiesten">
+        <section>
+          <h2>Zoek je je favoriete artiesten?</h2>
+          <p>
+            Maak verbinding en log in met Spotify, dan bevelen wij je artiesten
+            aan die je geweldig zult vinden.
+          </p>
+          <a href="#" aria-label="Koppel Spotify aan Ticketswap">Koppelen</a>
+          <img
+            src="images/spotifyLogo.png"
+            alt="Afbeelding van het logo van Spotify"
+          />
+          <button aria-label="Sluit Spotify">
+            <svg
+              fill="currentcolor"
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              stroke-linejoin="round"
+              stroke-miterlimit="1.414"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+              focusable="false"
+              viewBox="0 0 32 32"
+              preserveAspectRatio="xMidYMid meet"
+            >
+              <path
+                d="M17.414 16l7.293-7.293a.999.999 0 1 0-1.414-1.414L16 14.586 8.707 7.293a.999.999 0 1 0-1.414 1.414L14.586 16l-7.293 7.293a.999.999 0 1 0 1.414 1.414L16 17.414l7.293 7.293a.997.997 0 0 0 1.414 0 .999.999 0 0 0 0-1.414L17.414 16z"
+              ></path>
+            </svg>
+          </button>
+        </section>
       </article>
     </main>
+
     <footer>
       <!-- Footer section 1 -->
       <section>
         <h3>Menu</h3>
+
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details -->
+        <!-- https://www.w3schools.com/tags/tag_summary.asp -->
         <details>
           <summary>
             Home
@@ -763,7 +1345,6 @@
         <button aria-label="Speel video af - hoe werkt ticketswap">
           Hoe het werkt
           <svg
-            aria-label="play-knop"
             fill="currentcolor"
             fill-rule="evenodd"
             clip-rule="evenodd"
