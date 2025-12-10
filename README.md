@@ -63,7 +63,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Wat mij opviel aan Ticketswap is dat zij al hun links wel unieke namen geven maar dat het alleen nog niet heel duidelijk is waar die links voor zijn, dat komt voornamelijk door sommige Engelse termen die ze er bij voegen. De formulierregelaars zijn alleen niet uniek en hebben een onduidelijke naam. Hun globale code is wel heel erg goed en mankeert eigenlijk niets. Ik kan inzoomen, ze gebruiken een lang attribute en elke pagina heeft een unieke titel. Echter is de website niet heel toegankelijk. Met de tabtoets kom ik niet verder dan de zoekbalk.
   Op mobiel is de website wel weer heel goed, er is geen horizontale scoll, de webisite kan zowel horizontaal als verticaal bekeken worden en links en buttons zijn groot. Alle headings op de pagina kloppen ook en elke pagina heeft maar 1 h1. Lijsten zijn gemaakt met een li. De website mist alt teksten bij afbeeldingen waar tekst op staat. Verder zijn alle links een a en buttons buttons. Bij de website ontbreek wel nog de prefers-reduced-motion query.
 
-   <img src="readme-images/testAfbeelding.png" width="500px" alt="afbeelding van wat er te zien is met een screenreader op ticketswap.nl">
+   <img src="readme-images/testAfbeelding.jpg" width="500px" alt="afbeelding van wat er te zien is met een screenreader op ticketswap.nl">
 
   <img src="readme-images/test1.png" width="375px" alt="WCGAG checklist">
   <img src="readme-images/test2.png" width="375px" alt="WCGAG checklist">
@@ -204,8 +204,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   In vergelijking met Ticketswap.nl heb ik al zeker een aantal goede verbeteringen doorgevoerd, ondanks dat er niet geweldig veel verbetering nodig had. Alle links zijn nu wel uniek, echter moet ik ze soms wel meer beschrijving geven. De link van 'Toon alle' beschrijft nu ook echt wat de link dan allemaal toont. De enige error die Ticketswap had, heb ik niet. Nu kan je wel met tab door alle klibare elementen. 
 
-  <img src="readme-images/test3Afbeelding.png" width="375px" alt="">
-  <img src="readme-images/test4Afbeelding.png" width="375px" alt="">
+ <img src="readme-images/test3Afbeelding.jpg" width="375px" alt="test2">
+ <img src="readme-images/test4Afbeelding.jpg" width="375px" alt="test2">
 
 Ook mijn website is goed te zien op horizonaal en verticaal beeld:
 <img src="readme-images/horizontaal.png" width="375px" alt="horizontaal scherm">
