@@ -34,17 +34,6 @@
   }
 }
 
-body > a[href="#main"] {
-  background-color: var(--grijzeButtonsHHW);
-  position: absolute;
-  left: -9999999em;
-  z-index: 999;
-}
-
-body > a[href="#main"]:focus {
-  left: -0em;
-}
-
 :root {
   color-scheme: light dark;
 
@@ -101,6 +90,18 @@ html {
 
 body {
   background-color: var(--backgroundColor);
+}
+
+body > a[href="#main"] {
+  position: absolute;
+  left: -9999999em;
+  z-index: 999;
+  color: var(--linkKleur);
+}
+
+body > a[href="#main"]:focus {
+  left: 0.5em;
+  border: 0.2em solid var(--accentKleurBlauw);
 }
 
 h1 {

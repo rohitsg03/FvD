@@ -62,7 +62,7 @@ main > section:nth-of-type(1) > button {
   font-size: 1em;
   justify-content: center;
   align-items: center;
-  gap: .5em;
+  gap: 0.5em;
   appearance: none;
   border: none;
 
