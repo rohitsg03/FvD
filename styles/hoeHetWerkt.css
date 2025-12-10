@@ -61,7 +61,16 @@ main > article:nth-of-type(3) a {
   padding: 1rem 2rem;
   border-radius: var(--buttonBorderRadius);
   font-size: 1.2em;
-  justify-self: center;
+  justify-content: center;
+  margin: 0 4em;
+}
+
+@media (width > 50em) {
+  main > article:nth-of-type(3) a {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+  }
 }
 
 main > section:nth-of-type(1) > button {
@@ -142,7 +151,7 @@ article:nth-of-type(1) {
 
 article:nth-of-type(1) h2 {
   padding-top: 1.5rem;
-  justify-self: center;
+  text-align: center;
 }
 
 article:nth-of-type(1) section {
@@ -215,10 +224,12 @@ article section p {
 
 /* Article 2, Tickets kopen */
 article:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
   padding: 2rem 1rem;
   h2 {
-    justify-self: center;
     padding-bottom: 1rem;
+    text-align: center;
   }
 
   a {
@@ -235,21 +246,21 @@ article:nth-of-type(2) section {
   padding: 1rem 0 2rem 0;
 }
 
-article:nth-of-type(2) > button {
+article:nth-of-type(2) button {
   display: flex;
+  justify-content: center;
+  align-items: center;
   appearance: none;
   border: none;
-  align-items: center;
-  justify-self: center;
-  grid-row-start: 4;
-  grid-column: span 2;
   padding: 1rem 2rem;
+  margin: 0 4em;
+  gap: .5em;
+  
+  
   font-size: 1em;
   font-family: "proxima-nova-sBold";
   color: var(--buttonEnTekstHHWKleurBlauw);
   background-color: var(--accentKleurBlauwButtonAchtergrond);
-
-  gap: 0.5em;
   border-radius: var(--buttonBorderRadius);
 
   cursor: pointer;
@@ -281,6 +292,11 @@ article:nth-of-type(2) > button:hover {
     grid-template-rows: 5em 1fr 1fr 5em;
     gap: 2rem;
     padding: 2rem 4rem;
+
+    button{
+      display: flex;
+      justify-self: center;
+    }
   }
 
   article:nth-of-type(2) h2 {
@@ -288,6 +304,7 @@ article:nth-of-type(2) > button:hover {
   }
 
   article:nth-of-type(2) > button {
+    grid-column: 1 / span 2;
     padding: 0.5rem 2rem;
     font-size: 1.1em;
 
@@ -308,7 +325,7 @@ article:nth-of-type(3) {
   border-bottom: 0.1em solid grey;
 
   h2 {
-    justify-self: center;
+    text-align: center;
     padding-bottom: 1em;
   }
 }

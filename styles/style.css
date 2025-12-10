@@ -133,7 +133,7 @@ h3 {
 
 label {
   position: absolute;
-  left: -999999999999em;
+  left: -999999em;
 }
 
 @media (width > 50em) {
