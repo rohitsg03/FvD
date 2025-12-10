@@ -204,7 +204,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   In vergelijking met Ticketswap.nl heb ik al zeker een aantal goede verbeteringen doorgevoerd, ondanks dat er niet geweldig veel verbetering nodig had. Alle links zijn nu wel uniek, echter moet ik ze soms wel meer beschrijving geven. De link van 'Toon alle' beschrijft nu ook echt wat de link dan allemaal toont. De enige error die Ticketswap had, heb ik niet. Nu kan je wel met tab door alle klibare elementen. 
 
- <img src="readme-images/test3Afbeelding.jpg" width="375px" alt="test2">
+ <img src="readme-images/test3Afbeelding.jpg" width="500px" alt="test5">
  <img src="readme-images/test4Afbeelding.jpg" width="375px" alt="test2">
 
 Ook mijn website is goed te zien op horizonaal en verticaal beeld:
